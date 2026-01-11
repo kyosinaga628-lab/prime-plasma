@@ -22,12 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
         eventCount: document.getElementById('event-count'),
         maxMag: document.getElementById('max-mag'),
         infoToggle: document.getElementById('info-toggle'),
-        infoPanel: document.getElementById('info-panel')
+        infoPanel: document.getElementById('info-panel'),
+        infoClose: document.getElementById('info-close')
     };
 
     // Info Panel Toggle
     els.infoToggle.addEventListener('click', () => {
         els.infoPanel.classList.toggle('collapsed');
+    });
+    
+    // Info Panel Close Button
+    els.infoClose.addEventListener('click', () => {
+        els.infoPanel.classList.add('collapsed');
     });
 
     // Initialize Map (Center on Japan)
