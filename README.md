@@ -10,7 +10,7 @@ A dynamic visualization of earthquake activity in Japan over the past year.
 - ⚡ Automatic data updates via GitHub Actions
 
 ## Live Demo
-[View on GitHub Pages](https://YOUR_USERNAME.github.io/prime-plasma/)
+**https://prime-plasma.vercel.app/**
 
 ## Local Development
 
