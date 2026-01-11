@@ -402,3 +402,122 @@ input[type=range]::-webkit-slider-thumb {
         border-width: 0px;
     }
 }
+
+/* Year Archive Tabs */
+.year-tabs-overlay {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem;
+    max-width: 90vw;
+}
+
+.year-tabs-scroll {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    padding: 4px 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-color) transparent;
+}
+
+.year-tabs-scroll::-webkit-scrollbar {
+    height: 4px;
+}
+
+.year-tabs-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.year-tabs-scroll::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 2px;
+}
+
+.year-tab {
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.year-tab:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.year-tab.active {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--bg-color);
+    font-weight: 700;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 5, 5, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index: 2000;
+    transition: opacity 0.3s ease;
+}
+
+.loading-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--glass-border);
+    border-top-color: var(--accent-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    letter-spacing: 2px;
+}
+
+/* Responsive adjustments for year tabs */
+@media (max-width: 600px) {
+    .year-tabs-overlay {
+        top: 10px;
+        max-width: 95vw;
+    }
+
+    .year-tab {
+        padding: 4px 8px;
+        font-size: 0.65rem;
+    }
+
+    .header-overlay {
+        top: 60px;
+    }
+}

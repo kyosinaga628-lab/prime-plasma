@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
         currentTime: 0,
         isPlaying: false,
         maxMag: 0,
-        eventIndex: 0
+        eventIndex: 0,
+        currentYear: 'latest'
     };
 
     // DOM Elements
@@ -23,14 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
         maxMag: document.getElementById('max-mag'),
         infoToggle: document.getElementById('info-toggle'),
         infoPanel: document.getElementById('info-panel'),
-        infoClose: document.getElementById('info-close')
+        infoClose: document.getElementById('info-close'),
+        yearTabs: document.querySelectorAll('.year-tab'),
+        loadingOverlay: document.getElementById('loading-overlay')
     };
 
     // Info Panel Toggle
     els.infoToggle.addEventListener('click', () => {
         els.infoPanel.classList.toggle('collapsed');
     });
-    
+
     // Info Panel Close Button
     els.infoClose.addEventListener('click', () => {
         els.infoPanel.classList.add('collapsed');
@@ -51,6 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     L.control.zoom({ position: 'topright' }).addTo(map);
 
+    // Active marker layers
+    const activeLayers = new Set();
+
     // Helpers
     function getMagColor(mag) {
         if (mag >= 6) return '#ff2a2a';
@@ -64,6 +70,23 @@ document.addEventListener('DOMContentLoaded', () => {
             date: d.toISOString().split('T')[0],
             time: d.toTimeString().split(' ')[0].substring(0, 5)
         };
+    }
+
+    function showLoading() {
+        els.loadingOverlay.classList.remove('hidden');
+    }
+
+    function hideLoading() {
+        els.loadingOverlay.classList.add('hidden');
+    }
+
+    function clearAllMarkers() {
+        activeLayers.forEach(layer => {
+            if (map.hasLayer(layer)) {
+                map.removeLayer(layer);
+            }
+        });
+        activeLayers.clear();
     }
 
     // ====== AUDIO ======
@@ -104,16 +127,69 @@ document.addEventListener('DOMContentLoaded', () => {
         osc.stop(audioCtx.currentTime + duration);
     }
 
-    // ====== DATA LOADING ======
-    fetch('data/earthquakes.json')
-        .then(res => res.json())
-        .then(geoJson => init(geoJson))
-        .catch(err => {
-            console.error("Failed to load data:", err);
-            alert("Failed to load earthquake data. Please run fetch_data.py first.");
-        });
+    // ====== YEAR TAB HANDLING ======
+    function getDataUrl(year) {
+        if (year === 'latest') {
+            return 'data/earthquakes.json';
+        }
+        return `data/earthquakes_${year}.json`;
+    }
 
-    function init(geoJson) {
+    function handleYearTabClick(e) {
+        const tab = e.target;
+        const year = tab.dataset.year;
+
+        if (state.currentYear === year) return;
+
+        // Update tab appearance
+        els.yearTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        // Load new data
+        loadYear(year);
+    }
+
+    function loadYear(year) {
+        state.currentYear = year;
+        state.isPlaying = false;
+        updateControls();
+
+        // Clear existing markers
+        clearAllMarkers();
+
+        // Show loading
+        showLoading();
+
+        const url = getDataUrl(year);
+
+        fetch(url)
+            .then(res => {
+                if (!res.ok) {
+                    throw new Error(`HTTP ${res.status}`);
+                }
+                return res.json();
+            })
+            .then(geoJson => {
+                initWithData(geoJson);
+                hideLoading();
+            })
+            .catch(err => {
+                console.error(`Failed to load ${year} data:`, err);
+                hideLoading();
+
+                // Show user-friendly error
+                const yearLabel = year === 'latest' ? '最新' : year;
+                alert(`${yearLabel}年のデータを読み込めませんでした。\nデータファイルが存在しない可能性があります。`);
+
+                // Reset to previous state if needed
+                els.eventCount.innerText = '0';
+                els.maxMag.innerText = '0.0';
+                state.data = [];
+            });
+    }
+
+    // ====== DATA INITIALIZATION ======
+    function initWithData(geoJson) {
         state.data = geoJson.features.map(f => ({
             time: f.properties.time,
             mag: f.properties.mag,
@@ -121,12 +197,19 @@ document.addEventListener('DOMContentLoaded', () => {
             lon: f.geometry.coordinates[0]
         })).sort((a, b) => a.time - b.time);
 
-        if (state.data.length === 0) return;
+        if (state.data.length === 0) {
+            els.eventCount.innerText = '0';
+            els.maxMag.innerText = '0.0';
+            els.currentDate.innerText = 'No Data';
+            els.currentTime.innerText = '';
+            return;
+        }
 
         state.startTime = state.data[0].time;
         state.endTime = state.data[state.data.length - 1].time;
         state.currentTime = state.startTime;
         state.maxMag = Math.max(...state.data.map(d => d.mag));
+        state.eventIndex = 0;
 
         els.eventCount.innerText = state.data.length;
         els.maxMag.innerText = state.maxMag.toFixed(1);
@@ -135,11 +218,31 @@ document.addEventListener('DOMContentLoaded', () => {
         els.slider.max = state.endTime;
         els.slider.value = state.startTime;
 
-        els.playPauseBtn.addEventListener('click', togglePlay);
-        els.slider.addEventListener('input', handleSliderChange);
-
-        requestAnimationFrame(animate);
+        renderMapState();
     }
+
+    // Initial data load
+    fetch('data/earthquakes.json')
+        .then(res => res.json())
+        .then(geoJson => {
+            initWithData(geoJson);
+
+            // Setup event listeners after initial load
+            els.playPauseBtn.addEventListener('click', togglePlay);
+            els.slider.addEventListener('input', handleSliderChange);
+
+            // Year tab listeners
+            els.yearTabs.forEach(tab => {
+                tab.addEventListener('click', handleYearTabClick);
+            });
+
+            // Start animation loop
+            requestAnimationFrame(animate);
+        })
+        .catch(err => {
+            console.error("Failed to load data:", err);
+            alert("Failed to load earthquake data. Please run fetch_data.py first.");
+        });
 
     function togglePlay() {
         initAudio(); // User interaction -> start audio context
@@ -163,14 +266,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ====== ANIMATION ======
     let lastFrameTime = 0;
-    const activeLayers = new Set();
 
     function animate(timestamp) {
         if (lastFrameTime === 0) lastFrameTime = timestamp;
         const dt = timestamp - lastFrameTime;
         lastFrameTime = timestamp;
 
-        if (state.isPlaying) {
+        if (state.isPlaying && state.data.length > 0) {
             const duration = 90 * 1000; // 1 year in 90 sec
             const totalTime = state.endTime - state.startTime;
             const msPerFrame = (totalTime / duration) * dt;
@@ -180,8 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (state.currentTime >= state.endTime) {
                 state.currentTime = state.startTime;
-                activeLayers.forEach(layer => map.removeLayer(layer));
-                activeLayers.clear();
+                clearAllMarkers();
                 state.eventIndex = 0;
             }
 
@@ -234,6 +335,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderMapState() {
+        if (state.data.length === 0) return;
+
         const { date, time } = formatDateTime(state.currentTime);
         els.currentDate.innerText = date;
         els.currentTime.innerText = time;
