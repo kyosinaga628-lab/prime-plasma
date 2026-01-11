@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
         attributionControl: false
     }).setView([36.2048, 138.2529], 5);
 
-    // Dark Matter Tiles (CartoDB)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    // Positron Light Tiles (CartoDB)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; OpenStreetMap &copy; CARTO',
         subdomains: 'abcd',
         maxZoom: 19
@@ -59,9 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Helpers
     function getMagColor(mag) {
-        if (mag >= 6) return '#ff2a2a';
-        if (mag >= 5) return '#ffe600';
-        return '#00f2ff';
+        if (mag >= 6) return '#e51c23';
+        if (mag >= 5) return '#ff9900';
+        return '#00a8cc';
     }
 
     function formatDateTime(timestamp) {
