@@ -1,0 +1,43 @@
+name: Update Earthquake Data
+
+on:
+  schedule:
+    # 毎週月曜と木曜の午前9時(JST) = UTC 0:00
+    - cron: '0 0 * * 1,4'
+  workflow_dispatch: # 手動実行も可能
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch earthquake data
+        run: python scripts/fetch_data.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet data/earthquakes.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/earthquakes.json
+          git commit -m "📊 Update earthquake data [skip ci]"
+          git push
