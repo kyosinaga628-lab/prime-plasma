@@ -153,19 +153,25 @@ h1 {
     margin-bottom: 0;
 }
 
-.info-close-btn {
-    background: none;
+.info-close-btn-bottom {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    padding: 10px 16px;
+    background: var(--accent-color);
     border: none;
-    color: var(--text-secondary);
-    font-size: 1.2rem;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
     cursor: pointer;
-    padding: 0 4px;
-    line-height: 1;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
-.info-close-btn:hover {
-    color: var(--accent-color);
+.info-close-btn-bottom:hover {
+    opacity: 0.9;
+    box-shadow: 0 2px 8px rgba(0, 153, 204, 0.3);
 }
 
 .info-panel details {
