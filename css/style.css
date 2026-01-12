@@ -511,19 +511,217 @@ input[type=range]::-webkit-slider-thumb {
     letter-spacing: 2px;
 }
 
-/* Responsive adjustments for year tabs */
-@media (max-width: 600px) {
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+
+    /* Year Tabs - horizontal scrollable */
     .year-tabs-overlay {
-        top: 10px;
-        max-width: 95vw;
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        max-width: calc(100vw - 16px);
+        transform: none;
+        padding: 6px;
+    }
+
+    .year-tabs-scroll {
+        gap: 3px;
     }
 
     .year-tab {
-        padding: 4px 8px;
+        padding: 6px 10px;
+        font-size: 0.7rem;
+        min-height: 32px;
+    }
+
+    /* Header Overlay */
+    .header-overlay {
+        top: 55px;
+        left: 8px;
+        right: auto;
+        min-width: auto;
+        max-width: calc(100vw - 16px);
+        padding: 10px 12px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .stats-container {
+        gap: 20px;
+    }
+
+    .stat-value {
+        font-size: 1rem;
+    }
+
+    .stat-label {
+        font-size: 0.6rem;
+    }
+
+    /* Info Panel */
+    .info-panel {
+        max-height: 250px;
+    }
+
+    .info-section h4 {
+        font-size: 0.8rem;
+    }
+
+    .info-panel p {
+        font-size: 0.75rem;
+        padding-left: 8px;
+    }
+
+    .info-close-btn-bottom {
+        padding: 12px 16px;
+        font-size: 0.8rem;
+    }
+
+    /* Controls Overlay */
+    .controls-overlay {
+        bottom: 16px;
+        left: 8px;
+        right: 8px;
+        width: auto;
+        max-width: none;
+        transform: none;
+        padding: 10px 12px;
+    }
+
+    .current-date-display {
+        font-size: 0.9rem;
+    }
+
+    #current-time {
+        font-size: 0.75rem;
+    }
+
+    .timeline-container {
+        gap: 10px;
+    }
+
+    .control-btn {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+    }
+
+    /* Range slider - larger touch target */
+    input[type=range]::-webkit-slider-thumb {
+        height: 22px;
+        width: 22px;
+        margin-top: -9px;
+    }
+
+    /* Legend Overlay */
+    .legend-overlay {
+        bottom: 90px;
+        right: 8px;
+        padding: 8px 10px;
+        font-size: 0.7rem;
+    }
+
+    .legend-item {
+        gap: 6px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+/* Extra small screens (phones in portrait) */
+@media (max-width: 480px) {
+    .year-tabs-overlay {
+        top: 6px;
+        left: 4px;
+        right: 4px;
+        max-width: calc(100vw - 8px);
+        padding: 4px;
+    }
+
+    .year-tab {
+        padding: 5px 8px;
         font-size: 0.65rem;
+        min-height: 28px;
     }
 
     .header-overlay {
-        top: 60px;
+        top: 48px;
+        left: 4px;
+        padding: 8px 10px;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    .info-btn {
+        padding: 6px;
+    }
+
+    .info-btn svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .info-panel {
+        max-height: 200px;
+    }
+
+    .controls-overlay {
+        bottom: 10px;
+        left: 4px;
+        right: 4px;
+        padding: 8px 10px;
+    }
+
+    .current-date-display {
+        font-size: 0.85rem;
+        margin-bottom: 3px;
+    }
+
+    .control-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .legend-overlay {
+        bottom: 80px;
+        right: 4px;
+        padding: 6px 8px;
+        font-size: 0.65rem;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .year-tab {
+        min-height: 36px;
+        padding: 8px 12px;
+    }
+
+    .control-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        height: 26px;
+        width: 26px;
+        margin-top: -11px;
+    }
+
+    .info-btn {
+        padding: 8px;
+    }
+
+    .info-close-btn-bottom {
+        padding: 14px 20px;
+        min-height: 48px;
     }
 }
