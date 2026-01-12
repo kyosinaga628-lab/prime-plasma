@@ -511,6 +511,102 @@ input[type=range]::-webkit-slider-thumb {
     letter-spacing: 2px;
 }
 
+/* iPad / Tablet optimizations (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Year Tabs */
+    .year-tabs-overlay {
+        top: 15px;
+        max-width: 85vw;
+        padding: 8px 10px;
+    }
+
+    .year-tab {
+        padding: 8px 14px;
+        font-size: 0.75rem;
+    }
+
+    /* Header Overlay */
+    .header-overlay {
+        top: 70px;
+        left: 15px;
+        min-width: 280px;
+        padding: 14px 16px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .stat-value {
+        font-size: 1.1rem;
+    }
+
+    /* Info Panel */
+    .info-panel {
+        max-height: 350px;
+    }
+
+    .info-section h4 {
+        font-size: 0.85rem;
+    }
+
+    .info-panel p {
+        font-size: 0.8rem;
+    }
+
+    /* Controls Overlay */
+    .controls-overlay {
+        bottom: 25px;
+        max-width: 700px;
+        padding: 14px 18px;
+    }
+
+    .control-btn {
+        width: 46px;
+        height: 46px;
+    }
+
+    .current-date-display {
+        font-size: 1.05rem;
+    }
+
+    /* Range slider - slightly larger for touch */
+    input[type=range]::-webkit-slider-thumb {
+        height: 20px;
+        width: 20px;
+        margin-top: -8px;
+    }
+
+    /* Legend Overlay */
+    .legend-overlay {
+        bottom: 25px;
+        right: 15px;
+        padding: 10px 14px;
+        font-size: 0.8rem;
+    }
+}
+
+/* iPad Pro / Large tablets (1024px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .year-tabs-overlay {
+        max-width: 80vw;
+    }
+
+    .year-tab {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+
+    .header-overlay {
+        min-width: 300px;
+    }
+
+    .controls-overlay {
+        max-width: 750px;
+    }
+}
+
 /* Responsive adjustments for mobile devices */
 @media (max-width: 768px) {
 
