@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768164157000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-01-12T05%3A42%3A36&endtime=2026-01-12T05%3A42%3A36&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1768181290000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-01-12T01%3A28%3A09&endtime=2026-01-12T01%3A28%3A09&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 1597
+    "count": 1600
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "27 km ESE of Yonakuni, Japan",
+        "time": 1768175451192,
+        "updated": 1768180126040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp3e",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp3e&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000rp3e",
+        "ids": ",us7000rp3e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.238,
+        "rms": 0.43,
+        "gap": 228,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 27 km ESE of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2459,
+          24.3626,
+          33.601
+        ]
+      },
+      "id": "us7000rp3e"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -3213,9 +3253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "168 km ESE of Kuril’sk, Russia",
-        "time": 1765928054276,
-        "updated": 1767323267040,
+        "place": "160 km SE of Kuril’sk, Russia",
+        "time": 1765928054658,
+        "updated": 1768173617040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rvd5",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rvd5&format=geojson",
@@ -3231,23 +3271,103 @@
         "ids": ",us6000rvd5,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 5.09,
-        "rms": 0.72,
+        "nst": 82,
+        "dmin": 4.989,
+        "rms": 0.85,
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 168 km ESE of Kuril’sk, Russia"
+        "title": "M 5.1 - 160 km SE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.6684,
-          44.4036,
+          149.5287,
+          44.3837,
           35
         ]
       },
       "id": "us6000rvd5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "62 km ENE of Hachinohe, Japan",
+        "time": 1765924118457,
+        "updated": 1768171416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rnph",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rnph&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000rnph",
+        "ids": ",us7000rnph,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.806,
+        "rms": 0.56,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 62 km ENE of Hachinohe, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1268,
+          40.7972,
+          58.921
+        ]
+      },
+      "id": "us7000rnph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "199 km SSE of Shimoda, Japan",
+        "time": 1765919350505,
+        "updated": 1768168069040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rnpk",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rnpk&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000rnpk",
+        "ids": ",us7000rnpk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.205,
+        "rms": 0.75,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 199 km SSE of Shimoda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6336,
+          32.9767,
+          192.741
+        ]
+      },
+      "id": "us7000rnpk"
     },
     {
       "type": "Feature",
