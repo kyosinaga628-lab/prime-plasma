@@ -54,13 +54,13 @@ document.addEventListener('DOMContentLoaded', () => {
         maxZoom: 19
     }).addTo(map);
 
-    // --- Relief Map Layer (ESRI World Hillshade) ---
-    // 世界対応の陰影起伏図 - 海溝などのプレート境界の地形がわかる
-    const reliefLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
-        attribution: '&copy; Esri',
-        opacity: 0.5,
-        minZoom: 1,
-        maxZoom: 13
+    // --- Relief Map Layer (GSI Tiles) ---
+    // 国土地理院 陰影起伏図 - 海溝などのプレート境界の地形がわかる
+    const reliefLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/relief/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>',
+        opacity: 0.6,
+        minZoom: 5,
+        maxZoom: 15
     });
 
     // Relief Layer Toggle
