@@ -54,13 +54,13 @@ document.addEventListener('DOMContentLoaded', () => {
         maxZoom: 19
     }).addTo(map);
 
-    // --- Relief Map Layer (GSI Tiles) ---
-    // 国土地理院 陰影起伏図 - 海溝などのプレート境界の地形がわかる
-    const reliefLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/relief/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>',
+    // --- Relief Map Layer (ESRI World Hillshade) ---
+    // 世界対応の陰影起伏図 - 海溝などのプレート境界の地形がわかる
+    const reliefLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+        attribution: '&copy; Esri',
         opacity: 0.5,
-        minZoom: 5,
-        maxZoom: 15
+        minZoom: 1,
+        maxZoom: 13
     });
 
     // Relief Layer Toggle
@@ -179,8 +179,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadYear(year) {
         state.currentYear = year;
         state.isPlaying = false;
-        // Set playback speed: 0.5 for 1month (5x slower), normal for others
-        state.playbackSpeed = (year === '1month') ? 0.5 : 1.0;
+        // Set playback speed: 1.0 for 1month (same as normal)
+        state.playbackSpeed = 1.0; // Always normal speed
         updateControls();
 
         // Clear existing markers
