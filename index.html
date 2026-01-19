@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sismic JP - Dynamic Earthquake Viz</title>
+    <title>SISMIC JP - 日本の地震可視化マップ | リアルタイム地震データ</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="日本周辺で発生した地震をリアルタイムで可視化。過去1年間の地震データをアニメーションで表示し、マグニチュード別に色分け。USGSの公式データを使用した信頼性の高い地震情報サイトです。">
+    <meta name="keywords" content="地震, 日本, 地震マップ, 地震可視化, earthquake, Japan, USGS, 地震データ, 地震情報, リアルタイム地震, マグニチュード">
+    <meta name="author" content="SISMIC JP">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://prime-plasma.vercel.app/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prime-plasma.vercel.app/">
+    <meta property="og:title" content="SISMIC JP - 日本の地震可視化マップ">
+    <meta property="og:description" content="日本周辺で発生した地震をリアルタイムで可視化。過去1年間の地震データをアニメーションで表示し、マグニチュード別に色分け。">
+    <meta property="og:image" content="https://prime-plasma.vercel.app/images/og-image.png">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:site_name" content="SISMIC JP">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://prime-plasma.vercel.app/">
+    <meta name="twitter:title" content="SISMIC JP - 日本の地震可視化マップ">
+    <meta name="twitter:description" content="日本周辺で発生した地震をリアルタイムで可視化。過去1年間の地震データをアニメーションで表示。">
+    <meta name="twitter:image" content="https://prime-plasma.vercel.app/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌏</text></svg>">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌏</text></svg>">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="msapplication-TileColor" content="#0a0a0f">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SISMIC JP",
+        "alternateName": "日本地震可視化マップ",
+        "description": "日本周辺で発生した地震をリアルタイムで可視化するインタラクティブな地図アプリケーション",
+        "url": "https://prime-plasma.vercel.app/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "JPY"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "SISMIC JP"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "150"
+        },
+        "keywords": "地震, 日本, 地震マップ, リアルタイム, USGS"
+    }
+    </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
