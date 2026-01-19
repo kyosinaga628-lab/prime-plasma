@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         isPlaying: false,
         maxMag: 0,
         eventIndex: 0,
-        currentYear: 'latest'
+        currentYear: 'latest',
+        playbackSpeed: 1.0 // 1.0 = normal, 0.1 = 1/10 speed (slower)
     };
 
     // DOM Elements
@@ -191,6 +192,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (year === 'latest') {
             return 'data/earthquakes.json';
         }
+        if (year === '1month') {
+            return 'data/earthquakes_1month.json';
+        }
         return `data/earthquakes_${year}.json`;
     }
 
@@ -211,6 +215,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadYear(year) {
         state.currentYear = year;
         state.isPlaying = false;
+        // Set playback speed: 1/10 for 1month (10x slower), normal for others
+        state.playbackSpeed = (year === '1month') ? 0.1 : 1.0;
         updateControls();
 
         // Clear existing markers
@@ -332,7 +338,9 @@ document.addEventListener('DOMContentLoaded', () => {
         lastFrameTime = timestamp;
 
         if (state.isPlaying && state.data.length > 0) {
-            const duration = 90 * 1000; // 1 year in 90 sec
+            // Base duration: 90 sec for 1 year, adjusted by playbackSpeed
+            const baseDuration = 90 * 1000;
+            const duration = baseDuration / state.playbackSpeed; // slower = longer duration
             const totalTime = state.endTime - state.startTime;
             const msPerFrame = (totalTime / duration) * dt;
 
