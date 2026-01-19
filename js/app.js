@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
         infoClose: document.getElementById('info-close'),
         yearTabs: document.querySelectorAll('.year-tab'),
         loadingOverlay: document.getElementById('loading-overlay'),
-        faultToggle: document.getElementById('fault-toggle')
+        faultToggle: document.getElementById('fault-toggle'),
+        plateToggle: document.getElementById('plate-toggle')
     };
 
     // Info Panel Toggle
@@ -53,17 +54,31 @@ document.addEventListener('DOMContentLoaded', () => {
         maxZoom: 19
     }).addTo(map);
 
-    // Active Fault Map Layer (GSI - 国土地理院 活断層図)
-    const faultLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/afm/{z}/{x}/{y}.png', {
-        attribution: '国土地理院 活断層図',
-        minZoom: 5,
-        maxZoom: 16,
-        opacity: 0.7
-    });
+    // --- Active Fault Layer (GeoJSON) ---
+    let faultLayer = null;
+    fetch('data/active_faults.geojson')
+        .then(res => res.json())
+        .then(data => {
+            faultLayer = L.geoJSON(data, {
+                style: {
+                    color: "#ff0000", // Red for faults
+                    weight: 2,
+                    opacity: 0.7,
+                    dashArray: '4, 4'
+                },
+                onEachFeature: (feature, layer) => {
+                    if (feature.properties && feature.properties.name) {
+                        layer.bindPopup(`<strong>${feature.properties.name}</strong><br>タイプ: ${feature.properties.type || '活断層'}`);
+                    }
+                }
+            });
+        })
+        .catch(err => console.error("Failed to load fault data:", err));
 
     // Fault Layer Toggle
     let faultLayerVisible = false;
     els.faultToggle.addEventListener('click', () => {
+        if (!faultLayer) return;
         faultLayerVisible = !faultLayerVisible;
         if (faultLayerVisible) {
             faultLayer.addTo(map);
@@ -71,6 +86,41 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             map.removeLayer(faultLayer);
             els.faultToggle.classList.remove('active');
+        }
+    });
+
+    // --- Plate Boundary Layer (GeoJSON) ---
+    let plateLayer = null;
+    fetch('data/plates.geojson')
+        .then(res => res.json())
+        .then(data => {
+            plateLayer = L.geoJSON(data, {
+                style: {
+                    color: "#0066cc", // Blue for plates
+                    weight: 4,
+                    opacity: 0.6,
+                    lineCap: 'round'
+                },
+                onEachFeature: (feature, layer) => {
+                    if (feature.properties && feature.properties.name) {
+                        layer.bindPopup(`<strong>${feature.properties.name}</strong><br>種類: ${feature.properties.type || 'プレート境界'}`);
+                    }
+                }
+            });
+        })
+        .catch(err => console.error("Failed to load plate data:", err));
+
+    // Plate Layer Toggle
+    let plateLayerVisible = false;
+    els.plateToggle.addEventListener('click', () => {
+        if (!plateLayer) return;
+        plateLayerVisible = !plateLayerVisible;
+        if (plateLayerVisible) {
+            plateLayer.addTo(map);
+            els.plateToggle.classList.add('active');
+        } else {
+            map.removeLayer(plateLayer);
+            els.plateToggle.classList.remove('active');
         }
     });
 

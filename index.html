@@ -30,12 +30,19 @@
             <div class="header-row">
                 <h1>SISMIC <span class="highlight">JP</span></h1>
                 <div class="header-actions">
-                    <button id="fault-toggle" class="icon-btn" aria-label="断層図" title="活断層図の表示切替">
+                    <button id="fault-toggle" class="icon-btn" aria-label="断層図" title="活断層の表示切替">
                         <svg viewBox="0 0 24 24" width="20" height="20">
                             <path d="M3 17l4-4 4 4 6-8 4 4" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M21 3L14 10M21 3h-6M21 3v6" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button id="plate-toggle" class="icon-btn" aria-label="プレート境界" title="プレート境界の表示切替">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M2 12h20M2 12l10-9 10 9M2 12l10 9 10-9" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+                            <circle cx="12" cy="12" r="3" fill="currentColor" />
                         </svg>
                     </button>
                     <button id="info-toggle" class="icon-btn" aria-label="情報">
