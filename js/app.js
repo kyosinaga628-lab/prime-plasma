@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         infoPanel: document.getElementById('info-panel'),
         infoClose: document.getElementById('info-close'),
         yearTabs: document.querySelectorAll('.year-tab'),
-        loadingOverlay: document.getElementById('loading-overlay')
+        loadingOverlay: document.getElementById('loading-overlay'),
+        faultToggle: document.getElementById('fault-toggle')
     };
 
     // Info Panel Toggle
@@ -51,6 +52,27 @@ document.addEventListener('DOMContentLoaded', () => {
         subdomains: 'abcd',
         maxZoom: 19
     }).addTo(map);
+
+    // Active Fault Map Layer (GSI - 国土地理院 活断層図)
+    const faultLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/afm/{z}/{x}/{y}.png', {
+        attribution: '国土地理院 活断層図',
+        minZoom: 5,
+        maxZoom: 16,
+        opacity: 0.7
+    });
+
+    // Fault Layer Toggle
+    let faultLayerVisible = false;
+    els.faultToggle.addEventListener('click', () => {
+        faultLayerVisible = !faultLayerVisible;
+        if (faultLayerVisible) {
+            faultLayer.addTo(map);
+            els.faultToggle.classList.add('active');
+        } else {
+            map.removeLayer(faultLayer);
+            els.faultToggle.classList.remove('active');
+        }
+    });
 
     L.control.zoom({ position: 'topright' }).addTo(map);
 

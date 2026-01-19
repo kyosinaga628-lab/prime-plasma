@@ -103,17 +103,30 @@ h1 {
     align-items: center;
 }
 
-.info-btn {
+.header-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon-btn {
     background: none;
     border: none;
     color: var(--text-secondary);
     cursor: pointer;
-    padding: 4px;
-    transition: color 0.2s ease;
+    padding: 6px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
 }
 
-.info-btn:hover {
+.icon-btn:hover {
     color: var(--accent-color);
+    background: rgba(0, 153, 204, 0.1);
+}
+
+.icon-btn.active {
+    color: var(--accent-color);
+    background: rgba(0, 153, 204, 0.2);
 }
 
 /* Info Panel */
