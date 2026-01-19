@@ -28,8 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         infoClose: document.getElementById('info-close'),
         yearTabs: document.querySelectorAll('.year-tab'),
         loadingOverlay: document.getElementById('loading-overlay'),
-        faultToggle: document.getElementById('fault-toggle'),
-        plateToggle: document.getElementById('plate-toggle')
+        reliefToggle: document.getElementById('relief-toggle')
     };
 
     // Info Panel Toggle
@@ -55,60 +54,25 @@ document.addEventListener('DOMContentLoaded', () => {
         maxZoom: 19
     }).addTo(map);
 
-    // --- Active Fault Layer (GSI Tiles) ---
-    // 国土地理院 活断層図（都市圏）
-    const faultLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/afm/{z}/{x}/{y}.png', {
+    // --- Relief Map Layer (GSI Tiles) ---
+    // 国土地理院 陰影起伏図 - 海溝などのプレート境界の地形がわかる
+    const reliefLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/relief/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>',
-        opacity: 0.7,
+        opacity: 0.5,
         minZoom: 5,
-        maxZoom: 16
+        maxZoom: 15
     });
 
-    // Fault Layer Toggle
-    let faultLayerVisible = false;
-    els.faultToggle.addEventListener('click', () => {
-        faultLayerVisible = !faultLayerVisible;
-        if (faultLayerVisible) {
-            faultLayer.addTo(map);
-            els.faultToggle.classList.add('active');
+    // Relief Layer Toggle
+    let reliefLayerVisible = false;
+    els.reliefToggle.addEventListener('click', () => {
+        reliefLayerVisible = !reliefLayerVisible;
+        if (reliefLayerVisible) {
+            reliefLayer.addTo(map);
+            els.reliefToggle.classList.add('active');
         } else {
-            map.removeLayer(faultLayer);
-            els.faultToggle.classList.remove('active');
-        }
-    });
-
-    // --- Plate Boundary Layer (GeoJSON) ---
-    let plateLayer = null;
-    fetch('data/plates.geojson')
-        .then(res => res.json())
-        .then(data => {
-            plateLayer = L.geoJSON(data, {
-                style: {
-                    color: "#0066cc", // Blue for plates
-                    weight: 4,
-                    opacity: 0.6,
-                    lineCap: 'round'
-                },
-                onEachFeature: (feature, layer) => {
-                    if (feature.properties && feature.properties.name) {
-                        layer.bindPopup(`<strong>${feature.properties.name}</strong><br>種類: ${feature.properties.type || 'プレート境界'}`);
-                    }
-                }
-            });
-        })
-        .catch(err => console.error("Failed to load plate data:", err));
-
-    // Plate Layer Toggle
-    let plateLayerVisible = false;
-    els.plateToggle.addEventListener('click', () => {
-        if (!plateLayer) return;
-        plateLayerVisible = !plateLayerVisible;
-        if (plateLayerVisible) {
-            plateLayer.addTo(map);
-            els.plateToggle.classList.add('active');
-        } else {
-            map.removeLayer(plateLayer);
-            els.plateToggle.classList.remove('active');
+            map.removeLayer(reliefLayer);
+            els.reliefToggle.classList.remove('active');
         }
     });
 
@@ -215,8 +179,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadYear(year) {
         state.currentYear = year;
         state.isPlaying = false;
-        // Set playback speed: 1/10 for 1month (10x slower), normal for others
-        state.playbackSpeed = (year === '1month') ? 0.1 : 1.0;
+        // Set playback speed: 0.5 for 1month (5x slower), normal for others
+        state.playbackSpeed = (year === '1month') ? 0.5 : 1.0;
         updateControls();
 
         // Clear existing markers
