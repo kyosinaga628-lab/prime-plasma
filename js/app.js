@@ -54,31 +54,18 @@ document.addEventListener('DOMContentLoaded', () => {
         maxZoom: 19
     }).addTo(map);
 
-    // --- Active Fault Layer (GeoJSON) ---
-    let faultLayer = null;
-    fetch('data/active_faults.geojson')
-        .then(res => res.json())
-        .then(data => {
-            faultLayer = L.geoJSON(data, {
-                style: {
-                    color: "#ff0000", // Red for faults
-                    weight: 2,
-                    opacity: 0.7,
-                    dashArray: '4, 4'
-                },
-                onEachFeature: (feature, layer) => {
-                    if (feature.properties && feature.properties.name) {
-                        layer.bindPopup(`<strong>${feature.properties.name}</strong><br>タイプ: ${feature.properties.type || '活断層'}`);
-                    }
-                }
-            });
-        })
-        .catch(err => console.error("Failed to load fault data:", err));
+    // --- Active Fault Layer (GSI Tiles) ---
+    // 国土地理院 活断層図（都市圏）
+    const faultLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/afm/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>',
+        opacity: 0.7,
+        minZoom: 5,
+        maxZoom: 16
+    });
 
     // Fault Layer Toggle
     let faultLayerVisible = false;
     els.faultToggle.addEventListener('click', () => {
-        if (!faultLayer) return;
         faultLayerVisible = !faultLayerVisible;
         if (faultLayerVisible) {
             faultLayer.addTo(map);
