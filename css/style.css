@@ -837,27 +837,45 @@ input[type=range]::-webkit-slider-thumb {
 
 /* Driver.js Customization */
 .driver-popover {
-    background-color: var(--text-primary);
-    color: var(--bg-color);
-    border: 1px solid var(--accent-color);
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid var(--accent-color);
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
-    padding: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+    padding: 16px;
+    max-width: 300px;
+}
+
+.driver-popover-arrow-side-left.driver-popover-arrow {
+    border-left-color: #000000;
+}
+
+.driver-popover-arrow-side-right.driver-popover-arrow {
+    border-right-color: #000000;
+}
+
+.driver-popover-arrow-side-top.driver-popover-arrow {
+    border-top-color: #000000;
+}
+
+.driver-popover-arrow-side-bottom.driver-popover-arrow {
+    border-bottom-color: #000000;
 }
 
 .driver-popover-title {
     font-family: 'Outfit', sans-serif;
     font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--bg-color);
+    font-weight: 700;
+    color: #ffffff;
     margin-bottom: 8px;
+    letter-spacing: 0.5px;
 }
 
 .driver-popover-description {
     font-family: 'Outfit', sans-serif;
     font-size: 0.9rem;
-    color: #cccccc;
-    line-height: 1.5;
+    color: #eeeeee;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
@@ -866,11 +884,11 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .driver-popover-btn {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid #666;
     color: #fff;
     border-radius: 6px;
-    padding: 6px 12px;
+    padding: 6px 14px;
     font-family: 'Space Mono', monospace;
     font-size: 0.8rem;
     transition: all 0.2s ease;
@@ -878,23 +896,24 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .driver-popover-btn:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     color: #fff;
+    border-color: #fff;
 }
 
 .driver-popover-next-btn {
     background-color: var(--accent-color) !important;
     border-color: var(--accent-color) !important;
     color: #fff !important;
-    font-weight: 600;
+    font-weight: 700;
+    box-shadow: 0 0 15px rgba(0, 153, 204, 0.4);
 }
 
 .driver-popover-next-btn:hover {
     background-color: #0088b8 !important;
-    /* Slightly darker shade of accent */
-    box-shadow: 0 0 10px rgba(0, 153, 204, 0.5);
+    box-shadow: 0 0 20px rgba(0, 153, 204, 0.6);
 }
 
 .driver-popover-navigation-btns {
-    gap: 8px;
+    gap: 10px;
 }
