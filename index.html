@@ -82,6 +82,8 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Driver.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css" />
 </head>
 
 <body>
@@ -101,11 +103,19 @@
                                 stroke-linecap="round" />
                         </svg>
                     </button>
-                    <button id="info-toggle" class="icon-btn" aria-label="情報">
+                    <button id="info-toggle" class="icon-btn" aria-label="情報" title="このサイトについて">
                         <svg viewBox="0 0 24 24" width="20" height="20">
                             <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" />
                             <line x1="12" y1="11" x2="12" y2="17" stroke="currentColor" stroke-width="2" />
                             <circle cx="12" cy="7" r="1.5" fill="currentColor" />
+                        </svg>
+                    </button>
+                    <button id="tutorial-toggle" class="icon-btn" aria-label="チュートリアル" title="使い方ガイド">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" />
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" />
+                            <circle cx="12" cy="17" r="1" fill="currentColor" />
                         </svg>
                     </button>
                 </div>
@@ -220,6 +230,10 @@
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Driver.js JS -->
+    <script src="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js"></script>
+    <script src="js/tutorial.js"></script>
 
     <!-- App Logic -->
     <script src="js/app.js"></script>

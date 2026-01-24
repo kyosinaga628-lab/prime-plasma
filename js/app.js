@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
         infoClose: document.getElementById('info-close'),
         yearTabs: document.querySelectorAll('.year-tab'),
         loadingOverlay: document.getElementById('loading-overlay'),
-        reliefToggle: document.getElementById('relief-toggle')
+        reliefToggle: document.getElementById('relief-toggle'),
+        tutorialToggle: document.getElementById('tutorial-toggle')
     };
 
     // Info Panel Toggle
@@ -40,6 +41,13 @@ document.addEventListener('DOMContentLoaded', () => {
     els.infoClose.addEventListener('click', () => {
         els.infoPanel.classList.add('collapsed');
     });
+
+    // Tutorial Toggle
+    if (els.tutorialToggle) {
+        els.tutorialToggle.addEventListener('click', () => {
+            if (window.startTutorial) window.startTutorial();
+        });
+    }
 
     // Initialize Map (Center on Japan)
     const map = L.map('map', {
@@ -267,6 +275,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Start animation loop
             requestAnimationFrame(animate);
+
+            // Check if it's the first visit to show tutorial
+            if (window.checkFirstVisit) {
+                window.checkFirstVisit();
+            }
         })
         .catch(err => {
             console.error("Failed to load data:", err);
