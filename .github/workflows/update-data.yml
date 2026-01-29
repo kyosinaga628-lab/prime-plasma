@@ -2,8 +2,8 @@ name: Update Earthquake Data
 
 on:
   schedule:
-    # 毎週月曜と木曜の午前9時(JST) = UTC 0:00
-    - cron: '0 0 * * 1,4'
+    # 毎日午前9時(JST) = UTC 0:00 - 常に最新データを維持
+    - cron: '0 0 * * *'
   workflow_dispatch: # 手動実行も可能
 
 permissions:
@@ -25,19 +25,25 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch earthquake data
+      - name: Fetch last 1 year data
         run: python scripts/fetch_data.py
+
+      - name: Fetch last 1 month data
+        run: python scripts/fetch_1month_data.py
+
+      - name: Fetch current year archive data
+        run: python scripts/fetch_current_year.py
 
       - name: Check for changes
         id: git-check
         run: |
-          git diff --quiet data/earthquakes.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changed
         if: steps.git-check.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/earthquakes.json
+          git add data/earthquakes.json data/earthquakes_1month.json data/earthquakes_*.json
           git commit -m "📊 Update earthquake data [skip ci]"
           git push
