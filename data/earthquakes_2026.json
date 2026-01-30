@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769720696000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-01-29T21%3A04%3A55&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1769735234000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-01-30T01%3A07%3A14&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
@@ -2252,10 +2252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "27 km ESE of Yonakuni, Japan",
-        "time": 1768175451192,
-        "updated": 1768180126040,
+        "mag": 4.6,
+        "place": "28 km ESE of Yonakuni, Japan",
+        "time": 1768175451309,
+        "updated": 1769734249040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp3e",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp3e&format=geojson",
@@ -2265,26 +2265,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 326,
         "net": "us",
         "code": "7000rp3e",
         "ids": ",us7000rp3e,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.238,
-        "rms": 0.43,
-        "gap": 228,
+        "nst": 36,
+        "dmin": 0.25,
+        "rms": 0.58,
+        "gap": 225,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 27 km ESE of Yonakuni, Japan"
+        "title": "M 4.6 - 28 km ESE of Yonakuni, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.2459,
-          24.3626,
-          33.601
+          123.2408,
+          24.3289,
+          38.215
         ]
       },
       "id": "us7000rp3e"
@@ -2334,8 +2334,8 @@
       "properties": {
         "mag": 4.7,
         "place": "Izu Islands, Japan region",
-        "time": 1768106168550,
-        "updated": 1768108670560,
+        "time": 1768106168232,
+        "updated": 1769727125258,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp0c",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp0c&format=geojson",
@@ -2351,10 +2351,10 @@
         "ids": ",us7000rp0c,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 38,
-        "dmin": 2.911,
-        "rms": 1.01,
-        "gap": 137,
+        "nst": 47,
+        "dmin": 2.96,
+        "rms": 0.65,
+        "gap": 128,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.7 - Izu Islands, Japan region"
@@ -2362,8 +2362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.9286,
-          30.8186,
+          141.8479,
+          30.7062,
           10
         ]
       },
@@ -2372,10 +2372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "19 km WSW of Miyako, Japan",
-        "time": 1768104937170,
-        "updated": 1769033199309,
+        "mag": 4.9,
+        "place": "25 km WSW of Miyako, Japan",
+        "time": 1768104937808,
+        "updated": 1769726735086,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp08",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp08&format=geojson",
@@ -2385,26 +2385,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 417,
+        "sig": 370,
         "net": "us",
         "code": "7000rp08",
         "ids": ",us7000rp08,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 81,
-        "dmin": 1.299,
-        "rms": 0.84,
-        "gap": 94,
-        "magType": "mb",
+        "nst": 100,
+        "dmin": 1.276,
+        "rms": 0.99,
+        "gap": 86,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 19 km WSW of Miyako, Japan"
+        "title": "M 4.9 - 25 km WSW of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.7252,
-          39.5919,
-          79.657
+          141.6518,
+          39.5945,
+          83.369
         ]
       },
       "id": "us7000rp08"
