@@ -8,7 +8,7 @@ A dynamic, interactive visualization of earthquake activity around Japan. This p
 - 📅 **Data Archive (2011-2025)**: Explore historical seismic data year by year, including major events like the 2011 Tohoku earthquake.
 - 🔴 **Visual Magnitude**: Circle size and color represent earthquake magnitude (size scales exponentially).
 - 🔊 **Audio Feedback**: Generates sound for each quake—pitch and volume are dynamically modulated by magnitude.
-- ⚡ **Auto-Updates**: Data is fetched automatically via GitHub Actions (Mon/Thu).
+- ⚡ **Auto-Updates**: Data is fetched automatically via GitHub Actions (Daily).
 
 ## Live Demo
 **[https://kyosinaga628-lab.github.io/prime-plasma/](https://kyosinaga628-lab.github.io/prime-plasma/)**
@@ -50,7 +50,7 @@ A dynamic, interactive visualization of earthquake activity around Japan. This p
 - 📅 **データアーカイブ (2011-2025)**: 2011年の東日本大震災など、過去の地震データを年ごとにタブで切り替えて閲覧可能。
 - 🔴 **マグニチュード表現**: 地震の規模に応じて円の大きさ（指数関数的スケール）と色が変化します。
 - 🔊 **音声フィードバック**: 地震発生時に音が鳴ります。マグニチュードが大きいほど「低く」「大きい」音が生成されます。
-- ⚡ **自動更新**: GitHub Actionsにより、週2回（月・木）最新データを自動取得します。
+- ⚡ **自動更新**: GitHub Actionsにより、毎日（午前9時）最新データを自動取得します。
 
 ## デモサイト
 **[https://kyosinaga628-lab.github.io/prime-plasma/](https://kyosinaga628-lab.github.io/prime-plasma/)**
