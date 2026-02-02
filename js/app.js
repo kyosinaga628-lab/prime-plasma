@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
         yearTabs: document.querySelectorAll('.year-tab'),
         loadingOverlay: document.getElementById('loading-overlay'),
         reliefToggle: document.getElementById('relief-toggle'),
-        tutorialToggle: document.getElementById('tutorial-toggle')
+        tutorialToggle: document.getElementById('tutorial-toggle'),
+        speedBtns: document.querySelectorAll('.speed-btn')
     };
 
     // Info Panel Toggle
@@ -273,6 +274,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 tab.addEventListener('click', handleYearTabClick);
             });
 
+            // Speed button listeners
+            els.speedBtns.forEach(btn => {
+                btn.addEventListener('click', handleSpeedChange);
+            });
+
             // Start animation loop
             requestAnimationFrame(animate);
 
@@ -304,6 +310,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (state.eventIndex < 0) state.eventIndex = state.data.length;
         updateControls();
         renderMapState();
+    }
+
+    function handleSpeedChange(e) {
+        const btn = e.target;
+        const speed = parseFloat(btn.dataset.speed);
+
+        // Update state
+        state.playbackSpeed = speed;
+
+        // Update button appearance
+        els.speedBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
     }
 
     // ====== ANIMATION ======

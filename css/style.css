@@ -315,12 +315,47 @@ h1 {
     justify-content: center;
     cursor: pointer;
     transition: all 0.2s ease;
+    flex-shrink: 0;
+    /* Prevent button from becoming oval */
 }
 
 .control-btn:hover {
     border-color: var(--accent-color);
     color: var(--accent-color);
     box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
+/* Speed Controls */
+.speed-controls {
+    display: flex;
+    gap: 4px;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.speed-btn {
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.speed-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.speed-btn.active {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+    font-weight: 600;
 }
 
 /* Custom Range Slider */
@@ -740,6 +775,17 @@ input[type=range]::-webkit-slider-thumb {
         width: 6px;
         height: 6px;
     }
+
+    /* Speed Controls - Mobile */
+    .speed-controls {
+        gap: 3px;
+        margin-left: 8px;
+    }
+
+    .speed-btn {
+        padding: 4px 6px;
+        font-size: 0.6rem;
+    }
 }
 
 /* Extra small screens (phones in portrait) */
@@ -804,6 +850,17 @@ input[type=range]::-webkit-slider-thumb {
         right: 4px;
         padding: 6px 8px;
         font-size: 0.65rem;
+    }
+
+    /* Speed Controls - Extra Small */
+    .speed-controls {
+        gap: 2px;
+        margin-left: 6px;
+    }
+
+    .speed-btn {
+        padding: 3px 5px;
+        font-size: 0.55rem;
     }
 }
 
