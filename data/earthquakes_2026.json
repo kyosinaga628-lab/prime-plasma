@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769908721000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-01T01%3A18%3A40&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1769994653000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-02T01%3A10%3A53&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 100
+    "count": 103
   },
   "features": [
     {
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us6000s5qm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "27 km SW of Hengchun, Taiwan",
+        "time": 1769813911653,
+        "updated": 1769909444040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5n1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5n1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000s5n1",
+        "ids": ",us6000s5n1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.095,
+        "rms": 0.48,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 27 km SW of Hengchun, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5491,
+          21.8341,
+          10
+        ]
+      },
+      "id": "us6000s5n1"
     },
     {
       "type": "Feature",
@@ -2532,10 +2572,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "8 km E of Nakatonbetsu, Japan",
-        "time": 1768179018257,
-        "updated": 1768187400040,
+        "mag": 4.5,
+        "place": "15 km E of Horonobe, Japan",
+        "time": 1768179515882,
+        "updated": 1769988863040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5fr",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5fr&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s5fr",
+        "ids": ",us6000s5fr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.997,
+        "rms": 0.8,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 15 km E of Horonobe, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0504,
+          45.0378,
+          10
+        ]
+      },
+      "id": "us6000s5fr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "9 km ENE of Nakatonbetsu, Japan",
+        "time": 1768179017995,
+        "updated": 1769986579040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp3m",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp3m&format=geojson",
@@ -2545,29 +2625,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 340,
         "net": "us",
         "code": "7000rp3m",
         "ids": ",us7000rp3m,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.856,
-        "rms": 0.44,
-        "gap": 119,
+        "nst": 50,
+        "dmin": 0.892,
+        "rms": 0.84,
+        "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 8 km E of Nakatonbetsu, Japan"
+        "title": "M 4.7 - 9 km ENE of Nakatonbetsu, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3977,
-          44.9631,
-          34.612
+          142.4125,
+          45.0017,
+          34.052
         ]
       },
       "id": "us7000rp3m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "15 km WNW of Nakatonbetsu, Japan",
+        "time": 1768178918496,
+        "updated": 1769984931040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5g1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5g1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s5g1",
+        "ids": ",us6000s5g1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.975,
+        "rms": 0.76,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 15 km WNW of Nakatonbetsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1143,
+          45.032,
+          15.109
+        ]
+      },
+      "id": "us6000s5g1"
     },
     {
       "type": "Feature",
@@ -4011,7 +4131,7 @@
     }
   ],
   "bbox": [
-    120.7086,
+    120.5491,
     21.6222,
     3.444,
     154.8262,
