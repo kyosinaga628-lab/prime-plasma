@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769994653000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-02T01%3A10%3A53&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1770081083000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-03T01%3A11%3A23&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 103
+    "count": 110
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "122 km SE of Onagawa Chō, Japan",
+        "time": 1770069528748,
+        "updated": 1770074689040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s61l",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s61l&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000s61l",
+        "ids": ",us6000s61l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 3.313,
+        "rms": 0.61,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 122 km SE of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4032,
+          37.6397,
+          35
+        ]
+      },
+      "id": "us6000s61l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1732,6 +1772,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "36 km SSW of Nemuro, Japan",
+        "time": 1768499889359,
+        "updated": 1770060286040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s604",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s604&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000s604",
+        "ids": ",us6000s604,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.94,
+        "rms": 0.75,
+        "gap": 167,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 36 km SSW of Nemuro, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3962,
+          43.0266,
+          62.81
+        ]
+      },
+      "id": "us6000s604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "82 km SSE of Korsakov, Russia",
         "time": 1768457552829,
@@ -2372,10 +2452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "15 km NW of Nakatonbetsu, Japan",
-        "time": 1768237132476,
-        "updated": 1768238712040,
+        "mag": 4.7,
+        "place": "17 km NW of Nakatonbetsu, Japan",
+        "time": 1768237131832,
+        "updated": 1770056052040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp6e",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp6e&format=geojson",
@@ -2385,26 +2465,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 340,
         "net": "us",
         "code": "7000rp6e",
         "ids": ",us7000rp6e,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 1.011,
-        "rms": 0.92,
-        "gap": 97,
-        "magType": "mb",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 82,
+        "dmin": 1.022,
+        "rms": 0.77,
+        "gap": 86,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 15 km NW of Nakatonbetsu, Japan"
+        "title": "M 4.7 - 17 km NW of Nakatonbetsu, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.1755,
-          45.0846,
-          7.098
+          142.1344,
+          45.0873,
+          10
         ]
       },
       "id": "us7000rp6e"
@@ -2413,9 +2493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "11 km NNW of Nakatonbetsu, Japan",
-        "time": 1768234216758,
-        "updated": 1768406579040,
+        "place": "13 km NW of Nakatonbetsu, Japan",
+        "time": 1768234213549,
+        "updated": 1770053567040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp65",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp65&format=geojson",
@@ -2431,20 +2511,20 @@
         "ids": ",us7000rp65,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.985,
-        "rms": 1.03,
-        "gap": 107,
+        "nst": 40,
+        "dmin": 0.983,
+        "rms": 0.86,
+        "gap": 104,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 11 km NNW of Nakatonbetsu, Japan"
+        "title": "M 4.2 - 13 km NW of Nakatonbetsu, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.2135,
-          45.0663,
-          31.541
+          142.1594,
+          45.0523,
+          10
         ]
       },
       "id": "us7000rp65"
@@ -2452,42 +2532,162 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "25 km ESE of Yilan, Taiwan",
-        "time": 1768224709524,
-        "updated": 1768260375793,
+        "mag": 4.1,
+        "place": "53 km SE of Kuril’sk, Russia",
+        "time": 1768233336458,
+        "updated": 1770052360040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp5v",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp5v&format=geojson",
-        "felt": 8,
-        "cdi": 4.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5gh",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5gh&format=geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 329,
+        "sig": 259,
+        "net": "us",
+        "code": "6000s5gh",
+        "ids": ",us6000s5gh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 4.188,
+        "rms": 0.49,
+        "gap": 219,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 53 km SE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3493,
+          44.8843,
+          39.045
+        ]
+      },
+      "id": "us6000s5gh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "49 km E of Onagawa Chō, Japan",
+        "time": 1768230163621,
+        "updated": 1770048871040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5gl",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5gl&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000s5gl",
+        "ids": ",us6000s5gl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 2.527,
+        "rms": 0.6,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 49 km E of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0102,
+          38.3674,
+          49.499
+        ]
+      },
+      "id": "us6000s5gl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "27 km ESE of Yilan, Taiwan",
+        "time": 1768224709637,
+        "updated": 1770048333855,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp5v",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rp5v&format=geojson",
+        "felt": 8,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 328,
         "net": "us",
         "code": "7000rp5v",
         "ids": ",us7000rp5v,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 87,
-        "dmin": 0.528,
-        "rms": 0.67,
-        "gap": 33,
+        "nst": 116,
+        "dmin": 0.547,
+        "rms": 0.61,
+        "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.6 - 25 km ESE of Yilan, Taiwan"
+        "title": "M 4.6 - 27 km ESE of Yilan, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.0009,
-          24.7086,
-          68.318
+          122.0132,
+          24.69,
+          72.648
         ]
       },
       "id": "us7000rp5v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Volcano Islands, Japan region",
+        "time": 1768216461942,
+        "updated": 1770037316040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5ga",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5ga&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000s5ga",
+        "ids": ",us6000s5ga,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 7.966,
+        "rms": 1.13,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.1041,
+          25.2005,
+          199.172
+        ]
+      },
+      "id": "us6000s5ga"
     },
     {
       "type": "Feature",
@@ -3054,8 +3254,8 @@
       "properties": {
         "mag": 4.9,
         "place": "Volcano Islands, Japan region",
-        "time": 1768002696707,
-        "updated": 1768003677040,
+        "time": 1768002697173,
+        "updated": 1770005963040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rnsq",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rnsq&format=geojson",
@@ -3071,10 +3271,10 @@
         "ids": ",usauto7000rnsq,us7000rnsq,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 67,
-        "dmin": 7.312,
-        "rms": 1,
-        "gap": 66,
+        "nst": 77,
+        "dmin": 7.33,
+        "rms": 0.82,
+        "gap": 52,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 4.9 - Volcano Islands, Japan region"
@@ -3082,9 +3282,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.2885,
-          25.8914,
-          128.012
+          141.251,
+          25.8676,
+          130.578
         ]
       },
       "id": "us7000rnsq"
@@ -3172,6 +3372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "9 km SE of Kosaka, Japan",
+        "time": 1767958509814,
+        "updated": 1770043838040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s50c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s50c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s50c",
+        "ids": ",us6000s50c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.494,
+        "rms": 0.94,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 9 km SE of Kosaka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.824,
+          40.3305,
+          10
+        ]
+      },
+      "id": "us6000s50c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "6 km ESE of Kosaka, Japan",
         "time": 1767957853818,
@@ -3212,10 +3452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
+        "mag": 4.4,
         "place": "9 km ENE of Ōhara, Japan",
-        "time": 1767956878213,
-        "updated": 1768032458165,
+        "time": 1767956878951,
+        "updated": 1770044514145,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rnm9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rnm9&format=geojson",
@@ -3225,26 +3465,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 372,
+        "sig": 300,
         "net": "us",
         "code": "7000rnm9",
         "ids": ",us7000rnm9,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 123,
-        "dmin": 2.238,
-        "rms": 0.63,
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 129,
+        "dmin": 0.139,
+        "rms": 0.67,
         "gap": 81,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.9 - 9 km ENE of Ōhara, Japan"
+        "title": "M 4.4 - 9 km ENE of Ōhara, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.4891,
-          35.2901,
-          22.547
+          140.4831,
+          35.2956,
+          28.352
         ]
       },
       "id": "us7000rnm9"
@@ -3613,9 +3853,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "14 km SW of Yasugichō, Japan",
-        "time": 1767663467910,
-        "updated": 1767686930183,
+        "place": "20 km S of Matsue, Japan",
+        "time": 1767663467191,
+        "updated": 1770012123057,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmr1",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rmr1&format=geojson",
@@ -3631,20 +3871,20 @@
         "ids": ",us7000rmr1,usauto7000rmr1,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,moment-tensor,origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.727,
-        "rms": 0.46,
-        "gap": 48,
+        "nst": 155,
+        "dmin": 1.7,
+        "rms": 0.68,
+        "gap": 37,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 14 km SW of Yasugichō, Japan"
+        "title": "M 5.0 - 20 km S of Matsue, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          133.11,
-          35.342,
-          23.119
+          133.0603,
+          35.296,
+          17.162
         ]
       },
       "id": "us7000rmr1"
@@ -3652,10 +3892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "11 km SSW of Yasugichō, Japan",
-        "time": 1767662927541,
-        "updated": 1767686950327,
+        "mag": 4.8,
+        "place": "4 km S of Yasugichō, Japan",
+        "time": 1767662928678,
+        "updated": 1770009954192,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmqz",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rmqz&format=geojson",
@@ -3665,26 +3905,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 355,
         "net": "us",
         "code": "7000rmqz",
         "ids": ",us7000rmqz,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 1.703,
-        "rms": 0.92,
-        "gap": 49,
+        "nst": 126,
+        "dmin": 1.724,
+        "rms": 0.98,
+        "gap": 51,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.7 - 11 km SSW of Yasugichō, Japan"
+        "title": "M 4.8 - 4 km S of Yasugichō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          133.1736,
-          35.3364,
-          3.444
+          133.2441,
+          35.3787,
+          10.608
         ]
       },
       "id": "us7000rmqz"
@@ -3693,15 +3933,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "18 km S of Matsue, Japan",
-        "time": 1767662328664,
-        "updated": 1768256344772,
+        "place": "18 km SW of Yasugichō, Japan",
+        "time": 1767662328462,
+        "updated": 1770008910862,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmqv",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rmqv&format=geojson",
         "felt": 42,
         "cdi": 7.2,
-        "mmi": 6.95,
+        "mmi": 7.005,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -3711,19 +3951,19 @@
         "ids": ",us7000rmqv,usauto7000rmqv,",
         "sources": ",us,usauto,",
         "types": ",dyfi,ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 111,
-        "dmin": 1.717,
-        "rms": 1.06,
-        "gap": 23,
+        "nst": 257,
+        "dmin": 1.696,
+        "rms": 0.6,
+        "gap": 21,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 18 km S of Matsue, Japan"
+        "title": "M 5.7 - 18 km SW of Yasugichō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          133.0755,
-          35.3203,
+          133.0954,
+          35.3043,
           10
         ]
       },
@@ -4128,12 +4368,52 @@
         ]
       },
       "id": "us7000rlxx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "109 km E of Miyako, Japan",
+        "time": 1767271583890,
+        "updated": 1770042408040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrdp",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rrdp&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000rrdp",
+        "ids": ",us7000rrdp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.98,
+        "rms": 0.51,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 109 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2198,
+          39.6934,
+          44.371
+        ]
+      },
+      "id": "us7000rrdp"
     }
   ],
   "bbox": [
     120.5491,
     21.6222,
-    3.444,
+    5.251,
     154.8262,
     48.9557,
     490.378
