@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770340005000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-06T01%3A06%3A45&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1770426365000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-07T01%3A06%3A05&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 125
+    "count": 130
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "229 km ESE of Kamaishi, Japan",
+        "time": 1770400612039,
+        "updated": 1770415953040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6xq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s6xq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s6xq",
+        "ids": ",us6000s6xq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 3.495,
+        "rms": 0.6,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 229 km ESE of Kamaishi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1538,
+          38.2348,
+          10
+        ]
+      },
+      "id": "us6000s6xq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "0 km NE of Shiraoka, Japan",
+        "time": 1770393506479,
+        "updated": 1770422199962,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6x3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s6x3&format=geojson",
+        "felt": 8,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 343,
+        "net": "us",
+        "code": "6000s6x3",
+        "ids": ",us6000s6x3,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.291,
+        "rms": 0.71,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 0 km NE of Shiraoka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6646,
+          36.0219,
+          95.023
+        ]
+      },
+      "id": "us6000s6x3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1092,6 +1172,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "144 km SSE of Honchō, Japan",
+        "time": 1769141356313,
+        "updated": 1770419933040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6zb",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s6zb&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000s6zb",
+        "ids": ",us6000s6zb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.16,
+        "rms": 0.44,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 144 km SSE of Honchō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2703,
+          40.8573,
+          35
+        ]
+      },
+      "id": "us6000s6zb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "25 km WNW of Hiroo, Japan",
+        "time": 1769130413784,
+        "updated": 1770418164040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6z9",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s6z9&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000s6z9",
+        "ids": ",us6000s6z9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.384,
+        "rms": 0.72,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 25 km WNW of Hiroo, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0162,
+          42.3846,
+          63.185
+        ]
+      },
+      "id": "us6000s6z9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.3,
         "place": "94 km E of Yokohama, Japan",
         "time": 1769092290897,
@@ -1453,9 +1613,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "98 km ESE of Takahagi, Japan",
-        "time": 1768768440668,
-        "updated": 1768769754040,
+        "place": "99 km ESE of Takahagi, Japan",
+        "time": 1768768440528,
+        "updated": 1770405286040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqh3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rqh3&format=geojson",
@@ -1472,19 +1632,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 25,
-        "dmin": 2.82,
-        "rms": 0.46,
+        "dmin": 2.847,
+        "rms": 0.69,
         "gap": 138,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 98 km ESE of Takahagi, Japan"
+        "title": "M 4.4 - 99 km ESE of Takahagi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.6892,
-          36.3092,
-          35.826
+          141.7254,
+          36.3313,
+          39.132
         ]
       },
       "id": "us7000rqh3"
@@ -1693,9 +1853,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "45 km NE of Hualien City, Taiwan",
-        "time": 1768669289809,
-        "updated": 1768674325040,
+        "place": "44 km NE of Hualien City, Taiwan",
+        "time": 1768669289613,
+        "updated": 1770397792544,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqb4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rqb4&format=geojson",
@@ -1711,20 +1871,20 @@
         "ids": ",us7000rqb4,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.299,
-        "rms": 0.61,
+        "nst": 67,
+        "dmin": 0.293,
+        "rms": 0.62,
         "gap": 55,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.4 - 45 km NE of Hualien City, Taiwan"
+        "title": "M 4.4 - 44 km NE of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.8974,
-          24.2892,
-          5.251
+          121.8917,
+          24.2854,
+          3.16
         ]
       },
       "id": "us7000rqb4"
@@ -1732,10 +1892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "2 km SSE of Chiba, Japan",
-        "time": 1768668588358,
-        "updated": 1768736027189,
+        "mag": 4.3,
+        "place": "3 km ESE of Ichihara, Japan",
+        "time": 1768668588551,
+        "updated": 1770397632790,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqdz",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rqdz&format=geojson",
@@ -1745,26 +1905,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 285,
         "net": "us",
         "code": "7000rqdz",
         "ids": ",us7000rqdz,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": 1.828,
-        "rms": 0.59,
-        "gap": 130,
+        "nst": 52,
+        "dmin": 1.862,
+        "rms": 0.69,
+        "gap": 141,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 2 km SSE of Chiba, Japan"
+        "title": "M 4.3 - 3 km ESE of Ichihara, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.1292,
-          35.5793,
-          69.009
+          140.1237,
+          35.5101,
+          72.076
         ]
       },
       "id": "us7000rqdz"
@@ -2212,6 +2372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "156 km E of Tomioka, Japan",
+        "time": 1768488244357,
+        "updated": 1770411779040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s609",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s609&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s609",
+        "ids": ",us6000s609,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 3.574,
+        "rms": 0.88,
+        "gap": 177,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 156 km E of Tomioka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7801,
+          37.4687,
+          27.514
+        ]
+      },
+      "id": "us6000s609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "82 km SSE of Korsakov, Russia",
         "time": 1768457552829,
@@ -2372,39 +2572,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "64 km ESE of Akkeshi, Japan",
-        "time": 1768428793544,
-        "updated": 1768516681720,
+        "mag": 5.5,
+        "place": "63 km ESE of Akkeshi, Japan",
+        "time": 1768428796026,
+        "updated": 1770350358930,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpq8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rpq8&format=geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.432,
+        "mmi": 4.601,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 465,
         "net": "us",
         "code": "7000rpq8",
         "ids": ",usauto7000rpq8,us7000rpq8,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 95,
-        "dmin": 1.896,
-        "rms": 1.2,
-        "gap": 83,
+        "nst": 186,
+        "dmin": 1.882,
+        "rms": 0.75,
+        "gap": 75,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 64 km ESE of Akkeshi, Japan"
+        "title": "M 5.5 - 63 km ESE of Akkeshi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.5273,
-          42.7295,
-          11.617
+          145.5068,
+          42.7287,
+          30
         ]
       },
       "id": "us7000rpq8"
@@ -5013,7 +5213,7 @@
   "bbox": [
     120.5491,
     21.6222,
-    5.251,
+    3.16,
     154.869,
     49.8118,
     490.378
