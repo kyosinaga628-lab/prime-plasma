@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770686520000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-10T01%3A22%3A00&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1770772778000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-11T01%3A19%3A37&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 144
+    "count": 145
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "267 km E of Hasaki, Japan",
+        "time": 1770749520807,
+        "updated": 1770751186040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7nj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s7nj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000s7nj",
+        "ids": ",usauto6000s7nj,us6000s7nj,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,moment-tensor,origin,phase-data,",
+        "nst": 116,
+        "dmin": 4.078,
+        "rms": 0.45,
+        "gap": 34,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 267 km E of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7752,
+          35.5476,
+          10
+        ]
+      },
+      "id": "us6000s7nj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2133,9 +2173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "76 km SSE of Akkeshi, Japan",
-        "time": 1768729609499,
-        "updated": 1768743117040,
+        "place": "58 km SSE of Akkeshi, Japan",
+        "time": 1768729613892,
+        "updated": 1770727306040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqel",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rqel&format=geojson",
@@ -2151,20 +2191,20 @@
         "ids": ",us7000rqel,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 1.644,
-        "rms": 1.32,
-        "gap": 168,
+        "nst": 74,
+        "dmin": 1.502,
+        "rms": 0.57,
+        "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 76 km SSE of Akkeshi, Japan"
+        "title": "M 4.8 - 58 km SSE of Akkeshi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.3005,
-          42.4271,
-          10
+          145.0566,
+          42.5331,
+          35
         ]
       },
       "id": "us7000rqel"
