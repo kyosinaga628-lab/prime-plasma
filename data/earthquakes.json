@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771031307000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-02-14T01%3A08%3A26&endtime=2026-02-14T01%3A08%3A26&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1771118094000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-02-15T01%3A14%3A53&endtime=2026-02-15T01%3A14%3A53&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 1654
+    "count": 1652
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "99 km NW of Mikuni, Japan",
+        "time": 1771056895753,
+        "updated": 1771079176040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s96t",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s96t&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000s96t",
+        "ids": ",us6000s96t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 2.013,
+        "rms": 0.59,
+        "gap": 51,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 99 km NW of Mikuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4656,
+          36.9188,
+          359.334
+        ]
+      },
+      "id": "us6000s96t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 5.5,
         "place": "97 km SE of Katsuren-haebaru, Japan",
         "time": 1770932893290,
-        "updated": 1771020998444,
+        "updated": 1771086534040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8l6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8l6&format=geojson",
@@ -59255,7 +59295,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1743852779320,
-        "updated": 1770464588185,
+        "updated": 1771069382866,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q48f",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000q48f&format=geojson",
@@ -66048,126 +66088,6 @@
         ]
       },
       "id": "us7000pdy0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "Volcano Islands, Japan region",
-        "time": 1739553908111,
-        "updated": 1746203183040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pf9e",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pf9e&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000pf9e",
-        "ids": ",us7000pf9e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 3.113,
-        "rms": 0.38,
-        "gap": 153,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.4651,
-          23.9796,
-          39.08
-        ]
-      },
-      "id": "us7000pf9e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Izu Islands, Japan region",
-        "time": 1739548736151,
-        "updated": 1746203178040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pdpi",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pdpi&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pdpi",
-        "ids": ",us7000pdpi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 2.928,
-        "rms": 0.74,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.715,
-          30.6666,
-          10
-        ]
-      },
-      "id": "us7000pdpi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "257 km E of Kuril’sk, Russia",
-        "time": 1739496774659,
-        "updated": 1746203177040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pdjz",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pdjz&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000pdjz",
-        "ids": ",us7000pdjz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 6.006,
-        "rms": 0.94,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 257 km E of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1492,
-          45.4792,
-          35
-        ]
-      },
-      "id": "us7000pdjz"
     }
   ],
   "bbox": [

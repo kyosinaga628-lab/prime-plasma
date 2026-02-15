@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771031308000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-14T01%3A08%3A27&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1771118094000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-15T01%3A14%3A54&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 167
+    "count": 168
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "99 km NW of Mikuni, Japan",
+        "time": 1771056895753,
+        "updated": 1771079176040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s96t",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s96t&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000s96t",
+        "ids": ",us6000s96t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 2.013,
+        "rms": 0.59,
+        "gap": 51,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 99 km NW of Mikuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4656,
+          36.9188,
+          359.334
+        ]
+      },
+      "id": "us6000s96t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 5.5,
         "place": "97 km SE of Katsuren-haebaru, Japan",
         "time": 1770932893290,
-        "updated": 1771020998444,
+        "updated": 1771086534040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8l6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8l6&format=geojson",
