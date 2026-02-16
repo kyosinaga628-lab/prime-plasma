@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771118094000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-15T01%3A14%3A54&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1771204324000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-16T01%3A12%3A04&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 168
+    "count": 171
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "284 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1771171128801,
+        "updated": 1771180000303,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ei",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9ei&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.197,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "us",
+        "code": "6000s9ei",
+        "ids": ",us6000s9ei,usauto6000s9ei,at00taice0,pt26046000,",
+        "sources": ",us,usauto,at,pt,",
+        "types": ",ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 60,
+        "dmin": 5.372,
+        "rms": 0.65,
+        "gap": 76,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - 284 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.5612,
+          48.3271,
+          54.981
+        ]
+      },
+      "id": "us6000s9ei"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "1 km ESE of Ashikaga, Japan",
+        "time": 1771123949530,
+        "updated": 1771138219418,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9cj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9cj&format=geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000s9cj",
+        "ids": ",us6000s9cj,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.036,
+        "rms": 1.28,
+        "gap": 147,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 1 km ESE of Ashikaga, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4663,
+          36.3265,
+          75.911
+        ]
+      },
+      "id": "us6000s9cj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1612,10 +1692,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "72 km SE of Nemuro, Japan",
-        "time": 1769482050079,
-        "updated": 1769483098040,
+        "mag": 5.2,
+        "place": "76 km ESE of Nemuro, Japan",
+        "time": 1769482050039,
+        "updated": 1771201139040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4n9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s4n9&format=geojson",
@@ -1625,26 +1705,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 416,
         "net": "us",
         "code": "6000s4n9",
         "ids": ",us6000s4n9,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 2.472,
-        "rms": 0.71,
-        "gap": 98,
+        "nst": 217,
+        "dmin": 2.567,
+        "rms": 1.05,
+        "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 72 km SE of Nemuro, Japan"
+        "title": "M 5.2 - 76 km ESE of Nemuro, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.2682,
-          42.9163,
-          34.218
+          146.3815,
+          42.9662,
+          35
         ]
       },
       "id": "us6000s4n9"
@@ -1693,9 +1773,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "17 km SSW of Hengchun, Taiwan",
-        "time": 1769453319563,
-        "updated": 1769455419040,
+        "place": "15 km S of Hengchun, Taiwan",
+        "time": 1769453318374,
+        "updated": 1771172338040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s4kb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s4kb&format=geojson",
@@ -1711,20 +1791,20 @@
         "ids": ",us6000s4kb,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.026,
-        "rms": 0.56,
-        "gap": 87,
+        "nst": 47,
+        "dmin": 1.005,
+        "rms": 0.62,
+        "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 17 km SSW of Hengchun, Taiwan"
+        "title": "M 4.5 - 15 km S of Hengchun, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.7086,
-          21.8458,
-          18.383
+          120.716,
+          21.8665,
+          10
         ]
       },
       "id": "us6000s4kb"
@@ -2132,6 +2212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "25 km NNW of Shiranuka, Japan",
+        "time": 1769292268162,
+        "updated": 1771203956040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7h3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s7h3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000s7h3",
+        "ids": ",us6000s7h3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.333,
+        "rms": 0.84,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 25 km NNW of Shiranuka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.0255,
+          43.1839,
+          134.287
+        ]
+      },
+      "id": "us6000s7h3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "58 km E of Onagawa Chō, Japan",
         "time": 1769245201500,
@@ -2175,7 +2295,7 @@
         "mag": 4.5,
         "place": "3 km SSW of Daigo, Japan",
         "time": 1769203204282,
-        "updated": 1770666170737,
+        "updated": 1771135009040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrq8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rrq8&format=geojson",
@@ -2190,7 +2310,7 @@
         "code": "7000rrq8",
         "ids": ",us7000rrq8,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 55,
         "dmin": 1.725,
         "rms": 0.67,
