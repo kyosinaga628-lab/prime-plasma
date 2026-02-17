@@ -1,27 +1,147 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771204324000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-16T01%3A12%3A04&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1771290663000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-17T01%3A11%3A03&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 171
+    "count": 174
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "34 km ESE of Yilan, Taiwan",
+        "time": 1771266194739,
+        "updated": 1771275066761,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9jv",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9jv&format=geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 272,
+        "net": "us",
+        "code": "6000s9jv",
+        "ids": ",us6000s9jv,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.613,
+        "rms": 0.52,
+        "gap": 63,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.2 - 34 km ESE of Yilan, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0664,
+          24.6437,
+          65.045
+        ]
+      },
+      "id": "us6000s9jv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "92 km ENE of Hachinohe, Japan",
+        "time": 1771264376298,
+        "updated": 1771265940040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9je",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9je&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s9je",
+        "ids": ",us6000s9je,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 1.061,
+        "rms": 0.68,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 92 km ENE of Hachinohe, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4543,
+          40.9108,
+          54.718
+        ]
+      },
+      "id": "us6000s9je"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "51 km ENE of Noda, Japan",
+        "time": 1771217997384,
+        "updated": 1771219319040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9gh",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9gh&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000s9gh",
+        "ids": ",us6000s9gh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 1.09,
+        "rms": 0.76,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 51 km ENE of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3565,
+          40.3204,
+          51.667
+        ]
+      },
+      "id": "us6000s9gh"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6,
         "place": "284 km SSW of Severo-Kuril’sk, Russia",
         "time": 1771171128801,
-        "updated": 1771180000303,
+        "updated": 1771259257943,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ei",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9ei&format=geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.197,
+        "mmi": 4.211,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1333,9 +1453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "27 km SW of Hengchun, Taiwan",
-        "time": 1769813911653,
-        "updated": 1769909444040,
+        "place": "33 km WSW of Hengchun, Taiwan",
+        "time": 1769813911938,
+        "updated": 1771214481040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5n1",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5n1&format=geojson",
@@ -1351,19 +1471,19 @@
         "ids": ",us6000s5n1,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.095,
-        "rms": 0.48,
-        "gap": 108,
+        "nst": 21,
+        "dmin": 1.109,
+        "rms": 0.85,
+        "gap": 92,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 27 km SW of Hengchun, Taiwan"
+        "title": "M 4.2 - 33 km WSW of Hengchun, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.5491,
-          21.8341,
+          120.4515,
+          21.8685,
           10
         ]
       },
