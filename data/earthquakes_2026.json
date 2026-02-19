@@ -1,14 +1,214 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771377206000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-18T01%3A13%3A26&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1771463549000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-19T01%3A12%3A29&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 177
+    "count": 183
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "186 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1771457802316,
+        "updated": 1771458834040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa28",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sa28&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000sa28",
+        "ids": ",us6000sa28,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 91,
+        "dmin": 4.299,
+        "rms": 1.09,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 186 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.9929,
+          49.1665,
+          61.302
+        ]
+      },
+      "id": "us6000sa28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "81 km E of Tomioka, Japan",
+        "time": 1771454427749,
+        "updated": 1771455420040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa20",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sa20&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000sa20",
+        "ids": ",us6000sa20,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 3.099,
+        "rms": 0.53,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 81 km E of Tomioka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9316,
+          37.3776,
+          35.308
+        ]
+      },
+      "id": "us6000sa20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "68 km N of Ishigaki, Japan",
+        "time": 1771400151354,
+        "updated": 1771402994040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9xv",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9xv&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000s9xv",
+        "ids": ",us6000s9xv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.593,
+        "rms": 0.96,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 68 km N of Ishigaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0893,
+          24.9597,
+          98.92
+        ]
+      },
+      "id": "us6000s9xv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "114 km S of Koshima, Japan",
+        "time": 1771381666663,
+        "updated": 1771383073685,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9wt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9wt&format=geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000s9wt",
+        "ids": ",us6000s9wt,usauto6000s9wt,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,origin,phase-data,",
+        "nst": 77,
+        "dmin": 2.298,
+        "rms": 1.2,
+        "gap": 85,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 114 km S of Koshima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6669,
+          29.2111,
+          22.742
+        ]
+      },
+      "id": "us6000s9wt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "138 km SSE of Honchō, Japan",
+        "time": 1771315445920,
+        "updated": 1771403335040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9qt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9qt&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000s9qt",
+        "ids": ",us6000s9qt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.109,
+        "rms": 1.12,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 138 km SSE of Honchō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2676,
+          40.9082,
+          10
+        ]
+      },
+      "id": "us6000s9qt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1414,8 +1614,8 @@
       "properties": {
         "mag": 4.6,
         "place": "122 km SE of Onagawa Chō, Japan",
-        "time": 1770069528748,
-        "updated": 1770110586880,
+        "time": 1770069528664,
+        "updated": 1771455956003,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s61l",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s61l&format=geojson",
@@ -1431,10 +1631,10 @@
         "ids": ",us6000s61l,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 38,
-        "dmin": 3.313,
-        "rms": 0.61,
-        "gap": 148,
+        "nst": 53,
+        "dmin": 3.321,
+        "rms": 0.49,
+        "gap": 125,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.6 - 122 km SE of Onagawa Chō, Japan"
@@ -1442,8 +1642,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.4032,
-          37.6397,
+          142.3813,
+          37.6259,
           35
         ]
       },
@@ -1608,6 +1808,46 @@
         ]
       },
       "id": "us6000s5m4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "18 km NE of Anamizu, Japan",
+        "time": 1769793092992,
+        "updated": 1771455478040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s90f",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s90f&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000s90f",
+        "ids": ",us6000s90f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 1.257,
+        "rms": 0.92,
+        "gap": 40,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 18 km NE of Anamizu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.0216,
+          37.3733,
+          10
+        ]
+      },
+      "id": "us6000s90f"
     },
     {
       "type": "Feature",
@@ -7094,7 +7334,7 @@
     120.1538,
     20.4833,
     2.286,
-    154.869,
+    154.9929,
     49.8118,
     492.524
   ]
