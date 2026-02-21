@@ -1,14 +1,214 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771549696000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-20T01%3A08%3A16&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1771635979000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-21T01%3A06%3A19&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 190
+    "count": 196
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "71 km SW of Yonakuni, Japan",
+        "time": 1771616672254,
+        "updated": 1771618558040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sai5",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sai5&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000sai5",
+        "ids": ",us6000sai5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.651,
+        "rms": 0.74,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 71 km SW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4356,
+          24.0811,
+          41.266
+        ]
+      },
+      "id": "us6000sai5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "28 km SSW of Yonakuni, Japan",
+        "time": 1771615009038,
+        "updated": 1771617172040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sai1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sai1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000sai1",
+        "ids": ",us6000sai1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.258,
+        "rms": 0.96,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 28 km SSW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.8659,
+          24.2452,
+          50.843
+        ]
+      },
+      "id": "us6000sai1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "101 km SE of Onagawa Chō, Japan",
+        "time": 1771613971433,
+        "updated": 1771615921040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sai0",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sai0&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sai0",
+        "ids": ",us6000sai0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 3.174,
+        "rms": 0.42,
+        "gap": 157,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 101 km SE of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1528,
+          37.7252,
+          50.171
+        ]
+      },
+      "id": "us6000sai0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "73 km ENE of Mutsu, Japan",
+        "time": 1771596991286,
+        "updated": 1771610911040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sae0",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sae0&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000sae0",
+        "ids": ",usauto6000sae0,us6000sae0,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,moment-tensor,origin,phase-data,",
+        "nst": 63,
+        "dmin": 0.962,
+        "rms": 0.93,
+        "gap": 117,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 73 km ENE of Mutsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0269,
+          41.5548,
+          63.223
+        ]
+      },
+      "id": "us6000sae0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "212 km ENE of Hasaki, Japan",
+        "time": 1771583950162,
+        "updated": 1771586411040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sadg",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sadg&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000sadg",
+        "ids": ",us6000sadg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 4.004,
+        "rms": 1.16,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 212 km ENE of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1373,
+          36.1323,
+          10
+        ]
+      },
+      "id": "us6000sadg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,7 +415,7 @@
         "mag": 5,
         "place": "114 km S of Koshima, Japan",
         "time": 1771381666663,
-        "updated": 1771383073685,
+        "updated": 1771596318040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9wt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9wt&format=geojson",
@@ -230,7 +430,7 @@
         "code": "6000s9wt",
         "ids": ",us6000s9wt,usauto6000s9wt,",
         "sources": ",us,usauto,",
-        "types": ",dyfi,internal-moment-tensor,origin,phase-data,",
+        "types": ",dyfi,internal-moment-tensor,moment-tensor,origin,phase-data,",
         "nst": 77,
         "dmin": 2.298,
         "rms": 1.2,
@@ -1573,6 +1773,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
+        "place": "62 km S of Shikotan, Russia",
+        "time": 1770174560026,
+        "updated": 1771625961040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa8b",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sa8b&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sa8b",
+        "ids": ",us6000sa8b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 3,
+        "rms": 0.66,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 62 km S of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8649,
+          43.2469,
+          62.608
+        ]
+      },
+      "id": "us6000sa8b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
         "place": "221 km WSW of Severo-Kuril’sk, Russia",
         "time": 1770156876190,
         "updated": 1770161447040,
@@ -2053,9 +2293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "19 km SSW of Urakawa, Japan",
-        "time": 1769695997178,
-        "updated": 1769781550040,
+        "place": "21 km SSW of Urakawa, Japan",
+        "time": 1769695996479,
+        "updated": 1771617110040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s58d",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s58d&format=geojson",
@@ -2071,20 +2311,20 @@
         "ids": ",us6000s58d,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.335,
+        "nst": 40,
+        "dmin": 0.362,
         "rms": 0.79,
-        "gap": 108,
+        "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 19 km SSW of Urakawa, Japan"
+        "title": "M 4.5 - 21 km SSW of Urakawa, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.7094,
-          41.9886,
-          72.943
+          142.6749,
+          41.9754,
+          66.084
         ]
       },
       "id": "us6000s58d"
@@ -2095,7 +2335,7 @@
         "mag": 4.6,
         "place": "6 km SSE of Wada, Japan",
         "time": 1769654869447,
-        "updated": 1771548983040,
+        "updated": 1771564111498,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s54w",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s54w&format=geojson",
@@ -7055,7 +7295,7 @@
         "mag": 5,
         "place": "20 km S of Matsue, Japan",
         "time": 1767663467191,
-        "updated": 1770012123057,
+        "updated": 1771604042040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmr1",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rmr1&format=geojson",
