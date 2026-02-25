@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771895362000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-24T01%3A09%3A22&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1771982105000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-02-25T01%3A15%3A05&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 215
+    "count": 222
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "8 km SSE of Miyako, Japan",
+        "time": 1771957000764,
+        "updated": 1771963931040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s01b",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s01b&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000s01b",
+        "ids": ",us7000s01b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 109,
+        "dmin": 1.396,
+        "rms": 0.87,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 8 km SSE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9801,
+          39.5815,
+          53.932
+        ]
+      },
+      "id": "us7000s01b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "19 km SE of Yilan, Taiwan",
+        "time": 1771907835280,
+        "updated": 1771956136040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rzx8",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rzx8&format=geojson",
+        "felt": 11,
+        "cdi": 3.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 344,
+        "net": "us",
+        "code": "7000rzx8",
+        "ids": ",us7000rzx8,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.481,
+        "rms": 1.03,
+        "gap": 43,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.7 - 19 km SE of Yilan, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9035,
+          24.6496,
+          67.852
+        ]
+      },
+      "id": "us7000rzx8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2013,9 +2093,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "262 km SW of Severo-Kuril’sk, Russia",
-        "time": 1770653347443,
-        "updated": 1770656342040,
+        "place": "254 km SW of Severo-Kuril’sk, Russia",
+        "time": 1770653346194,
+        "updated": 1771969919040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7gc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s7gc&format=geojson",
@@ -2031,20 +2111,20 @@
         "ids": ",us6000s7gc,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 89,
-        "dmin": 4.867,
-        "rms": 0.76,
-        "gap": 123,
+        "nst": 109,
+        "dmin": 4.785,
+        "rms": 0.8,
+        "gap": 113,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 262 km SW of Severo-Kuril’sk, Russia"
+        "title": "M 4.5 - 254 km SW of Severo-Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.5192,
-          49.0211,
-          175.728
+          153.5414,
+          49.1084,
+          160.782
         ]
       },
       "id": "us6000s7gc"
@@ -2612,6 +2692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "109 km E of Tomioka, Japan",
+        "time": 1770091350445,
+        "updated": 1771977900040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sa7a",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sa7a&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sa7a",
+        "ids": ",us6000sa7a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 3.353,
+        "rms": 0.66,
+        "gap": 207,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 109 km E of Tomioka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2476,
+          37.4297,
+          33.256
+        ]
+      },
+      "id": "us6000sa7a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "122 km SE of Onagawa Chō, Japan",
         "time": 1770069528664,
@@ -2648,6 +2768,46 @@
         ]
       },
       "id": "us6000s61l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "261 km SSE of Tateyama, Japan",
+        "time": 1770021062062,
+        "updated": 1771973654040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9zh",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9zh&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000s9zh",
+        "ids": ",us6000s9zh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.758,
+        "rms": 0.71,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 261 km SSE of Tateyama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5708,
+          32.7033,
+          67.068
+        ]
+      },
+      "id": "us6000s9zh"
     },
     {
       "type": "Feature",
@@ -2692,6 +2852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "117 km E of Miyako, Japan",
+        "time": 1769937061536,
+        "updated": 1771940868040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9tc",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9tc&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000s9tc",
+        "ids": ",us6000s9tc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 2.011,
+        "rms": 0.59,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 117 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3035,
+          39.7348,
+          30.537
+        ]
+      },
+      "id": "us6000s9tc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "110 km SE of Kuril’sk, Russia",
         "time": 1769892879946,
@@ -2728,6 +2928,46 @@
         ]
       },
       "id": "us6000s5s4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Mariana Islands region",
+        "time": 1769886685237,
+        "updated": 1771898630040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9jl",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9jl&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000s9jl",
+        "ids": ",us6000s9jl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 14.514,
+        "rms": 0.75,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1472,
+          21.9515,
+          196.663
+        ]
+      },
+      "id": "us6000s9jl"
     },
     {
       "type": "Feature",
@@ -2932,10 +3172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "110 km ENE of Miyako, Japan",
+        "time": 1769772960590,
+        "updated": 1771935881040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s908",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s908&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000s908",
+        "ids": ",us6000s908,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.823,
+        "rms": 0.54,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 110 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1732,
+          39.9346,
+          35
+        ]
+      },
+      "id": "us6000s908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "107 km ENE of Miyako, Japan",
-        "time": 1769771001713,
-        "updated": 1769783548040,
+        "place": "105 km ENE of Miyako, Japan",
+        "time": 1769771001535,
+        "updated": 1771945568040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5fj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s5fj&format=geojson",
@@ -2951,19 +3231,19 @@
         "ids": ",us6000s5fj,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.775,
-        "rms": 0.5,
-        "gap": 177,
+        "nst": 57,
+        "dmin": 1.786,
+        "rms": 0.57,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 107 km ENE of Miyako, Japan"
+        "title": "M 4.6 - 105 km ENE of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.1228,
-          39.9647,
+          143.1134,
+          39.9293,
           35
         ]
       },
@@ -7935,7 +8215,7 @@
         "mag": 4.9,
         "place": "75 km E of Mutsu, Japan",
         "time": 1767722684197,
-        "updated": 1769533124040,
+        "updated": 1771946796040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmza",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rmza&format=geojson",
@@ -7952,7 +8232,7 @@
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": 83,
-        "dmin": 0.987,
+        "dmin": 0.988,
         "rms": 0.81,
         "gap": 122,
         "magType": "mww",
@@ -7963,7 +8243,7 @@
         "type": "Point",
         "coordinates": [
           142.1024,
-          41.4214,
+          41.4212,
           54.374
         ]
       },
