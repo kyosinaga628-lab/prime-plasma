@@ -1,14 +1,294 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772240532000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-02-28T01%3A02%3A11&endtime=2026-02-28T01%3A02%3A11&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1772327839000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-03-01T01%3A17%3A13&endtime=2026-03-01T01%3A17%3A13&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 1679
+    "count": 1687
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "51 km NW of Hirara, Japan",
+        "time": 1772314916416,
+        "updated": 1772321700040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s14c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s14c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000s14c",
+        "ids": ",us7000s14c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 1.023,
+        "rms": 0.89,
+        "gap": 93,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 51 km NW of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9689,
+          25.1573,
+          10
+        ]
+      },
+      "id": "us7000s14c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "47 km NW of Hirara, Japan",
+        "time": 1772314768837,
+        "updated": 1772319718040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s148",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s148&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000s148",
+        "ids": ",us7000s148,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 1.047,
+        "rms": 0.98,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 47 km NW of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0196,
+          25.1485,
+          10
+        ]
+      },
+      "id": "us7000s148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "46 km SSE of Yilan, Taiwan",
+        "time": 1772293790629,
+        "updated": 1772304951040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s12n",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s12n&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000s12n",
+        "ids": ",us7000s12n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.3,
+        "rms": 0.74,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 46 km SSE of Yilan, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8613,
+          24.3503,
+          12.275
+        ]
+      },
+      "id": "us7000s12n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "64 km NNW of Hirara, Japan",
+        "time": 1772283419519,
+        "updated": 1772284923040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s122",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s122&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000s122",
+        "ids": ",usauto7000s122,us7000s122,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,origin,phase-data,",
+        "nst": 64,
+        "dmin": 1.127,
+        "rms": 0.84,
+        "gap": 57,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 64 km NNW of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9628,
+          25.2961,
+          10
+        ]
+      },
+      "id": "us7000s122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "33 km NNW of Hirara, Japan",
+        "time": 1772277530652,
+        "updated": 1772281930040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s11m",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s11m&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000s11m",
+        "ids": ",us7000s11m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 1.085,
+        "rms": 1,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 33 km NNW of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1543,
+          25.073,
+          10
+        ]
+      },
+      "id": "us7000s11m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "43 km NW of Hirara, Japan",
+        "time": 1772258037696,
+        "updated": 1772266704526,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s103",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s103&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.413,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000s103",
+        "ids": ",us7000s103,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 71,
+        "dmin": 1.057,
+        "rms": 1.17,
+        "gap": 61,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 43 km NW of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0616,
+          25.1262,
+          35
+        ]
+      },
+      "id": "us7000s103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "50 km NNW of Hirara, Japan",
+        "time": 1772243359831,
+        "updated": 1772244387040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0z7",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s0z7&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000s0z7",
+        "ids": ",us7000s0z7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 1.083,
+        "rms": 0.95,
+        "gap": 97,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 50 km NNW of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0348,
+          25.1857,
+          10
+        ]
+      },
+      "id": "us7000s0z7"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1972,6 +2252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "Kuril Islands",
+        "time": 1771186421324,
+        "updated": 1772305041040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0um",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s0um&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000s0um",
+        "ids": ",us7000s0um,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 6.612,
+        "rms": 0.86,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2716,
+          47.1454,
+          68.894
+        ]
+      },
+      "id": "us7000s0um"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6,
         "place": "284 km SSW of Severo-Kuril’sk, Russia",
         "time": 1771171128801,
@@ -2132,10 +2452,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "138 km SSE of Kuril’sk, Russia",
+        "time": 1770969411762,
+        "updated": 1772264219040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8q6",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8q6&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s8q6",
+        "ids": ",us6000s8q6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 4.289,
+        "rms": 0.82,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 138 km SSE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5476,
+          44.0803,
+          56.969
+        ]
+      },
+      "id": "us6000s8q6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
-        "place": "7 km NE of Maki, Japan",
-        "time": 1770958736619,
-        "updated": 1770959857040,
+        "place": "1 km NNW of Maki, Japan",
+        "time": 1770958737254,
+        "updated": 1772320118040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8pf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8pf&format=geojson",
@@ -2151,20 +2511,20 @@
         "ids": ",us6000s8pf,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.38,
-        "rms": 0.63,
+        "nst": 90,
+        "dmin": 1.331,
+        "rms": 0.71,
         "gap": 48,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 7 km NE of Maki, Japan"
+        "title": "M 4.8 - 1 km NNW of Maki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.9365,
-          37.7974,
-          171.42
+          138.8772,
+          37.7655,
+          177.068
         ]
       },
       "id": "us6000s8pf"
@@ -2173,9 +2533,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "142 km SSE of Kuril’sk, Russia",
-        "time": 1770958603781,
-        "updated": 1770960470040,
+        "place": "140 km SSE of Kuril’sk, Russia",
+        "time": 1770958603750,
+        "updated": 1772319887040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8pe",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8pe&format=geojson",
@@ -2191,19 +2551,19 @@
         "ids": ",us6000s8pe,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 4.359,
-        "rms": 0.81,
-        "gap": 137,
+        "nst": 50,
+        "dmin": 4.366,
+        "rms": 0.78,
+        "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 142 km SSE of Kuril’sk, Russia"
+        "title": "M 4.6 - 140 km SSE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.6441,
-          44.0666,
+          148.655,
+          44.0881,
           35
         ]
       },
@@ -2213,9 +2573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "179 km SSE of Kuril’sk, Russia",
-        "time": 1770948999195,
-        "updated": 1770950485040,
+        "place": "161 km SSE of Kuril’sk, Russia",
+        "time": 1770948999727,
+        "updated": 1772318172040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8nb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8nb&format=geojson",
@@ -2231,19 +2591,19 @@
         "ids": ",us6000s8nb,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 4.671,
-        "rms": 1.11,
-        "gap": 137,
+        "nst": 65,
+        "dmin": 4.554,
+        "rms": 0.84,
+        "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 179 km SSE of Kuril’sk, Russia"
+        "title": "M 4.9 - 161 km SSE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.0556,
-          43.852,
+          148.9075,
+          43.9739,
           10
         ]
       },
@@ -2333,9 +2693,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "124 km NE of Kuji, Japan",
-        "time": 1770929386562,
-        "updated": 1770932730040,
+        "place": "121 km NE of Kuji, Japan",
+        "time": 1770929386471,
+        "updated": 1772307446040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8ks",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8ks&format=geojson",
@@ -2351,20 +2711,20 @@
         "ids": ",us6000s8ks,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 1.19,
-        "rms": 0.7,
-        "gap": 135,
+        "nst": 81,
+        "dmin": 1.185,
+        "rms": 0.73,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 124 km NE of Kuji, Japan"
+        "title": "M 4.6 - 121 km NE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.9703,
-          40.8322,
-          35.197
+          142.9158,
+          40.8427,
+          35
         ]
       },
       "id": "us6000s8ks"
@@ -2373,9 +2733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "195 km SSE of Katsuura, Japan",
-        "time": 1770925920770,
-        "updated": 1770929645040,
+        "place": "202 km SSE of Katsuura, Japan",
+        "time": 1770925920088,
+        "updated": 1772307101040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8kf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8kf&format=geojson",
@@ -2391,19 +2751,19 @@
         "ids": ",us6000s8kf,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 3.858,
-        "rms": 0.45,
+        "nst": 26,
+        "dmin": 3.939,
+        "rms": 0.73,
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 195 km SSE of Katsuura, Japan"
+        "title": "M 4.6 - 202 km SSE of Katsuura, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.3629,
-          33.6109,
+          141.4583,
+          33.5854,
           35
         ]
       },
@@ -2574,8 +2934,8 @@
       "properties": {
         "mag": 4.9,
         "place": "east of the Kuril Islands",
-        "time": 1770827706770,
-        "updated": 1770831835040,
+        "time": 1770827706677,
+        "updated": 1772247070040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7v0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s7v0&format=geojson",
@@ -2591,10 +2951,10 @@
         "ids": ",us6000s7v0,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 6.643,
-        "rms": 0.93,
-        "gap": 139,
+        "nst": 98,
+        "dmin": 6.647,
+        "rms": 0.85,
+        "gap": 137,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.9 - east of the Kuril Islands"
@@ -2602,8 +2962,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.8261,
-          44.179,
+          151.8302,
+          44.1673,
           10
         ]
       },
@@ -2968,6 +3328,46 @@
         ]
       },
       "id": "us7000rzrh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "117 km SSE of Shima, Japan",
+        "time": 1770404345782,
+        "updated": 1772296573040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sag9",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sag9&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000sag9",
+        "ids": ",us6000sag9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.946,
+        "rms": 0.88,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 117 km SSE of Shima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.5091,
+          33.4397,
+          327.974
+        ]
+      },
+      "id": "us6000sag9"
     },
     {
       "type": "Feature",
@@ -62255,7 +62655,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1743852779320,
-        "updated": 1771674187623,
+        "updated": 1772278982329,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q48f",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000q48f&format=geojson",
@@ -67088,86 +67488,6 @@
         ]
       },
       "id": "us6000pwaa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Volcano Islands, Japan region",
-        "time": 1740753664715,
-        "updated": 1746732288040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pxgk",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000pxgk&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000pxgk",
-        "ids": ",us6000pxgk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 3.567,
-        "rms": 0.92,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.865,
-          23.5668,
-          48.833
-        ]
-      },
-      "id": "us6000pxgk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "78 km SSW of Hualien City, Taiwan",
-        "time": 1740718967756,
-        "updated": 1746732282040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pw02",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000pw02&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000pw02",
-        "ids": ",us6000pw02,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.151,
-        "rms": 0.94,
-        "gap": 81,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.2 - 78 km SSW of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.4196,
-          23.2919,
-          27.197
-        ]
-      },
-      "id": "us6000pw02"
     }
   ],
   "bbox": [
