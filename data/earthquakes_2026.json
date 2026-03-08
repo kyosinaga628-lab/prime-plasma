@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772845521000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-03-07T01%3A05%3A21&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1772932234000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-03-08T01%3A10%3A34&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "1.14.1",
-    "count": 289
+    "count": 291
   },
   "features": [
     {
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "57 km ESE of Ōfunato, Japan",
-        "time": 1772829112961,
-        "updated": 1772830495040,
+        "mag": 4.8,
+        "place": "64 km ESE of Ōfunato, Japan",
+        "time": 1772829111630,
+        "updated": 1772907219040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2mt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s2mt&format=geojson",
@@ -65,29 +65,109 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 354,
         "net": "us",
         "code": "7000s2mt",
         "ids": ",us7000s2mt,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 70,
-        "dmin": 2.164,
-        "rms": 0.86,
-        "gap": 94,
-        "magType": "mb",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 210,
+        "dmin": 2.22,
+        "rms": 0.6,
+        "gap": 75,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 57 km ESE of Ōfunato, Japan"
+        "title": "M 4.8 - 64 km ESE of Ōfunato, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3146,
-          38.849,
-          60.393
+          142.3854,
+          38.8143,
+          49.239
         ]
       },
       "id": "us7000s2mt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "13 km NW of Taichung, Taiwan",
+        "time": 1772810063234,
+        "updated": 1772874392068,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2qn",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s2qn&format=geojson",
+        "felt": 3,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 223,
+        "net": "us",
+        "code": "7000s2qn",
+        "ids": ",us7000s2qn,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.551,
+        "rms": 0.69,
+        "gap": 130,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 13 km NW of Taichung, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5791,
+          24.2213,
+          10
+        ]
+      },
+      "id": "us7000s2qn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Izu Islands, Japan region",
+        "time": 1772794157959,
+        "updated": 1772856196040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2hc",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s2hc&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000s2hc",
+        "ids": ",us7000s2hc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 116,
+        "dmin": 6.45,
+        "rms": 0.83,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3941,
+          29.1998,
+          422.51
+        ]
+      },
+      "id": "us7000s2hc"
     },
     {
       "type": "Feature",
@@ -2972,10 +3052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "114 km S of Koshima, Japan",
-        "time": 1771381666663,
-        "updated": 1771596318040,
+        "mag": 5.1,
+        "place": "113 km S of Koshima, Japan",
+        "time": 1771381667935,
+        "updated": 1772847291421,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9wt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s9wt&format=geojson",
@@ -2985,26 +3065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 400,
         "net": "us",
         "code": "6000s9wt",
         "ids": ",us6000s9wt,usauto6000s9wt,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,moment-tensor,origin,phase-data,",
-        "nst": 77,
-        "dmin": 2.298,
-        "rms": 1.2,
-        "gap": 85,
+        "nst": 113,
+        "dmin": 2.295,
+        "rms": 0.75,
+        "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 114 km S of Koshima, Japan"
+        "title": "M 5.1 - 113 km S of Koshima, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.6669,
-          29.2111,
-          22.742
+          130.5899,
+          29.2093,
+          31.663
         ]
       },
       "id": "us6000s9wt"
@@ -6972,10 +7052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "3 km SSW of Daigo, Japan",
-        "time": 1769203204282,
-        "updated": 1771135009040,
+        "mag": 4,
+        "place": "5 km SW of Daigo, Japan",
+        "time": 1769203204458,
+        "updated": 1772927490040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrq8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rrq8&format=geojson",
@@ -6985,26 +7065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 246,
         "net": "us",
         "code": "7000rrq8",
         "ids": ",us7000rrq8,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 55,
-        "dmin": 1.725,
-        "rms": 0.67,
+        "dmin": 1.7,
+        "rms": 0.72,
         "gap": 125,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 3 km SSW of Daigo, Japan"
+        "title": "M 4.0 - 5 km SW of Daigo, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.3402,
-          36.7319,
-          55.596
+          140.3105,
+          36.7244,
+          56.607
         ]
       },
       "id": "us7000rrq8"
@@ -7174,8 +7254,8 @@
       "properties": {
         "mag": 5.3,
         "place": "94 km E of Yokohama, Japan",
-        "time": 1769092291001,
-        "updated": 1771016433800,
+        "time": 1769092291160,
+        "updated": 1772899396040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrc5",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rrc5&format=geojson",
@@ -7191,9 +7271,9 @@
         "ids": ",us7000rrc5,usauto7000rrc5,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,moment-tensor,origin,phase-data,",
-        "nst": 153,
-        "dmin": 1.048,
-        "rms": 0.81,
+        "nst": 150,
+        "dmin": 1.045,
+        "rms": 0.77,
         "gap": 56,
         "magType": "mww",
         "type": "earthquake",
@@ -7202,9 +7282,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3698,
-          41.1383,
-          55.847
+          142.369,
+          41.1318,
+          57.439
         ]
       },
       "id": "us7000rrc5"
