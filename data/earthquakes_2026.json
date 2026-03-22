@@ -1,14 +1,214 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774055146000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-03-21T01%3A05%3A46&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1774142046000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-03-22T01%3A14%3A06&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 357
+    "count": 362
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "northwest of the Kuril Islands",
+        "time": 1774106505574,
+        "updated": 1774107753040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si77",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000si77&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000si77",
+        "ids": ",aka2026fqfaug,us6000si77,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 6.793,
+        "rms": 0.6,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - northwest of the Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.7411,
+          48.5553,
+          348.098
+        ]
+      },
+      "id": "us6000si77"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "89 km S of Koshima, Japan",
+        "time": 1774093996975,
+        "updated": 1774097685040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si5j",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000si5j&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000si5j",
+        "ids": ",us6000si5j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 2.077,
+        "rms": 0.45,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 89 km S of Koshima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6158,
+          29.4304,
+          39.075
+        ]
+      },
+      "id": "us6000si5j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "91 km SSE of Koshima, Japan",
+        "time": 1774091524833,
+        "updated": 1774130489681,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si57",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000si57&format=geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 3.627,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000si57",
+        "ids": ",us6000si57,usauto6000si57,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 86,
+        "dmin": 2.088,
+        "rms": 1.17,
+        "gap": 94,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 91 km SSE of Koshima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.7265,
+          29.4276,
+          25.517
+        ]
+      },
+      "id": "us6000si57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "14 km WNW of Naze, Japan",
+        "time": 1774041561348,
+        "updated": 1774055320040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shyj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000shyj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000shyj",
+        "ids": ",us6000shyj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 73,
+        "dmin": 1.822,
+        "rms": 0.66,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 14 km WNW of Naze, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.343,
+          28.3965,
+          59.694
+        ]
+      },
+      "id": "us6000shyj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "25 km SSE of Hualien City, Taiwan",
+        "time": 1774013561471,
+        "updated": 1774100962040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shth",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000shth&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000shth",
+        "ids": ",us6000shth,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 108,
+        "dmin": 0.418,
+        "rms": 0.92,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 25 km SSE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7116,
+          23.768,
+          29.077
+        ]
+      },
+      "id": "us6000shth"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1894,8 +2094,8 @@
       "properties": {
         "mag": 4.7,
         "place": "Mariana Islands region",
-        "time": 1772597646494,
-        "updated": 1772599286040,
+        "time": 1772597646251,
+        "updated": 1774133336040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1ws",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s1ws&format=geojson",
@@ -1911,9 +2111,9 @@
         "ids": ",us7000s1ws,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 4.876,
-        "rms": 1.06,
+        "nst": 65,
+        "dmin": 4.874,
+        "rms": 1.13,
         "gap": 128,
         "magType": "mb",
         "type": "earthquake",
@@ -1922,8 +2122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.057,
-          20.1367,
+          146.0382,
+          20.1358,
           35
         ]
       },
