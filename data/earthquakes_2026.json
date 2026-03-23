@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774142046000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-03-22T01%3A14%3A06&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1774228516000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-03-23T01%3A15%3A15&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 362
+    "count": 363
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "76 km SSE of Tateyama, Japan",
+        "time": 1774169766405,
+        "updated": 1774170801779,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sif5",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sif5&format=geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000sif5",
+        "ids": ",us6000sif5,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 40,
+        "dmin": 2.642,
+        "rms": 0.53,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 76 km SSE of Tateyama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1834,
+          34.3424,
+          94.602
+        ]
+      },
+      "id": "us6000sif5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,13 +135,13 @@
         "mag": 5.4,
         "place": "91 km SSE of Koshima, Japan",
         "time": 1774091524833,
-        "updated": 1774130489681,
+        "updated": 1774179331232,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si57",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000si57&format=geojson",
         "felt": 1,
         "cdi": 1,
-        "mmi": 3.627,
+        "mmi": 3.64,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -2973,9 +3013,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "51 km NW of Hirara, Japan",
-        "time": 1772314916416,
-        "updated": 1772321700040,
+        "place": "46 km NW of Hirara, Japan",
+        "time": 1772314916364,
+        "updated": 1774155996040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s14c",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s14c&format=geojson",
@@ -2991,19 +3031,19 @@
         "ids": ",us7000s14c,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 1.023,
-        "rms": 0.89,
-        "gap": 93,
+        "nst": 59,
+        "dmin": 1.038,
+        "rms": 0.91,
+        "gap": 94,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.8 - 51 km NW of Hirara, Japan"
+        "title": "M 4.8 - 46 km NW of Hirara, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          124.9689,
-          25.1573,
+          125.0221,
+          25.1344,
           10
         ]
       },
@@ -3013,9 +3053,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "47 km NW of Hirara, Japan",
-        "time": 1772314768837,
-        "updated": 1772319718040,
+        "place": "50 km NW of Hirara, Japan",
+        "time": 1772314768904,
+        "updated": 1774155334040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s148",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s148&format=geojson",
@@ -3031,19 +3071,19 @@
         "ids": ",us7000s148,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 1.047,
-        "rms": 0.98,
-        "gap": 60,
+        "nst": 62,
+        "dmin": 1.041,
+        "rms": 0.81,
+        "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 47 km NW of Hirara, Japan"
+        "title": "M 4.9 - 50 km NW of Hirara, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.0196,
-          25.1485,
+          124.9947,
+          25.1612,
           10
         ]
       },
@@ -3334,8 +3374,8 @@
       "properties": {
         "mag": 4.4,
         "place": "Bonin Islands, Japan region",
-        "time": 1772233598739,
-        "updated": 1772236794040,
+        "time": 1772233598990,
+        "updated": 1774146015040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0xh",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s0xh&format=geojson",
@@ -3351,10 +3391,10 @@
         "ids": ",us7000s0xh,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 7.684,
-        "rms": 0.67,
-        "gap": 120,
+        "nst": 65,
+        "dmin": 7.698,
+        "rms": 0.71,
+        "gap": 125,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.4 - Bonin Islands, Japan region"
@@ -3362,9 +3402,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.0649,
-          28.0911,
-          447.814
+          139.9178,
+          28.0272,
+          446.646
         ]
       },
       "id": "us7000s0xh"
