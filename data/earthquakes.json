@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774919984000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-03-31T01%3A19%3A44&endtime=2026-03-31T01%3A19%3A44&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1775006791000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-04-01T01%3A26%3A31&endtime=2026-04-01T01%3A26%3A31&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1757
+    "count": 1758
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "2 km E of Ishige, Japan",
+        "time": 1775005578554,
+        "updated": 1775006541168,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s999",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s999&format=geojson",
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 371,
+        "net": "us",
+        "code": "7000s999",
+        "ids": ",us7000s999,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 56,
+        "dmin": 1.507,
+        "rms": 1.27,
+        "gap": 133,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 2 km E of Ishige, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9992,
+          36.1161,
+          63.131
+        ]
+      },
+      "id": "us7000s999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "117 km S of Tateyama, Japan",
+        "time": 1774971528865,
+        "updated": 1775006577607,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s954",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s954&format=geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000s954",
+        "ids": ",us7000s954,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 67,
+        "dmin": 2.736,
+        "rms": 0.68,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 117 km S of Tateyama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9842,
+          33.9265,
+          116.409
+        ]
+      },
+      "id": "us7000s954"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2572,6 +2652,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "Izu Islands, Japan region",
+        "time": 1773404425714,
+        "updated": 1774959324040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7hw",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s7hw&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000s7hw",
+        "ids": ",us7000s7hw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 3.769,
+        "rms": 0.69,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.273,
+          29.8695,
+          407.515
+        ]
+      },
+      "id": "us7000s7hw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "5 km NNE of Ayabe, Japan",
         "time": 1773337283010,
@@ -2932,10 +3052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "3 km S of Namie, Japan",
-        "time": 1773124085052,
-        "updated": 1774672608040,
+        "mag": 4.5,
+        "place": "2 km S of Namie, Japan",
+        "time": 1773124084928,
+        "updated": 1774945226040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s3c4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s3c4&format=geojson",
@@ -2945,26 +3065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
         "code": "7000s3c4",
         "ids": ",us7000s3c4,",
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
-        "nst": 57,
-        "dmin": 2.41,
-        "rms": 0.78,
+        "nst": 77,
+        "dmin": 2.416,
+        "rms": 0.71,
         "gap": 94,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 3 km S of Namie, Japan"
+        "title": "M 4.5 - 2 km S of Namie, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.9955,
-          37.4489,
-          69.63
+          141.0022,
+          37.4592,
+          70.762
         ]
       },
       "id": "us7000s3c4"
@@ -3093,9 +3213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "5 km SSE of Maizuru, Japan",
-        "time": 1773057571202,
-        "updated": 1773066273040,
+        "place": "8 km S of Maizuru, Japan",
+        "time": 1773057571489,
+        "updated": 1774944035040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s356",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s356&format=geojson",
@@ -3112,19 +3232,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 124,
-        "dmin": 1.376,
-        "rms": 0.61,
-        "gap": 56,
+        "dmin": 1.384,
+        "rms": 0.69,
+        "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 5 km SSE of Maizuru, Japan"
+        "title": "M 4.1 - 8 km S of Maizuru, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3463,
-          35.4041,
-          364.465
+          135.3359,
+          35.3771,
+          370.462
         ]
       },
       "id": "us7000s356"
@@ -3848,6 +3968,46 @@
         ]
       },
       "id": "us7000s1q1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Volcano Islands, Japan region",
+        "time": 1772550780005,
+        "updated": 1774989730040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgly",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sgly&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sgly",
+        "ids": ",us6000sgly,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 4.54,
+        "rms": 0.76,
+        "gap": 144,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1854,
+          22.9162,
+          35.991
+        ]
+      },
+      "id": "us6000sgly"
     },
     {
       "type": "Feature",
@@ -9452,10 +9612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "82 km SE of Wadomari, Japan",
-        "time": 1770628581797,
-        "updated": 1772536118040,
+        "mag": 4.5,
+        "place": "95 km SE of Wadomari, Japan",
+        "time": 1770628577596,
+        "updated": 1774965041040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s00h",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s00h&format=geojson",
@@ -9465,26 +9625,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 312,
         "net": "us",
         "code": "7000s00h",
         "ids": ",us7000s00h,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.949,
-        "rms": 1.02,
-        "gap": 125,
+        "nst": 29,
+        "dmin": 1.045,
+        "rms": 0.73,
+        "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 82 km SE of Wadomari, Japan"
+        "title": "M 4.5 - 95 km SE of Wadomari, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.3282,
-          26.944,
-          38.336
+          129.4411,
+          26.8919,
+          10
         ]
       },
       "id": "us7000s00h"
@@ -70168,126 +70328,6 @@
         ]
       },
       "id": "us7000pp6q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Izu Islands, Japan region",
-        "time": 1743422994376,
-        "updated": 1749244343040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q566",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000q566&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000q566",
-        "ids": ",us6000q566,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 2.874,
-        "rms": 0.7,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.5741,
-          29.9294,
-          38.86
-        ]
-      },
-      "id": "us6000q566"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "80 km S of Itoman, Japan",
-        "time": 1743420457568,
-        "updated": 1749244343040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q564",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000q564&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000q564",
-        "ids": ",us6000q564,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.554,
-        "rms": 0.85,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 80 km S of Itoman, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.5725,
-          25.4094,
-          10
-        ]
-      },
-      "id": "us6000q564"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "11 km N of Wadomari, Japan",
-        "time": 1743407490003,
-        "updated": 1749244342040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q55y",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000q55y&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000q55y",
-        "ids": ",us6000q55y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.735,
-        "rms": 0.71,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 11 km N of Wadomari, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.6515,
-          27.4912,
-          50.167
-        ]
-      },
-      "id": "us6000q55y"
     }
   ],
   "bbox": [
