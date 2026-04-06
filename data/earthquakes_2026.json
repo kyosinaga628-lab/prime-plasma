@@ -1,31 +1,151 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775352146000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-04-05T01%3A22%3A26&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1775438550000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-04-06T01%3A22%3A30&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 435
+    "count": 439
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "43 km N of Yonakuni, Japan",
+        "time": 1775403241749,
+        "updated": 1775405013040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smvy",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000smvy&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000smvy",
+        "ids": ",us6000smvy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.392,
+        "rms": 0.98,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 43 km N of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.066,
+          24.8579,
+          135.203
+        ]
+      },
+      "id": "us6000smvy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "Bonin Islands, Japan region",
+        "time": 1775355482073,
+        "updated": 1775356878040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smq4",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000smq4&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000smq4",
+        "ids": ",us6000smq4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 8.424,
+        "rms": 1.01,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6478,
+          28.4548,
+          10
+        ]
+      },
+      "id": "us6000smq4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "8 km N of Hualien City, Taiwan",
+        "time": 1775337839497,
+        "updated": 1775354345040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smnq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000smnq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000smnq",
+        "ids": ",us6000smnq,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.123,
+        "rms": 0.95,
+        "gap": 66,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 8 km N of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6175,
+          24.0518,
+          23.376
+        ]
+      },
+      "id": "us6000smnq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "4 km ENE of Hualien City, Taiwan",
         "time": 1775322897460,
-        "updated": 1775349095010,
+        "updated": 1775410916680,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smlu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000smlu&format=geojson",
-        "felt": 28,
+        "felt": 37,
         "cdi": 5.2,
-        "mmi": 5.683,
+        "mmi": 5.654,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 480,
+        "sig": 485,
         "net": "us",
         "code": "6000smlu",
         "ids": ",us6000smlu,usauto6000smlu,",
@@ -375,17 +495,17 @@
         "mag": 4.9,
         "place": "2 km E of Ishige, Japan",
         "time": 1775005578554,
-        "updated": 1775100955271,
+        "updated": 1775411536933,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s999",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s999&format=geojson",
-        "felt": 51,
+        "felt": 52,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 391,
+        "sig": 392,
         "net": "us",
         "code": "7000s999",
         "ids": ",us7000s999,",
@@ -1173,9 +1293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "127 km E of Yamada, Japan",
-        "time": 1774554991130,
-        "updated": 1774556154040,
+        "place": "118 km E of Yamada, Japan",
+        "time": 1774554991413,
+        "updated": 1775400625040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7xc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s7xc&format=geojson",
@@ -1190,20 +1310,20 @@
         "code": "7000s7xc",
         "ids": ",us7000s7xc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 2.283,
-        "rms": 0.84,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 84,
+        "dmin": 2.207,
+        "rms": 0.67,
         "gap": 129,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 127 km E of Yamada, Japan"
+        "title": "M 4.9 - 118 km E of Yamada, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.4316,
-          39.4034,
+          143.3275,
+          39.4245,
           10
         ]
       },
@@ -2248,6 +2368,46 @@
         ]
       },
       "id": "us6000shhk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "Bonin Islands, Japan region",
+        "time": 1773909984572,
+        "updated": 1775372076040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s86e",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s86e&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000s86e",
+        "ids": ",us7000s86e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 1.027,
+        "rms": 0.47,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0203,
+          28.1163,
+          33.208
+        ]
+      },
+      "id": "us7000s86e"
     },
     {
       "type": "Feature",
