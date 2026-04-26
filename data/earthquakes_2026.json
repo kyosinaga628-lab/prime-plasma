@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777080141000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-04-25T01%3A22%3A21&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1777167827000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-04-26T01%3A43%3A47&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 541
+    "count": 544
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "108 km ENE of Miyako, Japan",
+        "time": 1777149692778,
+        "updated": 1777154496040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssvu",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ssvu&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000ssvu",
+        "ids": ",us6000ssvu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 1.835,
+        "rms": 0.69,
+        "gap": 98,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 108 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1612,
+          39.8948,
+          35
+        ]
+      },
+      "id": "us6000ssvu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "9 km ENE of Yilan, Taiwan",
+        "time": 1777101394020,
+        "updated": 1777102352038,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sss5",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sss5&format=geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000sss5",
+        "ids": ",us6000sss5,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.352,
+        "rms": 0.69,
+        "gap": 45,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.1 - 9 km ENE of Yilan, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8351,
+          24.7997,
+          70.245
+        ]
+      },
+      "id": "us6000sss5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1614,8 +1694,8 @@
       "properties": {
         "mag": 4.4,
         "place": "Kuril Islands",
-        "time": 1776027134871,
-        "updated": 1776093611040,
+        "time": 1776027134087,
+        "updated": 1777136022040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spjk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000spjk&format=geojson",
@@ -1631,10 +1711,10 @@
         "ids": ",us6000spjk,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 5.714,
-        "rms": 0.57,
-        "gap": 168,
+        "nst": 89,
+        "dmin": 5.715,
+        "rms": 0.59,
+        "gap": 135,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.4 - Kuril Islands"
@@ -1642,9 +1722,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.7438,
-          48.3424,
-          151.716
+          152.812,
+          48.3143,
+          146.935
         ]
       },
       "id": "us6000spjk"
@@ -2968,6 +3048,46 @@
         ]
       },
       "id": "us6000spql"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "162 km SSE of Kuril’sk, Russia",
+        "time": 1775244350354,
+        "updated": 1777154837040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spqg",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000spqg&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000spqg",
+        "ids": ",us6000spqg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 4.597,
+        "rms": 0.72,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 162 km SSE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9674,
+          43.9838,
+          15.803
+        ]
+      },
+      "id": "us6000spqg"
     },
     {
       "type": "Feature",
