@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777254413000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-04-27T01%3A46%3A53&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1777341286000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-04-28T01%3A54%3A45&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 549
+    "count": 550
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 6.1,
         "place": "18 km W of Sarabetsu, Japan",
         "time": 1777235035561,
-        "updated": 1777249464865,
+        "updated": 1777323201055,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st1m",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000st1m&format=geojson",
-        "felt": 11,
-        "cdi": 3.4,
+        "felt": 16,
+        "cdi": 5.3,
         "mmi": 5.25,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 576,
+        "sig": 581,
         "net": "us",
         "code": "6000st1m",
         "ids": ",us6000st1m,usauto6000st1m,",
@@ -1653,9 +1653,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "36 km E of Preobrazheniye, Russia",
-        "time": 1776289913867,
-        "updated": 1776292759040,
+        "place": "37 km ESE of Preobrazheniye, Russia",
+        "time": 1776289913561,
+        "updated": 1777330991040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqf5",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sqf5&format=geojson",
@@ -1671,20 +1671,20 @@
         "ids": ",us6000sqf5,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 125,
-        "dmin": 2.186,
-        "rms": 0.6,
-        "gap": 52,
+        "nst": 128,
+        "dmin": 2.202,
+        "rms": 0.62,
+        "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 36 km E of Preobrazheniye, Russia"
+        "title": "M 4.4 - 37 km ESE of Preobrazheniye, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.3447,
-          42.8415,
-          419.576
+          134.345,
+          42.8175,
+          417.43
         ]
       },
       "id": "us6000sqf5"
@@ -2053,9 +2053,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "261 km SE of Kushimoto, Japan",
-        "time": 1775856550075,
-        "updated": 1775861510040,
+        "place": "272 km SE of Kushimoto, Japan",
+        "time": 1775856548679,
+        "updated": 1777317547040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sp7k",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sp7k&format=geojson",
@@ -2071,20 +2071,20 @@
         "ids": ",us6000sp7k,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 3.79,
-        "rms": 0.67,
-        "gap": 142,
+        "nst": 67,
+        "dmin": 3.849,
+        "rms": 0.76,
+        "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 261 km SE of Kushimoto, Japan"
+        "title": "M 4.3 - 272 km SE of Kushimoto, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.7665,
-          31.8201,
-          410.485
+          137.8811,
+          31.77,
+          395.695
         ]
       },
       "id": "us6000sp7k"
@@ -2728,6 +2728,46 @@
         ]
       },
       "id": "us6000sn17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "43 km NW of Basco, Philippines",
+        "time": 1775476244855,
+        "updated": 1777309414040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqkc",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sqkc&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000sqkc",
+        "ids": ",us6000sqkc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 2.193,
+        "rms": 0.57,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 43 km NW of Basco, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6234,
+          20.6733,
+          54.047
+        ]
+      },
+      "id": "us6000sqkc"
     },
     {
       "type": "Feature",
