@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777686421000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-02T01%3A47%3A01&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1777773023000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-03T01%3A50%3A23&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 576
+    "count": 582
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "88 km WSW of Basco, Philippines",
+        "time": 1777749380047,
+        "updated": 1777751001040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shug",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shug&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000shug",
+        "ids": ",us7000shug,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 2.569,
+        "rms": 0.71,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 88 km WSW of Basco, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1553,
+          20.237,
+          36.966
+        ]
+      },
+      "id": "us7000shug"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "17 km SW of Kōya, Japan",
+        "time": 1777714120989,
+        "updated": 1777767922800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shs2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shs2&format=geojson",
+        "felt": 30,
+        "cdi": 4.6,
+        "mmi": 4.85,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 514,
+        "net": "us",
+        "code": "7000shs2",
+        "ids": ",us7000shs2,usauto7000shs2,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 66,
+        "dmin": 1.39,
+        "rms": 0.76,
+        "gap": 95,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 17 km SW of Kōya, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4857,
+          34.107,
+          59.087
+        ]
+      },
+      "id": "us7000shs2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1777710993795,
+        "updated": 1777711989040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shrs",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shrs&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000shrs",
+        "ids": ",us7000shrs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 105,
+        "dmin": 4.398,
+        "rms": 0.68,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.502,
+          31.117,
+          396.223
+        ]
+      },
+      "id": "us7000shrs"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +255,17 @@
         "mag": 5.8,
         "place": "29 km ENE of Yilan, Taiwan",
         "time": 1777639195578,
-        "updated": 1777678462735,
+        "updated": 1777742125738,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shjp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shjp&format=geojson",
-        "felt": 43,
+        "felt": 45,
         "cdi": 4.3,
         "mmi": 3.844,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 537,
         "net": "us",
         "code": "7000shjp",
         "ids": ",us7000shjp,usauto7000shjp,",
@@ -1492,6 +1612,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "Izu Islands, Japan region",
+        "time": 1776704555448,
+        "updated": 1777742679040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgzh",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgzh&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000sgzh",
+        "ids": ",us7000sgzh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 6.244,
+        "rms": 0.88,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6569,
+          29.9971,
+          10
+        ]
+      },
+      "id": "us7000sgzh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "129 km E of Yamada, Japan",
         "time": 1776701597100,
@@ -2254,8 +2414,8 @@
       "properties": {
         "mag": 4.6,
         "place": "Mariana Islands region",
-        "time": 1776295171122,
-        "updated": 1776300218040,
+        "time": 1776295171544,
+        "updated": 1777686791040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqfi",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sqfi&format=geojson",
@@ -2271,10 +2431,10 @@
         "ids": ",us6000sqfi,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 15.497,
-        "rms": 1,
-        "gap": 143,
+        "nst": 70,
+        "dmin": 15.394,
+        "rms": 0.87,
+        "gap": 133,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.6 - Mariana Islands region"
@@ -2282,8 +2442,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.7492,
-          21.9039,
+          145.6977,
+          21.9956,
           10
         ]
       },
@@ -2655,7 +2815,7 @@
         "mag": 4.6,
         "place": "32 km ESE of Onagawa Chō, Japan",
         "time": 1775998843320,
-        "updated": 1776001044040,
+        "updated": 1777767401040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sphk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sphk&format=geojson",
@@ -2670,7 +2830,7 @@
         "code": "6000sphk",
         "ids": ",us6000sphk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 57,
         "dmin": 2.542,
         "rms": 0.91,
@@ -3012,10 +3172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "175 km S of Yonakuni, Japan",
+        "time": 1775752132428,
+        "updated": 1777693629040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snq3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000snq3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000snq3",
+        "ids": ",us6000snq3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.576,
+        "rms": 0.89,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 175 km S of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.0289,
+          22.8837,
+          10
+        ]
+      },
+      "id": "us6000snq3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "Volcano Islands, Japan region",
-        "time": 1775749795785,
-        "updated": 1775750801040,
+        "time": 1775749795574,
+        "updated": 1777692854040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snpx",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000snpx&format=geojson",
@@ -3031,10 +3231,10 @@
         "ids": ",us6000snpx,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 7.159,
-        "rms": 0.65,
-        "gap": 69,
+        "nst": 44,
+        "dmin": 7.168,
+        "rms": 0.81,
+        "gap": 70,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.9 - Volcano Islands, Japan region"
@@ -3042,12 +3242,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0438,
-          22.4034,
-          22.087
+          145.0558,
+          22.4139,
+          19.401
         ]
       },
       "id": "us6000snpx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Bonin Islands, Japan region",
+        "time": 1775742561535,
+        "updated": 1777689525040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqwi",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sqwi&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000sqwi",
+        "ids": ",us6000sqwi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 9.793,
+        "rms": 0.43,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0292,
+          27.6138,
+          10
+        ]
+      },
+      "id": "us6000sqwi"
     },
     {
       "type": "Feature",
