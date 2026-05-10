@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778291652000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-09T01%3A54%3A12&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1778378011000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-10T01%3A53%3A31&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 629
+    "count": 634
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "44 km WNW of Ishigaki, Japan",
+        "time": 1778343532053,
+        "updated": 1778360250040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhc",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swhc&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000swhc",
+        "ids": ",us6000swhc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 203,
+        "dmin": 0.695,
+        "rms": 0.61,
+        "gap": 50,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.6 - 44 km WNW of Ishigaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7707,
+          24.5387,
+          35.445
+        ]
+      },
+      "id": "us6000swhc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "68 km S of Miyakojima, Japan",
+        "time": 1778290016595,
+        "updated": 1778292134040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swe6",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swe6&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000swe6",
+        "ids": ",us6000swe6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 2.087,
+        "rms": 1.4,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 68 km S of Miyakojima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2755,
+          24.1702,
+          35
+        ]
+      },
+      "id": "us6000swe6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1093,9 +1173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "106 km ENE of Kuji, Japan",
-        "time": 1777538599055,
-        "updated": 1777540085040,
+        "place": "95 km ENE of Kuji, Japan",
+        "time": 1777538599582,
+        "updated": 1778321384040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh7j",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sh7j&format=geojson",
@@ -1111,23 +1191,63 @@
         "ids": ",us7000sh7j,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.393,
-        "rms": 0.89,
+        "nst": 45,
+        "dmin": 1.358,
+        "rms": 0.71,
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 106 km ENE of Kuji, Japan"
+        "title": "M 4.5 - 95 km ENE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.8855,
-          40.6305,
-          35.555
+          142.8124,
+          40.515,
+          44.657
         ]
       },
       "id": "us7000sh7j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "69 km ENE of Kuji, Japan",
+        "time": 1777526045537,
+        "updated": 1778310905040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw7c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sw7c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sw7c",
+        "ids": ",us6000sw7c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.153,
+        "rms": 0.94,
+        "gap": 188,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 69 km ENE of Kuji, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5098,
+          40.4445,
+          35.096
+        ]
+      },
+      "id": "us6000sw7c"
     },
     {
       "type": "Feature",
@@ -1333,9 +1453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "77 km ENE of Miyako, Japan",
-        "time": 1777222642275,
-        "updated": 1777223641040,
+        "place": "77 km E of Noda, Japan",
+        "time": 1777222642588,
+        "updated": 1778343754040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st11",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000st11&format=geojson",
@@ -1352,18 +1472,18 @@
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,origin,phase-data,",
         "nst": 90,
-        "dmin": 1.504,
-        "rms": 0.8,
-        "gap": 128,
+        "dmin": 1.465,
+        "rms": 0.62,
+        "gap": 114,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 77 km ENE of Miyako, Japan"
+        "title": "M 5.0 - 77 km E of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.7328,
-          39.9892,
+          142.7243,
+          40.0529,
           35
         ]
       },
@@ -1488,6 +1608,86 @@
         ]
       },
       "id": "us6000sss5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "Kuril Islands",
+        "time": 1777046936854,
+        "updated": 1778339142040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shc6",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shc6&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000shc6",
+        "ids": ",us7000shc6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 5.58,
+        "rms": 0.72,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4369,
+          48.2346,
+          93.842
+        ]
+      },
+      "id": "us7000shc6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "32 km ESE of Yilan, Taiwan",
+        "time": 1777042619772,
+        "updated": 1778337850040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shc4",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shc4&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000shc4",
+        "ids": ",us7000shc4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.605,
+        "rms": 0.72,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 32 km ESE of Yilan, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0422,
+          24.6219,
+          64.033
+        ]
+      },
+      "id": "us7000shc4"
     },
     {
       "type": "Feature",
@@ -6532,10 +6732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "11 km SE of Yamada, Japan",
-        "time": 1775139743088,
-        "updated": 1776955707040,
+        "mag": 4.4,
+        "place": "12 km E of Ōtsuchi, Japan",
+        "time": 1775139743638,
+        "updated": 1778349602040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sp3c",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sp3c&format=geojson",
@@ -6545,26 +6745,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 298,
         "net": "us",
         "code": "6000sp3c",
         "ids": ",us6000sp3c,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.582,
-        "rms": 0.69,
+        "nst": 28,
+        "dmin": 1.599,
+        "rms": 1.04,
         "gap": 127,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 11 km SE of Yamada, Japan"
+        "title": "M 4.4 - 12 km E of Ōtsuchi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.0514,
-          39.3989,
-          71.423
+          142.0457,
+          39.377,
+          74.846
         ]
       },
       "id": "us6000sp3c"
