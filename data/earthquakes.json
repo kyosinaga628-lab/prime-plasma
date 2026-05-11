@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778378010000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-10T01%3A53%3A29&endtime=2026-05-10T01%3A53%3A29&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1778464967000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-11T02%3A02%3A46&endtime=2026-05-11T02%3A02%3A46&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1833
+    "count": 1836
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "146 km E of Miyako, Japan",
+        "time": 1778458900314,
+        "updated": 1778464629040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swtm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swtm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000swtm",
+        "ids": ",usautoa000sw4b,us6000swtm,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,origin,phase-data,",
+        "nst": 90,
+        "dmin": 2.193,
+        "rms": 0.54,
+        "gap": 58,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 146 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6317,
+          39.8116,
+          10
+        ]
+      },
+      "id": "us6000swtm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "178 km SW of Severo-Kuril’sk, Russia",
+        "time": 1778446819896,
+        "updated": 1778462267040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swsn",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swsn&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000swsn",
+        "ids": ",us6000swsn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 4.152,
+        "rms": 0.78,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 178 km SW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.4044,
+          49.5113,
+          129.388
+        ]
+      },
+      "id": "us6000swsn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "292 km ESE of Onagawa Chō, Japan",
+        "time": 1778382219921,
+        "updated": 1778385566040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swkj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swkj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000swkj",
+        "ids": ",us6000swkj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 4.333,
+        "rms": 0.73,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 292 km ESE of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4869,
+          37.3662,
+          10
+        ]
+      },
+      "id": "us6000swkj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1052,10 +1172,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Bonin Islands, Japan region",
+        "time": 1777646445676,
+        "updated": 1778436731040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw96",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sw96&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000sw96",
+        "ids": ",us6000sw96,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 10.797,
+        "rms": 0.92,
+        "gap": 161,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5994,
+          26.3823,
+          10
+        ]
+      },
+      "id": "us6000sw96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "74 km WSW of Basco, Philippines",
+        "time": 1777642583235,
+        "updated": 1778435360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw93",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sw93&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000sw93",
+        "ids": ",us6000sw93,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.637,
+        "rms": 0.93,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 74 km WSW of Basco, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3157,
+          20.1767,
+          10
+        ]
+      },
+      "id": "us6000sw93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
-        "place": "75 km ENE of Hasaki, Japan",
-        "time": 1777640441206,
-        "updated": 1777641485040,
+        "place": "81 km ENE of Hasaki, Japan",
+        "time": 1777640441190,
+        "updated": 1778431166040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shjt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shjt&format=geojson",
@@ -1071,19 +1271,19 @@
         "ids": ",usauto7000shjt,us7000shjt,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 64,
-        "dmin": 2.843,
-        "rms": 0.49,
-        "gap": 95,
+        "nst": 71,
+        "dmin": 2.871,
+        "rms": 0.59,
+        "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 75 km ENE of Hasaki, Japan"
+        "title": "M 4.9 - 81 km ENE of Hasaki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.636,
-          35.9238,
+          141.6879,
+          35.9582,
           35
         ]
       },
@@ -5374,8 +5574,8 @@
       "properties": {
         "mag": 3.2,
         "place": "28 km NNW of Yawatahama, Japan",
-        "time": 1775646784639,
-        "updated": 1775662581923,
+        "time": 1775646784668,
+        "updated": 1778421506040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sbb8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sbb8&format=geojson",
@@ -5392,7 +5592,7 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 9,
-        "dmin": 1.271,
+        "dmin": 1.274,
         "rms": 1.05,
         "gap": 128,
         "magType": "ml",
@@ -5402,9 +5602,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          132.3519,
-          33.7082,
-          70.335
+          132.3475,
+          33.7064,
+          67.99
         ]
       },
       "id": "us7000sbb8"
@@ -6092,10 +6292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "69 km E of Namie, Japan",
-        "time": 1775410089901,
-        "updated": 1776526738040,
+        "mag": 4.2,
+        "place": "75 km E of Namie, Japan",
+        "time": 1775410089692,
+        "updated": 1778426866040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqdq",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sqdq&format=geojson",
@@ -6105,26 +6305,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
+        "sig": 271,
         "net": "us",
         "code": "6000sqdq",
         "ids": ",us6000sqdq,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 3.016,
-        "rms": 0.32,
+        "nst": 31,
+        "dmin": 3.057,
+        "rms": 0.47,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 69 km E of Namie, Japan"
+        "title": "M 4.2 - 75 km E of Namie, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.7859,
-          37.4937,
-          66.378
+          141.8502,
+          37.4657,
+          35
         ]
       },
       "id": "us6000sqdq"
@@ -73248,86 +73448,6 @@
         ]
       },
       "id": "us7000pyj0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "117 km SSE of Kuril’sk, Russia",
-        "time": 1746923767799,
-        "updated": 1753392614040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pyhm",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pyhm&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000pyhm",
-        "ids": ",us7000pyhm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 82,
-        "dmin": 4.398,
-        "rms": 0.59,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 117 km SSE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.7041,
-          44.3465,
-          61.848
-        ]
-      },
-      "id": "us7000pyhm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "81 km SW of Kurio, Japan",
-        "time": 1746877516029,
-        "updated": 1753392613040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pyev",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pyev&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pyev",
-        "ids": ",us7000pyev,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.875,
-        "rms": 0.85,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 81 km SW of Kurio, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.9032,
-          29.689,
-          78.512
-        ]
-      },
-      "id": "us7000pyev"
     }
   ],
   "bbox": [
