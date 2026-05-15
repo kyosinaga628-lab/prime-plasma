@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778724405000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-14T02%3A06%3A44&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1778810724000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-15T02%3A05%3A24&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 661
+    "count": 674
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "Volcano Islands, Japan region",
+        "time": 1778772846382,
+        "updated": 1778774153040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxnw",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sxnw&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000sxnw",
+        "ids": ",usauto6000sxnw,us6000sxnw,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,origin,phase-data,",
+        "nst": 94,
+        "dmin": 9.259,
+        "rms": 1.14,
+        "gap": 33,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.443,
+          25.1362,
+          157.426
+        ]
+      },
+      "id": "us6000sxnw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 5.1,
         "place": "Izu Islands, Japan region",
         "time": 1778641713276,
-        "updated": 1778642444040,
+        "updated": 1778779891040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxc0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sxc0&format=geojson",
@@ -110,7 +150,7 @@
         "code": "6000sxc0",
         "ids": ",usauto6000sxc0,us6000sxc0,",
         "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,origin,phase-data,",
+        "types": ",internal-moment-tensor,moment-tensor,origin,phase-data,",
         "nst": 58,
         "dmin": 5.101,
         "rms": 1.1,
@@ -735,11 +775,11 @@
         "mag": 4.6,
         "place": "5 km E of Chikusei, Japan",
         "time": 1778179802354,
-        "updated": 1778643042968,
+        "updated": 1778774217625,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw0d",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sw0d&format=geojson",
-        "felt": 20,
+        "felt": 21,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -815,17 +855,17 @@
         "mag": 4.4,
         "place": "4 km NNE of Chigasaki, Japan",
         "time": 1778061987876,
-        "updated": 1778665691853,
+        "updated": 1778774064638,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svm7",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000svm7&format=geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 303,
+        "sig": 304,
         "net": "us",
         "code": "6000svm7",
         "ids": ",us6000svm7,",
@@ -1012,10 +1052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
+        "mag": 4.2,
         "place": "159 km SSE of Miyakojima, Japan",
-        "time": 1777904156038,
-        "updated": 1777914671040,
+        "time": 1777904154476,
+        "updated": 1778787261040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000si55",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000si55&format=geojson",
@@ -1025,26 +1065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 271,
         "net": "us",
         "code": "7000si55",
         "ids": ",us7000si55,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 3.007,
-        "rms": 0.87,
-        "gap": 184,
+        "nst": 23,
+        "dmin": 3.011,
+        "rms": 0.92,
+        "gap": 144,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 159 km SSE of Miyakojima, Japan"
+        "title": "M 4.2 - 159 km SSE of Miyakojima, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.1541,
-          23.5765,
-          21.291
+          126.1596,
+          23.5812,
+          10
         ]
       },
       "id": "us7000si55"
@@ -1134,8 +1174,8 @@
       "properties": {
         "mag": 4,
         "place": "Bonin Islands, Japan region",
-        "time": 1777826196132,
-        "updated": 1777827685040,
+        "time": 1777826195436,
+        "updated": 1778786420040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shzf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shzf&format=geojson",
@@ -1151,9 +1191,9 @@
         "ids": ",us7000shzf,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 7.658,
-        "rms": 0.9,
+        "nst": 40,
+        "dmin": 7.783,
+        "rms": 1.26,
         "gap": 141,
         "magType": "mb",
         "type": "earthquake",
@@ -1162,9 +1202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.6752,
-          28.0082,
-          470.056
+          139.7703,
+          27.9023,
+          468.595
         ]
       },
       "id": "us7000shzf"
@@ -1173,9 +1213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "57 km NNE of Yonakuni, Japan",
-        "time": 1777825133661,
-        "updated": 1777826209040,
+        "place": "47 km NNE of Yonakuni, Japan",
+        "time": 1777825134151,
+        "updated": 1778785832040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shza",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shza&format=geojson",
@@ -1191,20 +1231,20 @@
         "ids": ",us7000shza,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.511,
-        "rms": 0.82,
-        "gap": 65,
+        "nst": 77,
+        "dmin": 0.425,
+        "rms": 1.16,
+        "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 57 km NNE of Yonakuni, Japan"
+        "title": "M 4.9 - 47 km NNE of Yonakuni, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.2744,
-          24.9201,
-          131.448
+          123.2581,
+          24.8291,
+          140.564
         ]
       },
       "id": "us7000shza"
@@ -1214,8 +1254,8 @@
       "properties": {
         "mag": 4.5,
         "place": "Bonin Islands, Japan region",
-        "time": 1777792030470,
-        "updated": 1777793736040,
+        "time": 1777792030391,
+        "updated": 1778749460040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shxg",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shxg&format=geojson",
@@ -1231,9 +1271,9 @@
         "ids": ",us7000shxg,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 7.859,
-        "rms": 0.5,
+        "nst": 44,
+        "dmin": 7.889,
+        "rms": 0.53,
         "gap": 128,
         "magType": "mb",
         "type": "earthquake",
@@ -1242,8 +1282,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.5152,
-          28.9934,
+          142.554,
+          28.9796,
           10
         ]
       },
@@ -1254,8 +1294,8 @@
       "properties": {
         "mag": 4.2,
         "place": "Kuril Islands",
-        "time": 1777786734812,
-        "updated": 1777789388040,
+        "time": 1777786732890,
+        "updated": 1778747897040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shx6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shx6&format=geojson",
@@ -1271,9 +1311,9 @@
         "ids": ",us7000shx6,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 6.637,
-        "rms": 0.74,
+        "nst": 28,
+        "dmin": 6.639,
+        "rms": 0.7,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
@@ -1282,9 +1322,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.2733,
-          47.459,
-          119.14
+          152.4625,
+          47.3854,
+          101.173
         ]
       },
       "id": "us7000shx6"
@@ -2013,37 +2053,37 @@
       "type": "Feature",
       "properties": {
         "mag": 6.1,
-        "place": "25 km WNW of Sarabetsu, Japan",
-        "time": 1777235035589,
-        "updated": 1778007023577,
+        "place": "24 km WNW of Sarabetsu, Japan",
+        "time": 1777235035653,
+        "updated": 1778764288793,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st1m",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000st1m&format=geojson",
-        "felt": 18,
+        "felt": 19,
         "cdi": 5.3,
         "mmi": 5.099,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 582,
+        "sig": 583,
         "net": "us",
         "code": "6000st1m",
         "ids": ",us6000st1m,usauto6000st1m,",
         "sources": ",us,usauto,",
-        "types": ",dyfi,ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,impact-text,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 128,
-        "dmin": 0.727,
-        "rms": 0.65,
+        "dmin": 0.722,
+        "rms": 0.66,
         "gap": 35,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - 25 km WNW of Sarabetsu, Japan"
+        "title": "M 6.1 - 24 km WNW of Sarabetsu, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.8827,
-          42.7138,
+          142.8944,
+          42.7102,
           81
         ]
       },
@@ -2853,8 +2893,8 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "45 km E of Noda, Japan",
-        "time": 1776879997429,
+        "place": "16 km E of Noda, Japan",
+        "time": 1776879999098,
         "updated": 1778704685040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss57",
@@ -2871,20 +2911,20 @@
         "ids": ",us6000ss57,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 1.193,
-        "rms": 1.03,
-        "gap": 149,
+        "nst": 73,
+        "dmin": 0.986,
+        "rms": 0.54,
+        "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 45 km E of Noda, Japan"
+        "title": "M 4.5 - 16 km E of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3557,
-          40.1155,
-          35
+          142.016,
+          40.1219,
+          59.027
         ]
       },
       "id": "us6000ss57"
@@ -3012,10 +3052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "93 km ENE of Miyako, Japan",
-        "time": 1776860317573,
-        "updated": 1776861273040,
+        "mag": 5.1,
+        "place": "103 km ENE of Miyako, Japan",
+        "time": 1776860315650,
+        "updated": 1778752312040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss1u",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ss1u&format=geojson",
@@ -3025,26 +3065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 400,
         "net": "us",
         "code": "6000ss1u",
         "ids": ",us6000ss1u,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 113,
-        "dmin": 1.63,
-        "rms": 0.56,
-        "gap": 60,
+        "nst": 248,
+        "dmin": 1.684,
+        "rms": 0.49,
+        "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 93 km ENE of Miyako, Japan"
+        "title": "M 5.1 - 103 km ENE of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.9285,
-          39.9953,
-          57.183
+          143.0366,
+          40.034,
+          35
         ]
       },
       "id": "us6000ss1u"
@@ -3053,9 +3093,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "47 km ENE of Noda, Japan",
-        "time": 1776859585539,
-        "updated": 1776860556040,
+        "place": "54 km E of Noda, Japan",
+        "time": 1776859582766,
+        "updated": 1778751127040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss1s",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ss1s&format=geojson",
@@ -3071,20 +3111,20 @@
         "ids": ",us6000ss1s,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.054,
-        "rms": 0.58,
-        "gap": 182,
+        "nst": 103,
+        "dmin": 1.212,
+        "rms": 0.73,
+        "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 47 km ENE of Noda, Japan"
+        "title": "M 4.5 - 54 km E of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3004,
-          40.3162,
-          57.72
+          142.4476,
+          40.1924,
+          35
         ]
       },
       "id": "us6000ss1s"
@@ -3092,10 +3132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "102 km ENE of Miyako, Japan",
-        "time": 1776851346823,
-        "updated": 1776852539040,
+        "mag": 4.3,
+        "place": "116 km ENE of Miyako, Japan",
+        "time": 1776851345742,
+        "updated": 1778750520040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss1b",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ss1b&format=geojson",
@@ -3105,25 +3145,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 284,
         "net": "us",
         "code": "6000ss1b",
         "ids": ",us6000ss1b,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.744,
-        "rms": 0.39,
-        "gap": 196,
+        "nst": 43,
+        "dmin": 1.891,
+        "rms": 0.29,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 102 km ENE of Miyako, Japan"
+        "title": "M 4.3 - 116 km ENE of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.0654,
-          39.9495,
+          143.2558,
+          39.9101,
           35
         ]
       },
@@ -4652,39 +4692,79 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "113 km E of Miyako, Japan",
-        "time": 1776673966679,
-        "updated": 1776854077727,
+        "mag": 5.4,
+        "place": "100 km E of Yamada, Japan",
+        "time": 1776674016368,
+        "updated": 1778769978725,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh03",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sh03&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.623,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000sh03",
+        "ids": ",us7000sh03,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 69,
+        "dmin": 2.067,
+        "rms": 0.59,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - 100 km E of Yamada, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1218,
+          39.4523,
+          35
+        ]
+      },
+      "id": "us7000sh03"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "111 km E of Miyako, Japan",
+        "time": 1776673968024,
+        "updated": 1778750240582,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srih",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srih&format=geojson",
         "felt": 3,
         "cdi": 4.3,
-        "mmi": 3.49,
+        "mmi": 3.536,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 484,
+        "sig": 450,
         "net": "us",
         "code": "6000srih",
         "ids": ",us6000srih,",
         "sources": ",us,",
         "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 36,
-        "dmin": 2.035,
-        "rms": 0.56,
-        "gap": 97,
+        "nst": 183,
+        "dmin": 2.002,
+        "rms": 0.51,
+        "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.6 - 113 km E of Miyako, Japan"
+        "title": "M 5.4 - 111 km E of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.2591,
-          39.6393,
-          24.452
+          143.2372,
+          39.6729,
+          30.113
         ]
       },
       "id": "us6000srih"
@@ -4692,16 +4772,456 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "104 km E of Miyako, Japan",
+        "time": 1776673810677,
+        "updated": 1778762479040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgyn",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgyn&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000sgyn",
+        "ids": ",us7000sgyn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.873,
+        "rms": 0.46,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 104 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.145,
+          39.8002,
+          31.515
+        ]
+      },
+      "id": "us7000sgyn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "80 km ENE of Miyako, Japan",
+        "time": 1776673436112,
+        "updated": 1778763143040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgyp",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgyp&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000sgyp",
+        "ids": ",us7000sgyp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.674,
+        "rms": 0.78,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 80 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.849,
+          39.8178,
+          44.32
+        ]
+      },
+      "id": "us7000sgyp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "124 km E of Miyako, Japan",
+        "time": 1776672919797,
+        "updated": 1778765431040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh04",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sh04&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000sh04",
+        "ids": ",us7000sh04,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.075,
+        "rms": 0.66,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 124 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3869,
+          39.7176,
+          15.916
+        ]
+      },
+      "id": "us7000sh04"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "118 km E of Miyako, Japan",
+        "time": 1776672888378,
+        "updated": 1778764382040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgyi",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgyi&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000sgyi",
+        "ids": ",us7000sgyi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 2.061,
+        "rms": 0.7,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 118 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3259,
+          39.6697,
+          40.076
+        ]
+      },
+      "id": "us7000sgyi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "115 km E of Miyako, Japan",
+        "time": 1776672762998,
+        "updated": 1778765920040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgyk",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgyk&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000sgyk",
+        "ids": ",us7000sgyk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.982,
+        "rms": 0.76,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 115 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2776,
+          39.7579,
+          35
+        ]
+      },
+      "id": "us7000sgyk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "114 km ENE of Miyako, Japan",
+        "time": 1776672534262,
+        "updated": 1778772572040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgyj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgyj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000sgyj",
+        "ids": ",us7000sgyj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 91,
+        "dmin": 1.913,
+        "rms": 0.5,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 114 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2522,
+          39.859,
+          35
+        ]
+      },
+      "id": "us7000sgyj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "90 km ENE of Miyako, Japan",
+        "time": 1776672499830,
+        "updated": 1778771929040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh0b",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sh0b&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000sh0b",
+        "ids": ",us7000sh0b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 1.69,
+        "rms": 0.63,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 90 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9488,
+          39.9038,
+          30.332
+        ]
+      },
+      "id": "us7000sh0b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "143 km ENE of Miyako, Japan",
+        "time": 1776672185906,
+        "updated": 1778777238494,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgyl",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgyl&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.313,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000sgyl",
+        "ids": ",us7000sgyl,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 86,
+        "dmin": 2.09,
+        "rms": 0.63,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - 143 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5674,
+          39.9445,
+          34.906
+        ]
+      },
+      "id": "us7000sgyl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "117 km E of Yamada, Japan",
+        "time": 1776672173719,
+        "updated": 1778776551501,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh0d",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sh0d&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.377,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000sh0d",
+        "ids": ",us7000sh0d,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 63,
+        "dmin": 2.114,
+        "rms": 0.48,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 117 km E of Yamada, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3161,
+          39.5657,
+          35
+        ]
+      },
+      "id": "us7000sh0d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "139 km E of Miyako, Japan",
+        "time": 1776672092967,
+        "updated": 1778767611040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgym",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgym&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000sgym",
+        "ids": ",us7000sgym,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 77,
+        "dmin": 2.166,
+        "rms": 0.6,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 139 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5572,
+          39.7608,
+          35
+        ]
+      },
+      "id": "us7000sgym"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "100 km E of Miyako, Japan",
+        "time": 1776671809716,
+        "updated": 1778774708428,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh0a",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sh0a&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.999,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "us",
+        "code": "7000sh0a",
+        "ids": ",us7000sh0a,",
+        "sources": ",us,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": 137,
+        "dmin": 1.864,
+        "rms": 0.45,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 6.0 - 100 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1045,
+          39.7683,
+          35
+        ]
+      },
+      "id": "us7000sh0a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 7.4,
-        "place": "100 km ENE of Miyako, Japan",
-        "time": 1776671580185,
-        "updated": 1777519811103,
+        "place": "98 km ENE of Miyako, Japan",
+        "time": 1776671578951,
+        "updated": 1778748870450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sri7&format=geojson",
         "felt": 118,
         "cdi": 6.6,
-        "mmi": 5.993,
+        "mmi": 5.989,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -4710,21 +5230,21 @@
         "code": "6000sri7",
         "ids": ",pt26110000,us6000sri7,usauto6000sri7,",
         "sources": ",pt,us,usauto,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,impact-link,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 101,
-        "dmin": 1.729,
-        "rms": 0.91,
-        "gap": 34,
+        "types": ",dyfi,finite-fault,general-text,ground-failure,impact-link,impact-text,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 239,
+        "dmin": 1.675,
+        "rms": 0.53,
+        "gap": 23,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.4 - 100 km ENE of Miyako, Japan"
+        "title": "M 7.4 - 98 km ENE of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.0462,
-          39.9532,
-          35
+          142.9946,
+          39.9936,
+          25
         ]
       },
       "id": "us6000sri7"
@@ -5654,8 +6174,8 @@
       "properties": {
         "mag": 4.5,
         "place": "27 km SE of Onagawa Chō, Japan",
-        "time": 1775998844963,
-        "updated": 1777822959040,
+        "time": 1775998845237,
+        "updated": 1778791839040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sphk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sphk&format=geojson",
@@ -5672,8 +6192,8 @@
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": 61,
-        "dmin": 2.538,
-        "rms": 0.81,
+        "dmin": 2.548,
+        "rms": 0.7,
         "gap": 97,
         "magType": "mwr",
         "type": "earthquake",
@@ -5682,9 +6202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.7036,
-          38.2969,
-          75.664
+          141.6862,
+          38.2836,
+          78.453
         ]
       },
       "id": "us6000sphk"
@@ -5733,9 +6253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "71 km SSW of Yonakuni, Japan",
-        "time": 1775954724021,
-        "updated": 1777673020040,
+        "place": "65 km SSW of Yonakuni, Japan",
+        "time": 1775954725287,
+        "updated": 1778796198040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srzr",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srzr&format=geojson",
@@ -5752,19 +6272,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 32,
-        "dmin": 0.646,
-        "rms": 1.18,
-        "gap": 106,
+        "dmin": 0.592,
+        "rms": 0.9,
+        "gap": 105,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 71 km SSW of Yonakuni, Japan"
+        "title": "M 4.2 - 65 km SSW of Yonakuni, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.7325,
-          23.8703,
-          19.369
+          122.7403,
+          23.9273,
+          27.596
         ]
       },
       "id": "us6000srzr"
@@ -7412,10 +7932,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
+        "mag": 4.6,
         "place": "27 km E of Onagawa Chō, Japan",
-        "time": 1775299007254,
-        "updated": 1778099534040,
+        "time": 1775299007464,
+        "updated": 1778737627040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smj7",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000smj7&format=geojson",
@@ -7425,26 +7945,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 326,
         "net": "us",
         "code": "6000smj7",
         "ids": ",us6000smj7,",
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": 50,
-        "dmin": 2.424,
-        "rms": 0.58,
+        "dmin": 2.426,
+        "rms": 0.54,
         "gap": 94,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 5.0 - 27 km E of Onagawa Chō, Japan"
+        "title": "M 4.6 - 27 km E of Onagawa Chō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.7641,
-          38.4237,
-          79.829
+          141.7669,
+          38.4218,
+          81.723
         ]
       },
       "id": "us6000smj7"
