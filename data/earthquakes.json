@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779070306000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-18T02%3A11%3A45&endtime=2026-05-18T02%3A11%3A45&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1779156649000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-19T02%3A10%3A48&endtime=2026-05-19T02%3A10%3A48&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1861
+    "count": 1862
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "113 km E of Miyako, Japan",
+        "time": 1779123871928,
+        "updated": 1779134850040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syk9",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000syk9&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000syk9",
+        "ids": ",us6000syk9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 1.943,
+        "rms": 0.61,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 113 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2523,
+          39.801,
+          35
+        ]
+      },
+      "id": "us6000syk9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "Izu Islands, Japan region",
+        "time": 1779089653855,
+        "updated": 1779112879040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syh8",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000syh8&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000syh8",
+        "ids": ",us6000syh8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 101,
+        "dmin": 5.344,
+        "rms": 0.76,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6362,
+          30.1658,
+          443.668
+        ]
+      },
+      "id": "us6000syh8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1212,39 +1292,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "8 km NNW of Funehikimachi-funehiki, Japan",
-        "time": 1778009707666,
-        "updated": 1778087913954,
+        "mag": 4.2,
+        "place": "8 km N of Funehikimachi-funehiki, Japan",
+        "time": 1778009707434,
+        "updated": 1779118986901,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svel",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000svel&format=geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 272,
         "net": "us",
         "code": "6000svel",
         "ids": ",us6000svel,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 2.106,
-        "rms": 0.57,
-        "gap": 123,
-        "magType": "mb",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 89,
+        "dmin": 2.139,
+        "rms": 0.63,
+        "gap": 92,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.3 - 8 km NNW of Funehikimachi-funehiki, Japan"
+        "title": "M 4.2 - 8 km N of Funehikimachi-funehiki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.5402,
-          37.5206,
-          109.9
+          140.5837,
+          37.5262,
+          107.358
         ]
       },
       "id": "us6000svel"
@@ -74408,46 +74488,6 @@
         ]
       },
       "id": "us7000q03c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Volcano Islands, Japan region",
-        "time": 1747593428919,
-        "updated": 1753463179040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q01y",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000q01y&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000q01y",
-        "ids": ",us7000q01y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.704,
-        "rms": 1.25,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.4344,
-          25.5239,
-          112.193
-        ]
-      },
-      "id": "us7000q01y"
     }
   ],
   "bbox": [
