@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779501552000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-23T01%3A59%3A11&endtime=2026-05-23T01%3A59%3A11&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1779588488000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-24T02%3A08%3A07&endtime=2026-05-24T02%3A08%3A07&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1873
+    "count": 1871
   },
   "features": [
     {
@@ -1814,8 +1814,8 @@
       "properties": {
         "mag": 4.8,
         "place": "Izu Islands, Japan region",
-        "time": 1778036629136,
-        "updated": 1778037681040,
+        "time": 1778036628959,
+        "updated": 1779573495040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svhx",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000svhx&format=geojson",
@@ -1831,10 +1831,10 @@
         "ids": ",us6000svhx,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 7.656,
-        "rms": 0.64,
-        "gap": 121,
+        "nst": 58,
+        "dmin": 7.661,
+        "rms": 0.74,
+        "gap": 141,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.8 - Izu Islands, Japan region"
@@ -1842,8 +1842,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.5455,
-          29.2625,
+          142.5269,
+          29.2443,
           10
         ]
       },
@@ -74848,86 +74848,6 @@
         ]
       },
       "id": "us7000q1gp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Volcano Islands, Japan region",
-        "time": 1748040653168,
-        "updated": 1755098068040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qi7u",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qi7u&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qi7u",
-        "ids": ",us6000qi7u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 1.639,
-        "rms": 1.31,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.9557,
-          25.4627,
-          64.321
-        ]
-      },
-      "id": "us6000qi7u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "45 km SE of Iwaki, Japan",
-        "time": 1748011471870,
-        "updated": 1755098071040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q12t",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000q12t&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000q12t",
-        "ids": ",us7000q12t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 1.679,
-        "rms": 0.73,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 45 km SE of Iwaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.287,
-          36.7938,
-          43.945
-        ]
-      },
-      "id": "us7000q12t"
     }
   ],
   "bbox": [

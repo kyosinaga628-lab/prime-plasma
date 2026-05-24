@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779501553000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-23T01%3A59%3A13&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1779588489000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-24T02%3A08%3A09&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
@@ -1814,8 +1814,8 @@
       "properties": {
         "mag": 4.8,
         "place": "Izu Islands, Japan region",
-        "time": 1778036629136,
-        "updated": 1778037681040,
+        "time": 1778036628959,
+        "updated": 1779573495040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svhx",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000svhx&format=geojson",
@@ -1831,10 +1831,10 @@
         "ids": ",us6000svhx,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 7.656,
-        "rms": 0.64,
-        "gap": 121,
+        "nst": 58,
+        "dmin": 7.661,
+        "rms": 0.74,
+        "gap": 141,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.8 - Izu Islands, Japan region"
@@ -1842,8 +1842,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.5455,
-          29.2625,
+          142.5269,
+          29.2443,
           10
         ]
       },
