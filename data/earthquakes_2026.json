@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779676042000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-25T02%3A27%3A22&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1779761217000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-05-26T02%3A06%3A57&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 715
+    "count": 718
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "50 km ENE of Noda, Japan",
+        "time": 1779696888144,
+        "updated": 1779698663040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t00y",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t00y&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000t00y",
+        "ids": ",us6000t00y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 116,
+        "dmin": 1.146,
+        "rms": 0.9,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 50 km ENE of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3871,
+          40.2438,
+          49.176
+        ]
+      },
+      "id": "us6000t00y"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -972,6 +1012,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "106 km E of Miyako, Japan",
+        "time": 1778755646883,
+        "updated": 1779692680040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz9e",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sz9e&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sz9e",
+        "ids": ",us6000sz9e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 1.933,
+        "rms": 0.62,
+        "gap": 155,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 106 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1787,
+          39.73,
+          35
+        ]
+      },
+      "id": "us6000sz9e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "13 km ENE of Hachimantai, Japan",
         "time": 1778702496130,
@@ -1893,9 +1973,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "35 km NE of Hualien City, Taiwan",
-        "time": 1778187454420,
-        "updated": 1778190084040,
+        "place": "35 km ENE of Hualien City, Taiwan",
+        "time": 1778187454232,
+        "updated": 1779726586040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw1q",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sw1q&format=geojson",
@@ -1911,20 +1991,20 @@
         "ids": ",us6000sw1q,",
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.263,
+        "nst": 65,
+        "dmin": 0.292,
         "rms": 0.66,
-        "gap": 75,
+        "gap": 77,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.3 - 35 km NE of Hualien City, Taiwan"
+        "title": "M 4.3 - 35 km ENE of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.8825,
-          24.1692,
-          28.824
+          121.9114,
+          24.1374,
+          29.053
         ]
       },
       "id": "us6000sw1q"
@@ -3208,6 +3288,46 @@
         ]
       },
       "id": "us6000sw7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "246 km SE of Shinmachi, Japan",
+        "time": 1777515525766,
+        "updated": 1779681747040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw76",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sw76&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000sw76",
+        "ids": ",us6000sw76,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 4.425,
+        "rms": 0.59,
+        "gap": 156,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 246 km SE of Shinmachi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4712,
+          33.8156,
+          10
+        ]
+      },
+      "id": "us6000sw76"
     },
     {
       "type": "Feature",
