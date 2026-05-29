@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779933524000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-28T01%3A58%3A44&endtime=2026-05-28T01%3A58%3A44&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1780020347000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-29T02%3A05%3A46&endtime=2026-05-29T02%3A05%3A46&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1878
+    "count": 1876
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1779882568286,
+        "updated": 1779960886040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snv8",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000snv8&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000snv8",
+        "ids": ",us7000snv8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 5.012,
+        "rms": 0.53,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6955,
+          31.3751,
+          65.253
+        ]
+      },
+      "id": "us7000snv8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -653,9 +693,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "113 km E of Miyako, Japan",
-        "time": 1779123871928,
-        "updated": 1779134850040,
+        "place": "126 km E of Miyako, Japan",
+        "time": 1779123868767,
+        "updated": 1779981908040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syk9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000syk9&format=geojson",
@@ -671,20 +711,20 @@
         "ids": ",us6000syk9,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 1.943,
-        "rms": 0.61,
-        "gap": 178,
+        "nst": 64,
+        "dmin": 2.046,
+        "rms": 0.79,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 113 km E of Miyako, Japan"
+        "title": "M 4.6 - 126 km E of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.2523,
-          39.801,
-          35
+          143.4021,
+          39.7924,
+          17.078
         ]
       },
       "id": "us6000syk9"
@@ -1853,9 +1893,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "68 km S of Miyakojima, Japan",
-        "time": 1778290016595,
-        "updated": 1778292134040,
+        "place": "54 km SSW of Miyakojima, Japan",
+        "time": 1778290017109,
+        "updated": 1780003144040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swe6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swe6&format=geojson",
@@ -1871,19 +1911,19 @@
         "ids": ",us6000swe6,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.087,
-        "rms": 1.4,
-        "gap": 132,
+        "nst": 51,
+        "dmin": 1.985,
+        "rms": 1.04,
+        "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 68 km S of Miyakojima, Japan"
+        "title": "M 4.4 - 54 km SSW of Miyakojima, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.2755,
-          24.1702,
+          125.1825,
+          24.3166,
           35
         ]
       },
@@ -2648,6 +2688,46 @@
         ]
       },
       "id": "us7000si47"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "28 km SE of Shimukappu, Japan",
+        "time": 1777880229724,
+        "updated": 1779969562040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxg0",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sxg0&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000sxg0",
+        "ids": ",us6000sxg0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 107,
+        "dmin": 0.878,
+        "rms": 0.51,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 28 km SE of Shimukappu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6282,
+          42.8009,
+          99.085
+        ]
+      },
+      "id": "us6000sxg0"
     },
     {
       "type": "Feature",
@@ -6373,9 +6453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "135 km E of Yamada, Japan",
-        "time": 1776681853798,
-        "updated": 1778068026040,
+        "place": "133 km E of Yamada, Japan",
+        "time": 1776681850377,
+        "updated": 1779971398040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srj9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srj9&format=geojson",
@@ -6391,20 +6471,20 @@
         "ids": ",us6000srj9,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 2.3,
-        "rms": 0.83,
-        "gap": 61,
+        "nst": 94,
+        "dmin": 2.268,
+        "rms": 0.97,
+        "gap": 62,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 135 km E of Yamada, Japan"
+        "title": "M 5.1 - 133 km E of Yamada, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.5218,
-          39.4674,
-          35
+          143.504,
+          39.5047,
+          10
         ]
       },
       "id": "us6000srj9"
@@ -7495,7 +7575,7 @@
         "mag": 4.9,
         "place": "12 km NNW of Ōmachi, Japan",
         "time": 1776486005394,
-        "updated": 1779492789040,
+        "updated": 1779991930040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr1y",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sr1y&format=geojson",
@@ -74968,166 +75048,6 @@
         ]
       },
       "id": "us6000qjvi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "148 km SE of Kuril’sk, Russia",
-        "time": 1748468302641,
-        "updated": 1755381249040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgie",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qgie&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qgie",
-        "ids": ",us6000qgie,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 116,
-        "dmin": 4.902,
-        "rms": 0.58,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 148 km SE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.4049,
-          44.4564,
-          35
-        ]
-      },
-      "id": "us6000qgie"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "64 km N of Basco, Philippines",
-        "time": 1748444245413,
-        "updated": 1755381249040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgg6",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qgg6&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qgg6",
-        "ids": ",us6000qgg6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 1.956,
-        "rms": 0.39,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 64 km N of Basco, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.9685,
-          21.0351,
-          10
-        ]
-      },
-      "id": "us6000qgg6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "65 km N of Basco, Philippines",
-        "time": 1748443687320,
-        "updated": 1755381249040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgg3",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qgg3&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000qgg3",
-        "ids": ",us6000qgg3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 102,
-        "dmin": 1.92,
-        "rms": 0.71,
-        "gap": 95,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.6 - 65 km N of Basco, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8718,
-          21.0357,
-          10
-        ]
-      },
-      "id": "us6000qgg3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "70 km NNW of Basco, Philippines",
-        "time": 1748399484606,
-        "updated": 1755381257040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qju6",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qju6&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qju6",
-        "ids": ",us6000qju6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.863,
-        "rms": 1.14,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 70 km NNW of Basco, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7601,
-          21.0567,
-          10
-        ]
-      },
-      "id": "us6000qju6"
     }
   ],
   "bbox": [
