@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780106430000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-30T02%3A00%3A30&endtime=2026-05-30T02%3A00%3A30&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1780194470000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-31T02%3A27%3A50&endtime=2026-05-31T02%3A27%3A50&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1873
+    "count": 1872
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "26 km SE of Ashoro, Japan",
+        "time": 1780151654372,
+        "updated": 1780158484040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spjc",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spjc&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000spjc",
+        "ids": ",us7000spjc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 1.158,
+        "rms": 0.9,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 26 km SE of Ashoro, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7857,
+          43.0767,
+          116.722
+        ]
+      },
+      "id": "us7000spjc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -252,6 +292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "3 km W of Fussa, Japan",
+        "time": 1779645657417,
+        "updated": 1780151454040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spcs",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spcs&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000spcs",
+        "ids": ",us7000spcs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.18,
+        "rms": 0.77,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 3 km W of Fussa, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2815,
+          35.7406,
+          148.091
+        ]
+      },
+      "id": "us7000spcs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "64 km E of Nemuro, Japan",
         "time": 1779605496264,
@@ -413,9 +493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "40 km ENE of Kuji, Japan",
-        "time": 1779468838546,
-        "updated": 1779469943040,
+        "place": "42 km ENE of Noda, Japan",
+        "time": 1779468838397,
+        "updated": 1780160365040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szjp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000szjp&format=geojson",
@@ -431,23 +511,63 @@
         "ids": ",us6000szjp,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.005,
-        "rms": 0.38,
-        "gap": 135,
+        "nst": 61,
+        "dmin": 1.035,
+        "rms": 0.52,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 40 km ENE of Kuji, Japan"
+        "title": "M 4.6 - 42 km ENE of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.2201,
-          40.3053,
-          61.454
+          142.2534,
+          40.2879,
+          62.004
         ]
       },
       "id": "us6000szjp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "92 km WSW of Kuril’sk, Russia",
+        "time": 1779439494276,
+        "updated": 1780142276040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spa2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spa2&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000spa2",
+        "ids": ",us7000spa2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 3.116,
+        "rms": 0.66,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 92 km WSW of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8187,
+          44.8712,
+          147.547
+        ]
+      },
+      "id": "us7000spa2"
     },
     {
       "type": "Feature",
@@ -1934,8 +2054,8 @@
       "properties": {
         "mag": 4.6,
         "place": "44 km WNW of Ishigaki, Japan",
-        "time": 1778343532053,
-        "updated": 1778360250040,
+        "time": 1778343530828,
+        "updated": 1780184086040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swhc&format=geojson",
@@ -1950,9 +2070,9 @@
         "code": "6000swhc",
         "ids": ",us6000swhc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 203,
-        "dmin": 0.695,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 209,
+        "dmin": 0.696,
         "rms": 0.61,
         "gap": 50,
         "magType": "mww",
@@ -1962,9 +2082,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.7707,
-          24.5387,
-          35.445
+          123.7715,
+          24.5333,
+          26.738
         ]
       },
       "id": "us6000swhc"
@@ -74768,166 +74888,6 @@
         ]
       },
       "id": "us6000qh0t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "81 km ENE of Mutsu, Japan",
-        "time": 1748632925070,
-        "updated": 1755381251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgyt",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qgyt&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qgyt",
-        "ids": ",us6000qgyt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 0.898,
-        "rms": 0.74,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 81 km ENE of Mutsu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1152,
-          41.5672,
-          59.846
-        ]
-      },
-      "id": "us6000qgyt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "144 km ESE of Tatsugō, Japan",
-        "time": 1748628863818,
-        "updated": 1755381251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgyd",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qgyd&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qgyd",
-        "ids": ",us6000qgyd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 2.338,
-        "rms": 0.65,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 144 km ESE of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.0341,
-          28.1609,
-          10
-        ]
-      },
-      "id": "us6000qgyd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "25 km ESE of Ōfunato, Japan",
-        "time": 1748623641937,
-        "updated": 1755381251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgxz",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qgxz&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000qgxz",
-        "ids": ",us6000qgxz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.964,
-        "rms": 0.56,
-        "gap": 201,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 25 km ESE of Ōfunato, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.9613,
-          38.9489,
-          67.609
-        ]
-      },
-      "id": "us6000qgxz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "131 km SE of Kushimoto, Japan",
-        "time": 1748617316632,
-        "updated": 1755381251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgx4",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qgx4&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000qgx4",
-        "ids": ",us6000qgx4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 131,
-        "dmin": 2.445,
-        "rms": 0.73,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 131 km SE of Kushimoto, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.9309,
-          32.788,
-          408.66
-        ]
-      },
-      "id": "us6000qgx4"
     }
   ],
   "bbox": [
