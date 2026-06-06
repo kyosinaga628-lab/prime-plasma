@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780625589000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-05T02%3A13%3A08&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1780711486000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-06T02%3A04%3A46&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 761
+    "count": 763
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Izu Islands, Japan region",
+        "time": 1780698254493,
+        "updated": 1780702341040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr0h",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sr0h&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000sr0h",
+        "ids": ",us7000sr0h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 5.378,
+        "rms": 0.78,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.6762,
+          31.6019,
+          10
+        ]
+      },
+      "id": "us7000sr0h"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -374,8 +414,8 @@
       "properties": {
         "mag": 4.5,
         "place": "Bonin Islands, Japan region",
-        "time": 1780237599572,
-        "updated": 1780238951040,
+        "time": 1780237600689,
+        "updated": 1780667174040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spp3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spp3&format=geojson",
@@ -391,10 +431,10 @@
         "ids": ",us7000spp3,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 8.088,
-        "rms": 0.71,
-        "gap": 113,
+        "nst": 69,
+        "dmin": 8.051,
+        "rms": 0.77,
+        "gap": 117,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.5 - Bonin Islands, Japan region"
@@ -402,9 +442,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.8402,
-          27.4636,
-          508.465
+          139.7567,
+          27.453,
+          523.604
         ]
       },
       "id": "us7000spp3"
@@ -648,6 +688,46 @@
         ]
       },
       "id": "us7000sqku"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "15 km ESE of Ōfunato, Japan",
+        "time": 1780044833620,
+        "updated": 1780649868040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqkn",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sqkn&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000sqkn",
+        "ids": ",us7000sqkn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.856,
+        "rms": 0.55,
+        "gap": 188,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 15 km ESE of Ōfunato, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8934,
+          39.0443,
+          61.913
+        ]
+      },
+      "id": "us7000sqkn"
     },
     {
       "type": "Feature",
@@ -1453,37 +1533,37 @@
       "type": "Feature",
       "properties": {
         "mag": 5.9,
-        "place": "8 km E of Wadomari, Japan",
-        "time": 1779245184884,
-        "updated": 1779333150258,
+        "place": "11 km NNE of Wadomari, Japan",
+        "time": 1779245184608,
+        "updated": 1780708380279,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syw4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000syw4&format=geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 3.6,
-        "mmi": 4.728,
+        "mmi": 4.724,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 542,
+        "sig": 543,
         "net": "us",
         "code": "6000syw4",
         "ids": ",us6000syw4,usauto6000syw4,attfbedf,",
         "sources": ",us,usauto,at,",
-        "types": ",dyfi,ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 109,
-        "dmin": 0.69,
-        "rms": 1.28,
-        "gap": 19,
+        "types": ",dyfi,ground-failure,impact-text,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 99,
+        "dmin": 0.742,
+        "rms": 1.24,
+        "gap": 39,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.9 - 8 km E of Wadomari, Japan"
+        "title": "M 5.9 - 11 km NNE of Wadomari, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          128.7336,
-          27.392,
+          128.6878,
+          27.4815,
           42
         ]
       },
@@ -1494,8 +1574,8 @@
       "properties": {
         "mag": 4.3,
         "place": "75 km SSW of Hualien City, Taiwan",
-        "time": 1779239517759,
-        "updated": 1779249698676,
+        "time": 1779239518166,
+        "updated": 1780698608114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syvs",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000syvs&format=geojson",
@@ -1511,10 +1591,10 @@
         "ids": ",us6000syvs,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.145,
-        "rms": 1.34,
-        "gap": 81,
+        "nst": 34,
+        "dmin": 0.147,
+        "rms": 1.23,
+        "gap": 80,
         "magType": "mwr",
         "type": "earthquake",
         "title": "M 4.3 - 75 km SSW of Hualien City, Taiwan"
@@ -1522,9 +1602,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.4279,
-          23.311,
-          24.634
+          121.4341,
+          23.3154,
+          29.461
         ]
       },
       "id": "us6000syvs"
@@ -30456,6 +30536,6 @@
     2.286,
     154.9857,
     49.8257,
-    522.035
+    523.604
   ]
 }
