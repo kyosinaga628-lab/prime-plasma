@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781231481000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-12T02%3A31%3A21&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1781316731000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-13T02%3A12%3A10&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 790
+    "count": 793
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "45 km SE of Onagawa Chō, Japan",
+        "time": 1781293769078,
+        "updated": 1781301566040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssjv",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ssjv&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ssjv",
+        "ids": ",us7000ssjv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 2.709,
+        "rms": 0.61,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 45 km SE of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.7873,
+          38.1355,
+          77.088
+        ]
+      },
+      "id": "us7000ssjv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000ssdn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "97 km SE of Hualien City, Taiwan",
+        "time": 1781204237611,
+        "updated": 1781289774040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssb0",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ssb0&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000ssb0",
+        "ids": ",us7000ssb0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.802,
+        "rms": 1.33,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 97 km SE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1577,
+          23.259,
+          10
+        ]
+      },
+      "id": "us7000ssb0"
     },
     {
       "type": "Feature",
@@ -728,6 +808,46 @@
         ]
       },
       "id": "us7000sqnl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "15 km WSW of Yuzhno-Kurilsk, Russia",
+        "time": 1780580262694,
+        "updated": 1781298968040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srt1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000srt1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000srt1",
+        "ids": ",us7000srt1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 2.23,
+        "rms": 0.93,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 15 km WSW of Yuzhno-Kurilsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6789,
+          43.972,
+          140.063
+        ]
+      },
+      "id": "us7000srt1"
     },
     {
       "type": "Feature",
