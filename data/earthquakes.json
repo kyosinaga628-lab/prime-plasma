@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781316729000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-06-13T02%3A12%3A08&endtime=2026-06-13T02%3A12%3A08&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1781404531000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-06-14T02%3A35%3A31&endtime=2026-06-14T02%3A35%3A31&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1874
+    "count": 1873
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "75 km E of Hualien City, Taiwan",
+        "time": 1781346399481,
+        "updated": 1781354048040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssns",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ssns&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000ssns",
+        "ids": ",us7000ssns,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.686,
+        "rms": 1.06,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 75 km E of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.3402,
+          24.092,
+          29.328
+        ]
+      },
+      "id": "us7000ssns"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -74888,86 +74928,6 @@
         ]
       },
       "id": "us6000qk7w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "Kuril Islands",
-        "time": 1749839714935,
-        "updated": 1755894360040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qk4v",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qk4v&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.872,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 554,
-        "net": "us",
-        "code": "6000qk4v",
-        "ids": ",us6000qk4v,usauto6000qk4v,pt25164000,",
-        "sources": ",us,usauto,pt,",
-        "types": ",ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 241,
-        "dmin": 7.392,
-        "rms": 1.1,
-        "gap": 23,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.426,
-          46.1842,
-          35
-        ]
-      },
-      "id": "us6000qk4v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "1 km WSW of Chiba, Japan",
-        "time": 1749795509891,
-        "updated": 1757863577133,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qk1a",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qk1a&format=geojson",
-        "felt": 25,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 321,
-        "net": "us",
-        "code": "6000qk1a",
-        "ids": ",us6000qk1a,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.803,
-        "rms": 0.84,
-        "gap": 130,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 1 km WSW of Chiba, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.1057,
-          35.5966,
-          70.015
-        ]
-      },
-      "id": "us6000qk1a"
     }
   ],
   "bbox": [
