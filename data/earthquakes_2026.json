@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781404532000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-14T02%3A35%3A32&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1781491228000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-15T02%3A40%3A28&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 794
+    "count": 796
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "143 km ENE of Kuji, Japan",
+        "time": 1781480808693,
+        "updated": 1781482829040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssyj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ssyj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000ssyj",
+        "ids": ",us7000ssyj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.268,
+        "rms": 0.84,
+        "gap": 155,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 143 km ENE of Kuji, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2884,
+          40.7493,
+          35
+        ]
+      },
+      "id": "us7000ssyj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1648,6 +1688,46 @@
         ]
       },
       "id": "us7000sqkn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "43 km NE of Yonakuni, Japan",
+        "time": 1779963912869,
+        "updated": 1781426939040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqby",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sqby&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000sqby",
+        "ids": ",us7000sqby,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.382,
+        "rms": 0.8,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 43 km NE of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2707,
+          24.7693,
+          104.087
+        ]
+      },
+      "id": "us7000sqby"
     },
     {
       "type": "Feature",
@@ -11012,10 +11092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "65 km SSW of Yonakuni, Japan",
-        "time": 1775954725287,
-        "updated": 1781109736040,
+        "mag": 3.8,
+        "place": "64 km SSW of Yonakuni, Japan",
+        "time": 1775954725461,
+        "updated": 1781488877040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srzr",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srzr&format=geojson",
@@ -11025,26 +11105,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 222,
         "net": "us",
         "code": "6000srzr",
         "ids": ",us6000srzr,",
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": 32,
-        "dmin": 0.592,
-        "rms": 0.9,
+        "dmin": 0.584,
+        "rms": 0.95,
         "gap": 105,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.2 - 65 km SSW of Yonakuni, Japan"
+        "title": "M 3.8 - 64 km SSW of Yonakuni, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           122.7403,
-          23.9273,
-          27.596
+          23.9357,
+          28.751
         ]
       },
       "id": "us6000srzr"
