@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781663997000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-17T02%3A39%3A56&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1781750202000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-18T02%3A36%3A42&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 812
+    "count": 814
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "240 km ESE of Yamada, Japan",
+        "time": 1781706530471,
+        "updated": 1781709360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stna",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000stna&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000stna",
+        "ids": ",us7000stna,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 84,
+        "dmin": 3.368,
+        "rms": 0.87,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 240 km ESE of Yamada, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6073,
+          38.8127,
+          10
+        ]
+      },
+      "id": "us7000stna"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 5.5,
         "place": "4 km NW of Noda, Japan",
         "time": 1781606794658,
-        "updated": 1781662417824,
+        "updated": 1781747032468,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000std7",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000std7&format=geojson",
-        "felt": 112,
+        "felt": 118,
         "cdi": 5,
-        "mmi": 4.333,
+        "mmi": 4.424,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 521,
+        "sig": 524,
         "net": "us",
         "code": "7000std7",
         "ids": ",us7000std7,usauto7000std7,",
@@ -1332,6 +1372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "46 km SSE of Kushima, Japan",
+        "time": 1780433900584,
+        "updated": 1781726404040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq4y",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sq4y&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000sq4y",
+        "ids": ",us7000sq4y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 96,
+        "dmin": 0.939,
+        "rms": 1.05,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 46 km SSE of Kushima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.4442,
+          31.1063,
+          39.951
+        ]
+      },
+      "id": "us7000sq4y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "109 km ENE of Miyako, Japan",
         "time": 1780387787829,
@@ -1413,9 +1493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "69 km ESE of Yamada, Japan",
-        "time": 1780320657148,
-        "updated": 1780330784040,
+        "place": "63 km E of Yamada, Japan",
+        "time": 1780320657304,
+        "updated": 1781710411040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spu3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spu3&format=geojson",
@@ -1431,20 +1511,20 @@
         "ids": ",us7000spu3,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 1.941,
-        "rms": 0.44,
+        "nst": 31,
+        "dmin": 1.885,
+        "rms": 0.57,
         "gap": 192,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 69 km ESE of Yamada, Japan"
+        "title": "M 4.3 - 63 km E of Yamada, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.735,
-          39.33,
-          44.277
+          142.6717,
+          39.362,
+          42.205
         ]
       },
       "id": "us7000spu3"
@@ -2174,8 +2254,8 @@
       "properties": {
         "mag": 4.6,
         "place": "Izu Islands, Japan region",
-        "time": 1779882568286,
-        "updated": 1779960886040,
+        "time": 1779882567976,
+        "updated": 1781715287040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snv8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000snv8&format=geojson",
@@ -2191,10 +2271,10 @@
         "ids": ",us7000snv8,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 5.012,
-        "rms": 0.53,
-        "gap": 103,
+        "nst": 56,
+        "dmin": 5.022,
+        "rms": 0.6,
+        "gap": 96,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.6 - Izu Islands, Japan region"
@@ -2202,9 +2282,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.6955,
-          31.3751,
-          65.253
+          140.7108,
+          31.372,
+          62.771
         ]
       },
       "id": "us7000snv8"
@@ -2493,9 +2573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "30 km W of Yomitan, Japan",
-        "time": 1779745784693,
-        "updated": 1780350171040,
+        "place": "34 km WNW of Naha, Japan",
+        "time": 1779745784607,
+        "updated": 1781730663040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spw5",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spw5&format=geojson",
@@ -2511,19 +2591,19 @@
         "ids": ",us7000spw5,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.863,
-        "rms": 1.2,
-        "gap": 86,
+        "nst": 25,
+        "dmin": 0.974,
+        "rms": 0.75,
+        "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 30 km W of Yomitan, Japan"
+        "title": "M 4.3 - 34 km WNW of Naha, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.436,
-          26.4056,
+          127.3546,
+          26.3121,
           35
         ]
       },
@@ -2532,10 +2612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
+        "mag": 4.2,
         "place": "Volcano Islands, Japan region",
-        "time": 1779743476456,
-        "updated": 1780348861040,
+        "time": 1779743476319,
+        "updated": 1781730480040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spw4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spw4&format=geojson",
@@ -2545,26 +2625,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 271,
         "net": "us",
         "code": "7000spw4",
         "ids": ",us7000spw4,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 10.567,
-        "rms": 0.87,
-        "gap": 123,
+        "nst": 30,
+        "dmin": 10.629,
+        "rms": 0.37,
+        "gap": 141,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Volcano Islands, Japan region"
+        "title": "M 4.2 - Volcano Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.972,
-          25.3118,
-          196.578
+          140.9127,
+          25.2291,
+          195.335
         ]
       },
       "id": "us7000spw4"
