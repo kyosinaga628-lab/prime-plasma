@@ -1,14 +1,174 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781837574000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-19T02%3A52%3A54&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1781921632000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-20T02%3A13%3A52&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 820
+    "count": 826
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "45 km ESE of Akkeshi, Japan",
+        "time": 1781901542527,
+        "updated": 1781905875040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suqe",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000suqe&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000suqe",
+        "ids": ",us7000suqe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 112,
+        "dmin": 1.851,
+        "rms": 0.7,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 45 km ESE of Akkeshi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3692,
+          42.8784,
+          80.981
+        ]
+      },
+      "id": "us7000suqe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "127 km SSE of Itoman, Japan",
+        "time": 1781897790902,
+        "updated": 1781898969040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000supp",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000supp&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000supp",
+        "ids": ",usauto7000supp,us7000supp,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,origin,phase-data,",
+        "nst": 147,
+        "dmin": 1.848,
+        "rms": 0.97,
+        "gap": 64,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 127 km SSE of Itoman, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9523,
+          25.0026,
+          8.453
+        ]
+      },
+      "id": "us7000supp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "20 km SE of Nyūzen, Japan",
+        "time": 1781893015282,
+        "updated": 1781894937040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sunx",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sunx&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000sunx",
+        "ids": ",us7000sunx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 0.508,
+        "rms": 0.5,
+        "gap": 50,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 20 km SE of Nyūzen, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6686,
+          36.815,
+          216.301
+        ]
+      },
+      "id": "us7000sunx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "208 km ESE of Ol’ga, Russia",
+        "time": 1781853975965,
+        "updated": 1781862218040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suid",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000suid&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000suid",
+        "ids": ",us7000suid,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 128,
+        "dmin": 3.332,
+        "rms": 0.61,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 208 km ESE of Ol’ga, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.5094,
+          42.8008,
+          285.14
+        ]
+      },
+      "id": "us7000suid"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -848,6 +1008,46 @@
         ]
       },
       "id": "us7000srxm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "14 km NNE of Miyako, Japan",
+        "time": 1781040855507,
+        "updated": 1781913607040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000su26",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000su26&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000su26",
+        "ids": ",us7000su26,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 4.395,
+        "rms": 0.61,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 14 km NNE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9978,
+          39.7723,
+          53.392
+        ]
+      },
+      "id": "us7000su26"
     },
     {
       "type": "Feature",
@@ -2168,6 +2368,46 @@
         ]
       },
       "id": "us7000spjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "3 km ESE of Mobara, Japan",
+        "time": 1780090712521,
+        "updated": 1781904608040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sql6",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sql6&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000sql6",
+        "ids": ",us7000sql6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 2.06,
+        "rms": 0.48,
+        "gap": 131,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 3 km ESE of Mobara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.3374,
+          35.4152,
+          38.239
+        ]
+      },
+      "id": "us7000sql6"
     },
     {
       "type": "Feature",
