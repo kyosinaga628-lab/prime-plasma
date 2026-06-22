@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782009525000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-21T02%3A38%3A44&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1782096144000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-22T02%3A42%3A23&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
@@ -653,9 +653,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "143 km ENE of Kuji, Japan",
-        "time": 1781480808693,
-        "updated": 1781482829040,
+        "place": "149 km ENE of Kuji, Japan",
+        "time": 1781480808761,
+        "updated": 1782079720040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssyj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ssyj&format=geojson",
@@ -671,19 +671,19 @@
         "ids": ",us7000ssyj,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.268,
-        "rms": 0.84,
+        "nst": 22,
+        "dmin": 1.208,
+        "rms": 0.74,
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 143 km ENE of Kuji, Japan"
+        "title": "M 4.3 - 149 km ENE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.2884,
-          40.7493,
+          143.3268,
+          40.8124,
           35
         ]
       },
@@ -1334,8 +1334,8 @@
       "properties": {
         "mag": 4.6,
         "place": "Izu Islands, Japan region",
-        "time": 1780839410223,
-        "updated": 1780852000040,
+        "time": 1780839410211,
+        "updated": 1782055050040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8i",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sr8i&format=geojson",
@@ -1351,9 +1351,9 @@
         "ids": ",us7000sr8i,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 6.247,
-        "rms": 0.53,
+        "nst": 45,
+        "dmin": 6.255,
+        "rms": 0.6,
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
@@ -1362,8 +1362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.971,
-          30.6675,
+          141.9873,
+          30.668,
           10
         ]
       },

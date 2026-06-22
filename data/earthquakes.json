@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782009523000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-06-21T02%3A38%3A42&endtime=2026-06-21T02%3A38%3A42&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1782096142000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-06-22T02%3A42%3A22&endtime=2026-06-22T02%3A42%3A22&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 1884
+    "count": 1869
   },
   "features": [
     {
@@ -653,9 +653,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "143 km ENE of Kuji, Japan",
-        "time": 1781480808693,
-        "updated": 1781482829040,
+        "place": "149 km ENE of Kuji, Japan",
+        "time": 1781480808761,
+        "updated": 1782079720040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssyj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ssyj&format=geojson",
@@ -671,19 +671,19 @@
         "ids": ",us7000ssyj,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.268,
-        "rms": 0.84,
+        "nst": 22,
+        "dmin": 1.208,
+        "rms": 0.74,
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 143 km ENE of Kuji, Japan"
+        "title": "M 4.3 - 149 km ENE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.2884,
-          40.7493,
+          143.3268,
+          40.8124,
           35
         ]
       },
@@ -1334,8 +1334,8 @@
       "properties": {
         "mag": 4.6,
         "place": "Izu Islands, Japan region",
-        "time": 1780839410223,
-        "updated": 1780852000040,
+        "time": 1780839410211,
+        "updated": 1782055050040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8i",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sr8i&format=geojson",
@@ -1351,9 +1351,9 @@
         "ids": ",us7000sr8i,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 6.247,
-        "rms": 0.53,
+        "nst": 45,
+        "dmin": 6.255,
+        "rms": 0.6,
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
@@ -1362,8 +1362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.971,
-          30.6675,
+          141.9873,
+          30.668,
           10
         ]
       },
@@ -74768,606 +74768,6 @@
         ]
       },
       "id": "us6000qlq1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "50 km E of Nemuro, Japan",
-        "time": 1750558273492,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlpu",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlpu&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qlpu",
-        "ids": ",us6000qlpu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 2.586,
-        "rms": 0.61,
-        "gap": 200,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 50 km E of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.1939,
-          43.3095,
-          35
-        ]
-      },
-      "id": "us6000qlpu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "65 km SE of Nemuro, Japan",
-        "time": 1750556687178,
-        "updated": 1756848226040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qamw",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qamw&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000qamw",
-        "ids": ",us7000qamw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 2.474,
-        "rms": 0.73,
-        "gap": 156,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 65 km SE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.2363,
-          42.9837,
-          35
-        ]
-      },
-      "id": "us7000qamw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "71 km ESE of Nemuro, Japan",
-        "time": 1750553594283,
-        "updated": 1756848226040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qamv",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qamv&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000qamv",
-        "ids": ",us7000qamv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 2.633,
-        "rms": 1.01,
-        "gap": 192,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 71 km ESE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.4001,
-          43.1088,
-          95.025
-        ]
-      },
-      "id": "us7000qamv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "95 km N of Tatsugō, Japan",
-        "time": 1750551342782,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlph",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlph&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qlph",
-        "ids": ",us6000qlph,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 77,
-        "dmin": 2.359,
-        "rms": 0.73,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 95 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4602,
-          29.3037,
-          10
-        ]
-      },
-      "id": "us6000qlph"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "126 km SE of Nemuro, Japan",
-        "time": 1750546981002,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlpc",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlpc&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qlpc",
-        "ids": ",us6000qlpc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 2.691,
-        "rms": 1.2,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 126 km SE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.7106,
-          42.5536,
-          10
-        ]
-      },
-      "id": "us6000qlpc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "118 km NNW of Tatsugō, Japan",
-        "time": 1750544847885,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlp9",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlp9&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qlp9",
-        "ids": ",us6000qlp9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 2.375,
-        "rms": 0.71,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 118 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.1139,
-          29.4276,
-          10
-        ]
-      },
-      "id": "us6000qlp9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "93 km SE of Nemuro, Japan",
-        "time": 1750542829438,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlp4",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlp4&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qlp4",
-        "ids": ",us6000qlp4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 2.536,
-        "rms": 0.49,
-        "gap": 188,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 93 km SE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.4289,
-          42.7638,
-          35
-        ]
-      },
-      "id": "us6000qlp4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "93 km ESE of Nemuro, Japan",
-        "time": 1750541145027,
-        "updated": 1756848226040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qahy",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qahy&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000qahy",
-        "ids": ",us7000qahy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 2.677,
-        "rms": 0.64,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 93 km ESE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.573,
-          42.8989,
-          39.188
-        ]
-      },
-      "id": "us7000qahy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "82 km SE of Nemuro, Japan",
-        "time": 1750540998562,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlnz",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlnz&format=geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": 4.449,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 554,
-        "net": "us",
-        "code": "6000qlnz",
-        "ids": ",us6000qlnz,usauto6000qlnz,pt25172000,at00sy862x,",
-        "sources": ",us,usauto,pt,at,",
-        "types": ",dyfi,ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 134,
-        "dmin": 2.558,
-        "rms": 0.65,
-        "gap": 59,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 82 km SE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.4037,
-          42.8951,
-          18
-        ]
-      },
-      "id": "us6000qlnz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "82 km N of Tatsugō, Japan",
-        "time": 1750539195999,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlny",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlny&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qlny",
-        "ids": ",us6000qlny,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 2.457,
-        "rms": 1.18,
-        "gap": 116,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.7 - 82 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4981,
-          29.187,
-          10
-        ]
-      },
-      "id": "us6000qlny"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "102 km NNW of Tatsugō, Japan",
-        "time": 1750537541605,
-        "updated": 1756848226040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qai1",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qai1&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000qai1",
-        "ids": ",us7000qai1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 2.485,
-        "rms": 0.82,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 102 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.0476,
-          29.2336,
-          10
-        ]
-      },
-      "id": "us7000qai1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "102 km NNW of Tatsugō, Japan",
-        "time": 1750537476444,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlnq",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlnq&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qlnq",
-        "ids": ",us6000qlnq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.351,
-        "rms": 0.9,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 102 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.3488,
-          29.3526,
-          10
-        ]
-      },
-      "id": "us6000qlnq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "91 km N of Tatsugō, Japan",
-        "time": 1750528328102,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlnb",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlnb&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qlnb",
-        "ids": ",us6000qlnb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 2.381,
-        "rms": 0.53,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 91 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4856,
-          29.2727,
-          10
-        ]
-      },
-      "id": "us6000qlnb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "103 km ESE of Nemuro, Japan",
-        "time": 1750518322734,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlmq",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlmq&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000qlmq",
-        "ids": ",us6000qlmq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 153,
-        "dmin": 2.726,
-        "rms": 0.69,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 103 km ESE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.6636,
-          42.8497,
-          19.538
-        ]
-      },
-      "id": "us6000qlmq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "102 km NNW of Tatsugō, Japan",
-        "time": 1750515056603,
-        "updated": 1756848220040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlmi",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qlmi&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qlmi",
-        "ids": ",us6000qlmi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.39,
-        "rms": 0.72,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 102 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.291,
-          29.3327,
-          10
-        ]
-      },
-      "id": "us6000qlmi"
     }
   ],
   "bbox": [
