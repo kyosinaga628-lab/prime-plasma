@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782353396000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-25T02%3A09%3A56&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1782439916000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-06-26T02%3A11%3A56&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 846
+    "count": 853
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "36 km NNE of Kuji, Japan",
+        "time": 1782403905225,
+        "updated": 1782406272040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t84x",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t84x&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000t84x",
+        "ids": ",us6000t84x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 0.75,
+        "rms": 0.5,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 36 km NNE of Kuji, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.963,
+          40.4803,
+          63.091
+        ]
+      },
+      "id": "us6000t84x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "39 km NE of Kuji, Japan",
+        "time": 1782388714146,
+        "updated": 1782392324040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t83p",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t83p&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000t83p",
+        "ids": ",us6000t83p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 173,
+        "dmin": 0.796,
+        "rms": 0.55,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 39 km NE of Kuji, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0284,
+          40.4809,
+          66.567
+        ]
+      },
+      "id": "us6000t83p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "22 km WNW of Shikabe, Japan",
+        "time": 1782357486513,
+        "updated": 1782390633479,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t813",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t813&format=geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000t813",
+        "ids": ",us6000t813,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 60,
+        "dmin": 1.38,
+        "rms": 0.54,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 22 km WNW of Shikabe, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5797,
+          42.1218,
+          127.925
+        ]
+      },
+      "id": "us6000t813"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +175,17 @@
         "mag": 6.9,
         "place": "30 km ENE of Kuji, Japan",
         "time": 1782340214931,
-        "updated": 1782352898095,
+        "updated": 1782428776219,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zq",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t7zq&format=geojson",
-        "felt": 59,
+        "felt": 95,
         "cdi": 6.9,
-        "mmi": 6.149,
+        "mmi": 6.536,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 773,
+        "sig": 798,
         "net": "us",
         "code": "6000t7zq",
         "ids": ",pt26175002,us6000t7zq,atth5qif,",
@@ -733,9 +853,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "97 km ENE of Miyako, Japan",
-        "time": 1781630757600,
-        "updated": 1781634865040,
+        "place": "104 km ENE of Miyako, Japan",
+        "time": 1781630757362,
+        "updated": 1782416990040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stff",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000stff&format=geojson",
@@ -751,19 +871,19 @@
         "ids": ",us7000stff,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 1.732,
-        "rms": 1.11,
-        "gap": 148,
+        "nst": 39,
+        "dmin": 1.78,
+        "rms": 0.95,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 97 km ENE of Miyako, Japan"
+        "title": "M 4.5 - 104 km ENE of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.0218,
-          39.9143,
+          143.1045,
+          39.9283,
           35
         ]
       },
@@ -1813,6 +1933,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
+        "place": "283 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1780796923433,
+        "updated": 1782430768040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stss",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000stss&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000stss",
+        "ids": ",us7000stss,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 5.15,
+        "rms": 0.58,
+        "gap": 189,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 283 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.0843,
+          48.5014,
+          82.134
+        ]
+      },
+      "id": "us7000stss"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
         "place": "8 km SE of Miyako, Japan",
         "time": 1780776912103,
         "updated": 1781805202040,
@@ -1972,10 +2132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
+        "mag": 4.5,
         "place": "Izu Islands, Japan region",
-        "time": 1780712735474,
-        "updated": 1780713823040,
+        "time": 1780712734572,
+        "updated": 1782425508040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr1h",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sr1h&format=geojson",
@@ -1985,26 +2145,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 312,
         "net": "us",
         "code": "7000sr1h",
         "ids": ",us7000sr1h,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 5.577,
-        "rms": 0.92,
-        "gap": 161,
+        "nst": 48,
+        "dmin": 5.741,
+        "rms": 1.02,
+        "gap": 122,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Izu Islands, Japan region"
+        "title": "M 4.5 - Izu Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.5864,
-          30.6278,
-          121.716
+          140.6423,
+          30.4644,
+          120.551
         ]
       },
       "id": "us7000sr1h"
@@ -2293,9 +2453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "110 km SW of Kurio, Japan",
-        "time": 1780513365875,
-        "updated": 1780515784040,
+        "place": "113 km WSW of Kurio, Japan",
+        "time": 1780513366706,
+        "updated": 1782402400040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqdn",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sqdn&format=geojson",
@@ -2311,20 +2471,20 @@
         "ids": ",us7000sqdn,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 129,
-        "dmin": 1.979,
-        "rms": 0.59,
+        "nst": 145,
+        "dmin": 1.978,
+        "rms": 0.61,
         "gap": 80,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.7 - 110 km SW of Kurio, Japan"
+        "title": "M 4.7 - 113 km WSW of Kurio, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.4691,
-          29.7153,
-          161.24
+          129.4273,
+          29.7335,
+          169.915
         ]
       },
       "id": "us7000sqdn"
@@ -2408,6 +2568,46 @@
         ]
       },
       "id": "us7000sq4y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Izu Islands, Japan region",
+        "time": 1780395240566,
+        "updated": 1782383285040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srii",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000srii&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000srii",
+        "ids": ",us7000srii,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 3.511,
+        "rms": 0.47,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8206,
+          30.6053,
+          10
+        ]
+      },
+      "id": "us7000srii"
     },
     {
       "type": "Feature",
@@ -3208,6 +3408,46 @@
         ]
       },
       "id": "us7000sqku"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "off the east coast of Honshu, Japan",
+        "time": 1780049740414,
+        "updated": 1782381725040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqkp",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sqkp&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000sqkp",
+        "ids": ",us7000sqkp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 5.041,
+        "rms": 0.72,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - off the east coast of Honshu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.688,
+          33.092,
+          10
+        ]
+      },
+      "id": "us7000sqkp"
     },
     {
       "type": "Feature",
@@ -9368,6 +9608,46 @@
         ]
       },
       "id": "us7000shag"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "114 km E of Miyako, Japan",
+        "time": 1776957990314,
+        "updated": 1782404818040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shaa",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shaa&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000shaa",
+        "ids": ",us7000shaa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 2.074,
+        "rms": 0.46,
+        "gap": 199,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 114 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2764,
+          39.5912,
+          29.113
+        ]
+      },
+      "id": "us7000shaa"
     },
     {
       "type": "Feature",
