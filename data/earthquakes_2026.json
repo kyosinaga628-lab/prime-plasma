@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783216773000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-05T01%3A59%3A32&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1783303540000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-06T02%3A05%3A40&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 904
+    "count": 907
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "47 km ESE of Jiufen, Taiwan",
+        "time": 1783278694177,
+        "updated": 1783279530040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tab1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tab1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000tab1",
+        "ids": ",us6000tab1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.701,
+        "rms": 0.46,
+        "gap": 45,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 47 km ESE of Jiufen, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.268,
+          24.9267,
+          125.429
+        ]
+      },
+      "id": "us6000tab1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "28 km NW of Shikotan, Russia",
+        "time": 1783263989483,
+        "updated": 1783282228040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taa3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000taa3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000taa3",
+        "ids": ",us6000taa3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 2.774,
+        "rms": 0.56,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 28 km NW of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4326,
+          43.9525,
+          98.821
+        ]
+      },
+      "id": "us6000taa3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1092,39 +1172,79 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.7,
-        "place": "7 km N of Oshino, Japan",
-        "time": 1782480541877,
-        "updated": 1782749579971,
+        "mag": 4.2,
+        "place": "5 km NNW of Kemigawa, Japan",
+        "time": 1782500378448,
+        "updated": 1783262569174,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8fe",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t8fe&format=geojson",
-        "felt": 143,
-        "cdi": 5.6,
-        "mmi": 5.064,
-        "alert": "green",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9yi",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t9yi&format=geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 580,
+        "sig": 272,
         "net": "us",
-        "code": "6000t8fe",
-        "ids": ",us6000t8fe,",
+        "code": "6000t9yi",
+        "ids": ",us6000t9yi,",
         "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 75,
-        "dmin": 1.15,
-        "rms": 0.69,
-        "gap": 49,
-        "magType": "mb",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 36,
+        "dmin": 1.712,
+        "rms": 0.43,
+        "gap": 135,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 5.7 - 7 km N of Oshino, Japan"
+        "title": "M 4.2 - 5 km NNW of Kemigawa, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.8566,
-          35.5228,
-          50.925
+          140.0533,
+          35.7026,
+          74.204
+        ]
+      },
+      "id": "us6000t9yi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "1 km S of Ōtsuki, Japan",
+        "time": 1782480541036,
+        "updated": 1783285040068,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8fe",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t8fe&format=geojson",
+        "felt": 143,
+        "cdi": 5.4,
+        "mmi": 5.064,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 493,
+        "net": "us",
+        "code": "6000t8fe",
+        "ids": ",us6000t8fe,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 98,
+        "dmin": 1.122,
+        "rms": 0.84,
+        "gap": 49,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 5.2 - 1 km S of Ōtsuki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9744,
+          35.6048,
+          43.164
         ]
       },
       "id": "us6000t8fe"
@@ -1453,15 +1573,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6.9,
-        "place": "32 km ENE of Noda, Japan",
-        "time": 1782340212953,
-        "updated": 1783209270290,
+        "place": "33 km ENE of Noda, Japan",
+        "time": 1782340212989,
+        "updated": 1783296484374,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zq",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t7zq&format=geojson",
         "felt": 95,
         "cdi": 6.9,
-        "mmi": 6.723,
+        "mmi": 6.718,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
@@ -1470,20 +1590,20 @@
         "code": "6000t7zq",
         "ids": ",pt26175002,us6000t7zq,atth5qif,",
         "sources": ",pt,us,at,",
-        "types": ",dyfi,ground-failure,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,impact-text,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 123,
-        "dmin": 0.988,
-        "rms": 0.67,
+        "dmin": 0.994,
+        "rms": 0.7,
         "gap": 34,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.9 - 32 km ENE of Noda, Japan"
+        "title": "M 6.9 - 33 km ENE of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.1507,
-          40.2505,
+          142.1614,
+          40.2515,
           34
         ]
       },
@@ -2133,9 +2253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "73 km E of Tomioka, Japan",
-        "time": 1781821987963,
-        "updated": 1781827298040,
+        "place": "81 km E of Tomioka, Japan",
+        "time": 1781821987640,
+        "updated": 1783302321040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sug8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sug8&format=geojson",
@@ -2151,20 +2271,20 @@
         "ids": ",us7000sug8,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 3.028,
-        "rms": 0.63,
+        "nst": 45,
+        "dmin": 3.077,
+        "rms": 0.76,
         "gap": 125,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 73 km E of Tomioka, Japan"
+        "title": "M 4.3 - 81 km E of Tomioka, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.8497,
-          37.3601,
-          52.127
+          141.9353,
+          37.2842,
+          55.634
         ]
       },
       "id": "us7000sug8"
