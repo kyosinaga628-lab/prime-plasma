@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783907130000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-13T01%3A45%3A30&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1783992113000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-14T01%3A21%3A53&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 937
+    "count": 941
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "215 km WNW of Anamizu, Japan",
+        "time": 1783965506654,
+        "updated": 1783969045040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t04s",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t04s&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000t04s",
+        "ids": ",us7000t04s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 3.153,
+        "rms": 0.58,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 215 km WNW of Anamizu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.5791,
+          37.8376,
+          412.725
+        ]
+      },
+      "id": "us7000t04s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -892,6 +932,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "39 km ENE of Hachinohe, Japan",
+        "time": 1783029924621,
+        "updated": 1783989161040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tazl",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tazl&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000tazl",
+        "ids": ",us6000tazl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.695,
+        "rms": 0.52,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 39 km ENE of Hachinohe, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9435,
+          40.5968,
+          63.069
+        ]
+      },
+      "id": "us6000tazl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "Bonin Islands, Japan region",
         "time": 1783004432297,
@@ -1092,6 +1172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "Bonin Islands, Japan region",
+        "time": 1782917239939,
+        "updated": 1783977896040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taxk",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000taxk&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000taxk",
+        "ids": ",us6000taxk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 7.752,
+        "rms": 0.94,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9594,
+          27.9874,
+          425.29
+        ]
+      },
+      "id": "us6000taxk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6,
         "place": "49 km E of Noda, Japan",
         "time": 1782907709986,
@@ -1168,6 +1288,46 @@
         ]
       },
       "id": "us6000t9bc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Bonin Islands, Japan region",
+        "time": 1782852504316,
+        "updated": 1783974965040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taq3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000taq3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000taq3",
+        "ids": ",us6000taq3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 10.324,
+        "rms": 0.59,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8494,
+          26.872,
+          10
+        ]
+      },
+      "id": "us6000taq3"
     },
     {
       "type": "Feature",
