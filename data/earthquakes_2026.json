@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784252574000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-17T01%3A42%3A54&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1784337811000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-18T01%3A23%3A31&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
@@ -15,11 +15,11 @@
         "mag": 5.2,
         "place": "48 km E of Nishinoomote, Japan",
         "time": 1784238582977,
-        "updated": 1784242934096,
+        "updated": 1784326939222,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15t",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t15t&format=geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -135,7 +135,7 @@
         "mag": 5.5,
         "place": "Volcano Islands, Japan region",
         "time": 1784188149543,
-        "updated": 1784212253040,
+        "updated": 1784274807369,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t0x0&format=geojson",
@@ -2973,9 +2973,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "52 km NE of Kuji, Japan",
-        "time": 1782347636809,
-        "updated": 1782348945040,
+        "place": "51 km ENE of Kuji, Japan",
+        "time": 1782347635875,
+        "updated": 1784258232040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t80i",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t80i&format=geojson",
@@ -2991,20 +2991,20 @@
         "ids": ",us6000t80i,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.93,
-        "rms": 0.86,
-        "gap": 153,
+        "nst": 36,
+        "dmin": 1.01,
+        "rms": 0.72,
+        "gap": 144,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 52 km NE of Kuji, Japan"
+        "title": "M 4.3 - 51 km ENE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.2262,
-          40.4991,
-          64.594
+          142.2975,
+          40.4158,
+          58.563
         ]
       },
       "id": "us6000t80i"

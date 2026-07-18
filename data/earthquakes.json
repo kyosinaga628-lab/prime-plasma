@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784252572000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-07-17T01%3A42%3A51&endtime=2026-07-17T01%3A42%3A51&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1784337810000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-07-18T01%3A23%3A30&endtime=2026-07-18T01%3A23%3A30&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1769
+    "count": 1765
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 5.2,
         "place": "48 km E of Nishinoomote, Japan",
         "time": 1784238582977,
-        "updated": 1784242934096,
+        "updated": 1784326939222,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15t",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t15t&format=geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -135,7 +135,7 @@
         "mag": 5.5,
         "place": "Volcano Islands, Japan region",
         "time": 1784188149543,
-        "updated": 1784212253040,
+        "updated": 1784274807369,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t0x0&format=geojson",
@@ -2973,9 +2973,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "52 km NE of Kuji, Japan",
-        "time": 1782347636809,
-        "updated": 1782348945040,
+        "place": "51 km ENE of Kuji, Japan",
+        "time": 1782347635875,
+        "updated": 1784258232040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t80i",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t80i&format=geojson",
@@ -2991,20 +2991,20 @@
         "ids": ",us6000t80i,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.93,
-        "rms": 0.86,
-        "gap": 153,
+        "nst": 36,
+        "dmin": 1.01,
+        "rms": 0.72,
+        "gap": 144,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 52 km NE of Kuji, Japan"
+        "title": "M 4.3 - 51 km ENE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.2262,
-          40.4991,
-          64.594
+          142.2975,
+          40.4158,
+          58.563
         ]
       },
       "id": "us6000t80i"
@@ -70608,166 +70608,6 @@
         ]
       },
       "id": "us7000qddt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "112 km S of Honchō, Japan",
-        "time": 1752779245790,
-        "updated": 1759516951040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qda1",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qda1&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000qda1",
-        "ids": ",us7000qda1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.894,
-        "rms": 0.95,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 112 km S of Honchō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.0732,
-          41.1224,
-          33.402
-        ]
-      },
-      "id": "us7000qda1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "101 km S of Honchō, Japan",
-        "time": 1752777850401,
-        "updated": 1759516951040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd9q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qd9q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qd9q",
-        "ids": ",us7000qd9q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 70,
-        "dmin": 0.814,
-        "rms": 0.79,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 101 km S of Honchō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.9725,
-          41.2125,
-          45.06
-        ]
-      },
-      "id": "us7000qd9q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "121 km NNE of Hirara, Japan",
-        "time": 1752739411119,
-        "updated": 1759516948040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd64",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qd64&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qd64",
-        "ids": ",us7000qd64,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 110,
-        "dmin": 2.014,
-        "rms": 0.7,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 121 km NNE of Hirara, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.8179,
-          25.7982,
-          88.955
-        ]
-      },
-      "id": "us7000qd64"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Bonin Islands, Japan region",
-        "time": 1752733240573,
-        "updated": 1759516900040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwke",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwke&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qwke",
-        "ids": ",us6000qwke,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.668,
-        "rms": 0.62,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Bonin Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.6942,
-          28.117,
-          184.387
-        ]
-      },
-      "id": "us6000qwke"
     }
   ],
   "bbox": [
