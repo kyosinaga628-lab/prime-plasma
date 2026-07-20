@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784424578000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-19T01%3A29%3A38&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1784516731000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-20T03%3A05%3A31&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 959
+    "count": 963
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Kuril Islands",
+        "time": 1784437105200,
+        "updated": 1784438368040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1qt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t1qt&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000t1qt",
+        "ids": ",us7000t1qt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 6.447,
+        "rms": 0.53,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5539,
+          47.5702,
+          112.886
+        ]
+      },
+      "id": "us7000t1qt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "281 km N of Ama, Japan",
+        "time": 1784425205933,
+        "updated": 1784425907040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t1q1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000t1q1",
+        "ids": ",us7000t1q1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 4.327,
+        "rms": 0.72,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 281 km N of Ama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.4192,
+          38.6177,
+          459.817
+        ]
+      },
+      "id": "us7000t1q1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -968,6 +1048,46 @@
         ]
       },
       "id": "us6000taf3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Volcano Islands, Japan region",
+        "time": 1783302221723,
+        "updated": 1784436202040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t02s",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t02s&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000t02s",
+        "ids": ",us7000t02s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 10.283,
+        "rms": 1.04,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3293,
+          23.8154,
+          128.96
+        ]
+      },
+      "id": "us7000t02s"
     },
     {
       "type": "Feature",
@@ -2128,6 +2248,46 @@
         ]
       },
       "id": "us6000t969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "90 km N of Hirara, Japan",
+        "time": 1782795554454,
+        "updated": 1784507410040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tape",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tape&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tape",
+        "ids": ",us6000tape,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 2.33,
+        "rms": 0.72,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 90 km N of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2493,
+          25.6162,
+          10
+        ]
+      },
+      "id": "us6000tape"
     },
     {
       "type": "Feature",
@@ -8334,8 +8494,8 @@
       "properties": {
         "mag": 4.2,
         "place": "Volcano Islands, Japan region",
-        "time": 1779743476319,
-        "updated": 1781730480040,
+        "time": 1779743477602,
+        "updated": 1784501036040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spw4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000spw4&format=geojson",
@@ -8352,8 +8512,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 30,
-        "dmin": 10.629,
-        "rms": 0.37,
+        "dmin": 10.604,
+        "rms": 0.58,
         "gap": 141,
         "magType": "mb",
         "type": "earthquake",
@@ -8362,9 +8522,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.9127,
-          25.2291,
-          195.335
+          140.9531,
+          25.267,
+          209.332
         ]
       },
       "id": "us7000spw4"
