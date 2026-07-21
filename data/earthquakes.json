@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784516730000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-07-20T03%3A05%3A29&endtime=2026-07-20T03%3A05%3A29&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1784597344000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-07-21T01%3A29%3A04&endtime=2026-07-21T01%3A29%3A04&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1765
+    "count": 1767
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Bonin Islands, Japan region",
+        "time": 1784573072057,
+        "updated": 1784575542040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t20b",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t20b&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t20b",
+        "ids": ",us7000t20b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 8.162,
+        "rms": 0.37,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4492,
+          28.656,
+          10
+        ]
+      },
+      "id": "us7000t20b"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -893,6 +933,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
+        "place": "19 km ESE of Noda, Japan",
+        "time": 1783521227838,
+        "updated": 1784576514040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0q4",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t0q4&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000t0q4",
+        "ids": ",us7000t0q4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.053,
+        "rms": 0.49,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 19 km ESE of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0254,
+          40.033,
+          69.803
+        ]
+      },
+      "id": "us7000t0q4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
         "place": "149 km S of Miyakojima, Japan",
         "time": 1783519138955,
         "updated": 1784222713040,
@@ -973,9 +1053,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "52 km E of Noda, Japan",
-        "time": 1783357743352,
-        "updated": 1783359255040,
+        "place": "49 km E of Noda, Japan",
+        "time": 1783357743001,
+        "updated": 1784566329040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tai6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tai6&format=geojson",
@@ -991,20 +1071,20 @@
         "ids": ",us6000tai6,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 103,
-        "dmin": 1.2,
-        "rms": 0.76,
+        "nst": 106,
+        "dmin": 1.198,
+        "rms": 0.69,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 52 km E of Noda, Japan"
+        "title": "M 4.6 - 49 km E of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.4253,
-          40.1864,
-          57.696
+          142.3995,
+          40.1573,
+          54.901
         ]
       },
       "id": "us6000tai6"
@@ -1208,6 +1288,46 @@
         ]
       },
       "id": "us6000taa3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "296 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1783218181579,
+        "updated": 1784519291040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szgl",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000szgl&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000szgl",
+        "ids": ",us7000szgl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 5.279,
+        "rms": 0.55,
+        "gap": 156,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 296 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.2358,
+          48.3147,
+          62.07
+        ]
+      },
+      "id": "us7000szgl"
     },
     {
       "type": "Feature",
@@ -70568,46 +70688,6 @@
         ]
       },
       "id": "us7000qe7a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "288 km E of Miyako, Japan",
-        "time": 1753052384516,
-        "updated": 1759516910040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxf9",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxf9&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qxf9",
-        "ids": ",us6000qxf9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 2.534,
-        "rms": 0.72,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 288 km E of Miyako, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.275,
-          40.0496,
-          10
-        ]
-      },
-      "id": "us6000qxf9"
     }
   ],
   "bbox": [
