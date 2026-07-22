@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784597344000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-07-21T01%3A29%3A04&endtime=2026-07-21T01%3A29%3A04&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1784683696000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-07-22T01%3A28%3A16&endtime=2026-07-22T01%3A28%3A16&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
     "count": 1767
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "117 km NE of Esashi, Japan",
+        "time": 1784589502474,
+        "updated": 1784597913040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t22v",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t22v&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000t22v",
+        "ids": ",us7000t22v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 1.684,
+        "rms": 1.14,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 117 km NE of Esashi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7832,
+          45.5752,
+          302.727
+        ]
+      },
+      "id": "us7000t22v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Kuril Islands",
+        "time": 1784580820580,
+        "updated": 1784670626040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t21j",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t21j&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t21j",
+        "ids": ",us7000t21j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 6.844,
+        "rms": 0.7,
+        "gap": 176,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6471,
+          47.0895,
+          50.827
+        ]
+      },
+      "id": "us7000t21j"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1493,9 +1573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "91 km SE of Kumano, Japan",
-        "time": 1783133775263,
-        "updated": 1783136206040,
+        "place": "87 km SE of Kumano, Japan",
+        "time": 1783133775161,
+        "updated": 1784674626040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta17",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ta17&format=geojson",
@@ -1511,20 +1591,20 @@
         "ids": ",us6000ta17,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 1.973,
-        "rms": 0.68,
-        "gap": 95,
+        "nst": 81,
+        "dmin": 1.965,
+        "rms": 0.72,
+        "gap": 132,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 91 km SE of Kumano, Japan"
+        "title": "M 4.6 - 87 km SE of Kumano, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.8775,
-          33.3762,
-          388.05
+          136.8315,
+          33.3871,
+          385.987
         ]
       },
       "id": "us6000ta17"
@@ -3012,6 +3092,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "3 km NW of Tako, Japan",
+        "time": 1782448295590,
+        "updated": 1784680384040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9xw",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t9xw&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000t9xw",
+        "ids": ",us6000t9xw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.973,
+        "rms": 0.62,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 3 km NW of Tako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.4454,
+          35.7545,
+          74.785
+        ]
+      },
+      "id": "us6000t9xw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.8,
         "place": "3 km SE of Yokoshiba, Japan",
         "time": 1782445595803,
@@ -3253,9 +3373,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "39 km NE of Kuji, Japan",
-        "time": 1782388714146,
-        "updated": 1782392324040,
+        "place": "27 km NE of Kuji, Japan",
+        "time": 1782388713926,
+        "updated": 1784620768040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t83p",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t83p&format=geojson",
@@ -3271,20 +3391,20 @@
         "ids": ",us6000t83p,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 173,
-        "dmin": 0.796,
-        "rms": 0.55,
+        "nst": 176,
+        "dmin": 0.832,
+        "rms": 0.68,
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 39 km NE of Kuji, Japan"
+        "title": "M 4.8 - 27 km NE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.0284,
-          40.4809,
-          66.567
+          142.0022,
+          40.3627,
+          69.88
         ]
       },
       "id": "us6000t83p"
@@ -70568,132 +70688,12 @@
         ]
       },
       "id": "us6000qyj1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "21 km ENE of Akita, Japan",
-        "time": 1753135257917,
-        "updated": 1759516884040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qu0n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qu0n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000qu0n",
-        "ids": ",us6000qu0n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.125,
-        "rms": 0.66,
-        "gap": 156,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 21 km ENE of Akita, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.3285,
-          39.8143,
-          10
-        ]
-      },
-      "id": "us6000qu0n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "42 km SW of Hualien City, Taiwan",
-        "time": 1753091639650,
-        "updated": 1759516876040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qu4q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qu4q&format=geojson",
-        "felt": 22,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 374,
-        "net": "us",
-        "code": "6000qu4q",
-        "ids": ",us6000qu4q,",
-        "sources": ",us,",
-        "types": ",dyfi,general-header,impact-text,origin,phase-data,",
-        "nst": 0,
-        "dmin": null,
-        "rms": 1.01,
-        "gap": null,
-        "magType": "ms_vx",
-        "type": "landslide",
-        "title": "M 4.9 Landslide - 42 km SW of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.295,
-          23.716,
-          0
-        ]
-      },
-      "id": "us6000qu4q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "21 km WSW of Urakawa, Japan",
-        "time": 1753077953152,
-        "updated": 1759516989040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qe7a",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qe7a&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000qe7a",
-        "ids": ",us7000qe7a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.453,
-        "rms": 0.51,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 21 km WSW of Urakawa, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.5545,
-          42.0733,
-          58.43
-        ]
-      },
-      "id": "us7000qe7a"
     }
   ],
   "bbox": [
     120.1268,
     20.0306,
-    0,
+    2.286,
     154.9857,
     49.957,
     575.724
