@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784857407000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-24T01%3A43%3A27&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1784943808000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-25T01%3A43%3A27&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 977
+    "count": 981
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "182 km SSE of Tateyama, Japan",
+        "time": 1784935101262,
+        "updated": 1784939711040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t389",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t389&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t389",
+        "ids": ",us7000t389,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 3.286,
+        "rms": 0.93,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 182 km SSE of Tateyama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2775,
+          33.3698,
+          73.068
+        ]
+      },
+      "id": "us7000t389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Izu Islands, Japan region",
+        "time": 1784918584208,
+        "updated": 1784920457040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t36e",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t36e&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000t36e",
+        "ids": ",us7000t36e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 5.329,
+        "rms": 0.58,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3858,
+          31.4494,
+          35
+        ]
+      },
+      "id": "us7000t36e"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -572,10 +652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "140 km SE of Katsuura, Japan",
-        "time": 1784217870970,
-        "updated": 1784234930040,
+        "mag": 4.5,
+        "place": "128 km SE of Katsuura, Japan",
+        "time": 1784217871535,
+        "updated": 1784923502040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t119",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t119&format=geojson",
@@ -585,25 +665,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
         "code": "7000t119",
         "ids": ",us7000t119,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 3.466,
-        "rms": 1.02,
-        "gap": 160,
+        "nst": 42,
+        "dmin": 3.36,
+        "rms": 0.55,
+        "gap": 151,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 140 km SE of Katsuura, Japan"
+        "title": "M 4.5 - 128 km SE of Katsuura, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.422,
-          34.2723,
+          141.3281,
+          34.345,
           10
         ]
       },
@@ -612,10 +692,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "49 km ENE of Noda, Japan",
-        "time": 1784217619761,
-        "updated": 1784234173040,
+        "mag": 4.2,
+        "place": "46 km ENE of Kuji, Japan",
+        "time": 1784217620680,
+        "updated": 1784923302040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t117",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t117&format=geojson",
@@ -625,29 +705,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
+        "sig": 271,
         "net": "us",
         "code": "7000t117",
         "ids": ",us7000t117,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 1.098,
-        "rms": 0.46,
-        "gap": 189,
+        "nst": 26,
+        "dmin": 1.026,
+        "rms": 0.94,
+        "gap": 156,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 49 km ENE of Noda, Japan"
+        "title": "M 4.2 - 46 km ENE of Kuji, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3463,
-          40.2876,
-          55.296
+          142.2767,
+          40.3415,
+          59.964
         ]
       },
       "id": "us7000t117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Volcano Islands, Japan region",
+        "time": 1784208048254,
+        "updated": 1784921123040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t28q",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t28q&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t28q",
+        "ids": ",us7000t28q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 13.514,
+        "rms": 0.97,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9593,
+          23.9273,
+          10
+        ]
+      },
+      "id": "us7000t28q"
     },
     {
       "type": "Feature",
@@ -974,8 +1094,8 @@
       "properties": {
         "mag": 4,
         "place": "215 km WNW of Anamizu, Japan",
-        "time": 1783965506654,
-        "updated": 1783969045040,
+        "time": 1783965506628,
+        "updated": 1784927567040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t04s",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t04s&format=geojson",
@@ -991,9 +1111,9 @@
         "ids": ",us7000t04s,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 3.153,
-        "rms": 0.58,
+        "nst": 39,
+        "dmin": 3.146,
+        "rms": 0.6,
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
@@ -1002,9 +1122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.5791,
-          37.8376,
-          412.725
+          134.5873,
+          37.8351,
+          412.374
         ]
       },
       "id": "us7000t04s"
@@ -1013,9 +1133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "128 km SSE of Kuril’sk, Russia",
-        "time": 1783882528951,
-        "updated": 1783883742040,
+        "place": "141 km SSE of Kuril’sk, Russia",
+        "time": 1783882528617,
+        "updated": 1784925212040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szx2",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000szx2&format=geojson",
@@ -1031,19 +1151,19 @@
         "ids": ",us7000szx2,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 4.348,
-        "rms": 0.93,
+        "nst": 51,
+        "dmin": 4.389,
+        "rms": 0.7,
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 128 km SSE of Kuril’sk, Russia"
+        "title": "M 4.2 - 141 km SSE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.635,
-          44.2082,
+          148.6876,
+          44.094,
           35
         ]
       },
@@ -1968,6 +2088,46 @@
         ]
       },
       "id": "us7000sz73"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "127 km NNE of Hirara, Japan",
+        "time": 1783078433540,
+        "updated": 1784894726040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9u2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t9u2&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000t9u2",
+        "ids": ",us6000t9u2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 2.049,
+        "rms": 0.81,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 127 km NNE of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.8119,
+          25.854,
+          10
+        ]
+      },
+      "id": "us6000t9u2"
     },
     {
       "type": "Feature",
