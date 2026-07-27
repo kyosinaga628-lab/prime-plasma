@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785030370000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-26T01%3A46%3A10&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1785117180000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-07-27T01%3A53%3A00&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 983
+    "count": 986
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Kuril Islands",
+        "time": 1785088802858,
+        "updated": 1785089797040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ij",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t3ij&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t3ij",
+        "ids": ",us7000t3ij,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 5.37,
+        "rms": 0.58,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.2133,
+          48.2221,
+          71.451
+        ]
+      },
+      "id": "us7000t3ij"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "15 km ESE of Pinglin, Taiwan",
+        "time": 1785069377467,
+        "updated": 1785094922484,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3gt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t3gt&format=geojson",
+        "felt": 21,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 347,
+        "net": "us",
+        "code": "7000t3gt",
+        "ids": ",us7000t3gt,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 91,
+        "dmin": 0.333,
+        "rms": 0.68,
+        "gap": 42,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.7 - 15 km ESE of Pinglin, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8508,
+          24.8852,
+          93.836
+        ]
+      },
+      "id": "us7000t3gt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "260 km N of Ama, Japan",
+        "time": 1785045532200,
+        "updated": 1785046416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3f0",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t3f0&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t3f0",
+        "ids": ",us7000t3f0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 4.174,
+        "rms": 0.54,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 260 km N of Ama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.4886,
+          38.4173,
+          446.051
+        ]
+      },
+      "id": "us7000t3f0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -4013,9 +4133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "22 km WNW of Shikabe, Japan",
-        "time": 1782357486513,
-        "updated": 1782390633479,
+        "place": "21 km WNW of Shikabe, Japan",
+        "time": 1782357486482,
+        "updated": 1785037254040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t813",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t813&format=geojson",
@@ -4031,20 +4151,20 @@
         "ids": ",us6000t813,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 60,
-        "dmin": 1.38,
-        "rms": 0.54,
+        "nst": 100,
+        "dmin": 1.375,
+        "rms": 0.41,
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 22 km WNW of Shikabe, Japan"
+        "title": "M 4.4 - 21 km WNW of Shikabe, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.5797,
-          42.1218,
-          127.925
+          140.5993,
+          42.1206,
+          128.845
         ]
       },
       "id": "us6000t813"
