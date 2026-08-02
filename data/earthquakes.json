@@ -1,14 +1,294 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785548946000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-08-01T01%3A49%3A05&endtime=2026-08-01T01%3A49%3A05&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1785635108000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-08-02T01%3A45%3A07&endtime=2026-08-02T01%3A45%3A07&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1776
+    "count": 1774
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "64 km ENE of Noda, Japan",
+        "time": 1785631540187,
+        "updated": 1785632921040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thjm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thjm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000thjm",
+        "ids": ",us6000thjm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 1.219,
+        "rms": 0.82,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 64 km ENE of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5317,
+          40.302,
+          56.352
+        ]
+      },
+      "id": "us6000thjm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "48 km ESE of Tsunō, Japan",
+        "time": 1785611452622,
+        "updated": 1785612668040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thhk",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thhk&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000thhk",
+        "ids": ",usauto6000thhk,us6000thhk,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,origin,phase-data,",
+        "nst": 83,
+        "dmin": 1.409,
+        "rms": 1.16,
+        "gap": 88,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 48 km ESE of Tsunō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.9999,
+          32.0078,
+          26.229
+        ]
+      },
+      "id": "us6000thhk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "14 km WSW of Honmachi, Japan",
+        "time": 1785600441753,
+        "updated": 1785622745681,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgz",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thgz&format=geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000thgz",
+        "ids": ",us6000thgz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 79,
+        "dmin": 0.937,
+        "rms": 0.64,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 14 km WSW of Honmachi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.4599,
+          32.4488,
+          10
+        ]
+      },
+      "id": "us6000thgz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "3 km W of Matsubase, Japan",
+        "time": 1785588443253,
+        "updated": 1785589356040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgg",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thgg&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000thgg",
+        "ids": ",us6000thgg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 1.148,
+        "rms": 0.71,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 3 km W of Matsubase, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6285,
+          32.6513,
+          10
+        ]
+      },
+      "id": "us6000thgg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "273 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1785566892038,
+        "updated": 1785569889040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thex",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thex&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000thex",
+        "ids": ",us6000thex,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 5.088,
+        "rms": 0.83,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 273 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.7658,
+          48.3782,
+          35
+        ]
+      },
+      "id": "us6000thex"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Volcano Islands, Japan region",
+        "time": 1785564117638,
+        "updated": 1785568342040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thev",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thev&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000thev",
+        "ids": ",us6000thev,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 10.383,
+        "rms": 0.57,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5554,
+          24.3042,
+          35
+        ]
+      },
+      "id": "us6000thev"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "57 km E of Mutsu, Japan",
+        "time": 1785552481570,
+        "updated": 1785583797722,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thdk",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thdk&format=geojson",
+        "felt": 7,
+        "cdi": 3.8,
+        "mmi": 4.35,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 468,
+        "net": "us",
+        "code": "6000thdk",
+        "ids": ",us6000thdk,usauto6000thdk,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,losspager,origin,phase-data,shakemap,",
+        "nst": 73,
+        "dmin": 0.843,
+        "rms": 0.83,
+        "gap": 72,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 57 km E of Mutsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8958,
+          41.352,
+          82.29
+        ]
+      },
+      "id": "us6000thdk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,11 +895,11 @@
         "mag": 6.8,
         "place": "2026 Uto, Japan Earthquake ",
         "time": 1785223635512,
-        "updated": 1785505281484,
+        "updated": 1785619757417,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgb9&format=geojson",
-        "felt": 85,
+        "felt": 88,
         "cdi": 8.7,
         "mmi": 9.243,
         "alert": "red",
@@ -70688,366 +70968,6 @@
         ]
       },
       "id": "us7000qqtq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Volcano Islands, Japan region",
-        "time": 1754097630880,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qqsr",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qqsr&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qqsr",
-        "ids": ",us7000qqsr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.749,
-        "rms": 0.77,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.8833,
-          23.3843,
-          41.105
-        ]
-      },
-      "id": "us7000qqsr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "24 km SSW of Hualien City, Taiwan",
-        "time": 1754092111405,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxjk",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxjk&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000qxjk",
-        "ids": ",us6000qxjk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.412,
-        "rms": 1.04,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 24 km SSW of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5524,
-          23.762,
-          10
-        ]
-      },
-      "id": "us6000qxjk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "96 km SE of Akkeshi, Japan",
-        "time": 1754087257276,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxja",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxja&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.044,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000qxja",
-        "ids": ",usauto6000qxja,us6000qxja,",
-        "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 103,
-        "dmin": 1.783,
-        "rms": 0.84,
-        "gap": 93,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 96 km SE of Akkeshi, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.5206,
-          42.3163,
-          25.169
-        ]
-      },
-      "id": "us6000qxja"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "59 km E of Nemuro, Japan",
-        "time": 1754083100119,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxiv",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxiv&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qxiv",
-        "ids": ",us6000qxiv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 2.628,
-        "rms": 0.94,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 59 km E of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.2984,
-          43.2537,
-          75.477
-        ]
-      },
-      "id": "us6000qxiv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "97 km E of Tomioka, Japan",
-        "time": 1754076857095,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r34l",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r34l&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000r34l",
-        "ids": ",us6000r34l,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 3.228,
-        "rms": 1.04,
-        "gap": 146,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 97 km E of Tomioka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1178,
-          37.3275,
-          31.374
-        ]
-      },
-      "id": "us6000r34l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "183 km E of Noda, Japan",
-        "time": 1754074751283,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r34k",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r34k&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000r34k",
-        "ids": ",us6000r34k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.824,
-        "rms": 0.63,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 183 km E of Noda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.9546,
-          40.2919,
-          10
-        ]
-      },
-      "id": "us6000r34k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "2 km WNW of Menuma, Japan",
-        "time": 1754056724861,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxai",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxai&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qxai",
-        "ids": ",us6000qxai,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.973,
-        "rms": 0.84,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 2 km WNW of Menuma, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3515,
-          36.2312,
-          116.03
-        ]
-      },
-      "id": "us6000qxai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "74 km SSW of Yonakuni, Japan",
-        "time": 1754035877494,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qx8c",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qx8c&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qx8c",
-        "ids": ",us6000qx8c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.674,
-        "rms": 1.15,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 74 km SSW of Yonakuni, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.6608,
-          23.8707,
-          10
-        ]
-      },
-      "id": "us6000qx8c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "70 km E of Tomioka, Japan",
-        "time": 1754029850564,
-        "updated": 1760741502040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r31z",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r31z&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000r31z",
-        "ids": ",us6000r31z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 3.007,
-        "rms": 1.21,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 70 km E of Tomioka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.8091,
-          37.3898,
-          47.295
-        ]
-      },
-      "id": "us6000r31z"
     }
   ],
   "bbox": [
