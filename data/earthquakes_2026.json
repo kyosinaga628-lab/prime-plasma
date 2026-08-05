@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785806609000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-04T01%3A23%3A29&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1785893319000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-05T01%3A28%3A38&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1033
+    "count": 1038
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "43 km ESE of Koseda, Japan",
+        "time": 1785873418739,
+        "updated": 1785884829371,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti40",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ti40&format=geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
+        "code": "6000ti40",
+        "ids": ",us6000ti40,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 112,
+        "dmin": 1.394,
+        "rms": 0.77,
+        "gap": 115,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 43 km ESE of Koseda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0474,
+          30.2082,
+          44.967
+        ]
+      },
+      "id": "us6000ti40"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "79 km E of Onagawa Chō, Japan",
+        "time": 1785852026620,
+        "updated": 1785854334040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti0a",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ti0a&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ti0a",
+        "ids": ",us6000ti0a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 156,
+        "dmin": 2.664,
+        "rms": 0.8,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 79 km E of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3433,
+          38.3126,
+          40.428
+        ]
+      },
+      "id": "us6000ti0a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "227 km SSE of Shimoda, Japan",
+        "time": 1785818790063,
+        "updated": 1785821580040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thxt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thxt&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000thxt",
+        "ids": ",us6000thxt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 3.586,
+        "rms": 0.57,
+        "gap": 152,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 227 km SSE of Shimoda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.276,
+          32.9501,
+          105.368
+        ]
+      },
+      "id": "us6000thxt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1095,11 +1215,11 @@
         "mag": 6.8,
         "place": "The 2026 Kumamoto Region, Japan Earthquake",
         "time": 1785223635512,
-        "updated": 1785777962090,
+        "updated": 1785818703869,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgb9&format=geojson",
-        "felt": 88,
+        "felt": 90,
         "cdi": 8.7,
         "mmi": 9.243,
         "alert": "red",
@@ -2013,9 +2133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "4 km NE of Mnogoudobnoye, Russia",
-        "time": 1784411697555,
-        "updated": 1784419940040,
+        "place": "1 km SE of Mnogoudobnoye, Russia",
+        "time": 1784411697537,
+        "updated": 1785819545040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1nw",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t1nw&format=geojson",
@@ -2031,20 +2151,20 @@
         "ids": ",us7000t1nw,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.8,
-        "rms": 0.6,
+        "nst": 41,
+        "dmin": 0.82,
+        "rms": 0.62,
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 4 km NE of Mnogoudobnoye, Russia"
+        "title": "M 4.0 - 1 km SE of Mnogoudobnoye, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          132.5101,
-          43.4944,
-          502.747
+          132.4811,
+          43.4606,
+          502.079
         ]
       },
       "id": "us7000t1nw"
@@ -9448,6 +9568,86 @@
         ]
       },
       "id": "us7000stqx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "74 km SW of Yonakuni, Japan",
+        "time": 1780618880527,
+        "updated": 1785811003040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stqs",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000stqs&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000stqs",
+        "ids": ",us7000stqs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.674,
+        "rms": 1.32,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 74 km SW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4602,
+          24.0164,
+          40.229
+        ]
+      },
+      "id": "us7000stqs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Bonin Islands, Japan region",
+        "time": 1780606138558,
+        "updated": 1785852179040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srtd",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000srtd&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000srtd",
+        "ids": ",us7000srtd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 10.847,
+        "rms": 0.38,
+        "gap": 177,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8227,
+          26.4006,
+          10
+        ]
+      },
+      "id": "us7000srtd"
     },
     {
       "type": "Feature",
