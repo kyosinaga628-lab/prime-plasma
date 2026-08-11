@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786323241000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-10T00%3A54%3A01&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1786409608000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-11T00%3A53%3A28&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1061
+    "count": 1063
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "66 km ENE of Shikotan, Russia",
+        "time": 1786358202622,
+        "updated": 1786359950040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjkl",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tjkl&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000tjkl",
+        "ids": ",us6000tjkl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 3.534,
+        "rms": 0.41,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 66 km ENE of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4942,
+          44.0156,
+          66.149
+        ]
+      },
+      "id": "us6000tjkl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.4,
         "place": "7 km NE of Maibara, Japan",
         "time": 1786290490297,
-        "updated": 1786323225432,
+        "updated": 1786359466653,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfv",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tjfv&format=geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1854,8 +1894,8 @@
       "properties": {
         "mag": 4.1,
         "place": "Bonin Islands, Japan region",
-        "time": 1785194446582,
-        "updated": 1785201112040,
+        "time": 1785194446278,
+        "updated": 1786406937040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg99",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tg99&format=geojson",
@@ -1871,10 +1911,10 @@
         "ids": ",us6000tg99,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 8.543,
-        "rms": 0.83,
-        "gap": 147,
+        "nst": 44,
+        "dmin": 1.693,
+        "rms": 0.79,
+        "gap": 82,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.1 - Bonin Islands, Japan region"
@@ -1882,12 +1922,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.1742,
-          27.1167,
-          462.209
+          140.2855,
+          27.1014,
+          464.461
         ]
       },
       "id": "us6000tg99"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "61 km E of Noda, Japan",
+        "time": 1785191196805,
+        "updated": 1786403884040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th7a",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000th7a&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000th7a",
+        "ids": ",us6000th7a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.313,
+        "rms": 0.65,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 61 km E of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5413,
+          40.1136,
+          35
+        ]
+      },
+      "id": "us6000th7a"
     },
     {
       "type": "Feature",
@@ -2212,10 +2292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "182 km SSE of Tateyama, Japan",
-        "time": 1784935101262,
-        "updated": 1784939711040,
+        "mag": 4.3,
+        "place": "184 km S of Tateyama, Japan",
+        "time": 1784935101750,
+        "updated": 1786409503040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t389",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t389&format=geojson",
@@ -2225,26 +2305,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 284,
         "net": "us",
         "code": "7000t389",
         "ids": ",us7000t389,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 3.286,
-        "rms": 0.93,
-        "gap": 140,
+        "nst": 35,
+        "dmin": 3.282,
+        "rms": 0.95,
+        "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 182 km SSE of Tateyama, Japan"
+        "title": "M 4.3 - 184 km S of Tateyama, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.2775,
-          33.3698,
-          73.068
+          140.2501,
+          33.3505,
+          80.402
         ]
       },
       "id": "us7000t389"
@@ -6735,17 +6815,17 @@
         "mag": 5.8,
         "place": "2 km ESE of Yōkaichiba, Japan",
         "time": 1782445595798,
-        "updated": 1785027390466,
+        "updated": 1786339373577,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8cy",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t8cy&format=geojson",
-        "felt": 65,
+        "felt": 66,
         "cdi": 4.3,
         "mmi": 4.764,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 545,
+        "sig": 546,
         "net": "us",
         "code": "6000t8cy",
         "ids": ",us6000t8cy,usauto6000t8cy,",
