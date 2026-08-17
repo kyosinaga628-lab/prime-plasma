@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786840658000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-08-16T00%3A37%3A38&endtime=2026-08-16T00%3A37%3A38&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1786926968000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-08-17T00%3A36%3A08&endtime=2026-08-17T00%3A36%3A08&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1779
+    "count": 1776
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.5,
         "place": "Volcano Islands, Japan region",
         "time": 1786822350371,
-        "updated": 1786829901742,
+        "updated": 1786908959459,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl36",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tl36&format=geojson",
@@ -2293,9 +2293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "13 km NW of Honmachi, Japan",
-        "time": 1785247316049,
-        "updated": 1785341779040,
+        "place": "17 km W of Uki, Japan",
+        "time": 1785247318034,
+        "updated": 1786857473040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgd4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgd4&format=geojson",
@@ -2310,21 +2310,21 @@
         "code": "6000tgd4",
         "ids": ",us6000tgd4,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 116,
-        "dmin": 1.078,
-        "rms": 0.65,
-        "gap": 69,
-        "magType": "mb",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 124,
+        "dmin": 0.586,
+        "rms": 0.6,
+        "gap": 68,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - 13 km NW of Honmachi, Japan"
+        "title": "M 4.8 - 17 km W of Uki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.4935,
-          32.5899,
-          2.283
+          130.4731,
+          32.6459,
+          13.288
         ]
       },
       "id": "us6000tgd4"
@@ -71048,132 +71048,12 @@
         ]
       },
       "id": "us7000qvfy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "32 km ESE of Takanabe, Japan",
-        "time": 1755378794873,
-        "updated": 1762274629040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1mt",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r1mt&format=geojson",
-        "felt": 6,
-        "cdi": 7.9,
-        "mmi": 5.578,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 470,
-        "net": "us",
-        "code": "6000r1mt",
-        "ids": ",us6000r1mt,usauto6000r1mt,",
-        "sources": ",us,usauto,",
-        "types": ",dyfi,ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 155,
-        "dmin": 1.261,
-        "rms": 0.85,
-        "gap": 47,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 32 km ESE of Takanabe, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.811,
-          32.0131,
-          30
-        ]
-      },
-      "id": "us6000r1mt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "east of the Kuril Islands",
-        "time": 1755370206814,
-        "updated": 1762274660040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qv92",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qv92&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000qv92",
-        "ids": ",us7000qv92,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 7.708,
-        "rms": 0.77,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - east of the Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.756,
-          45.7316,
-          10
-        ]
-      },
-      "id": "us7000qv92"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Izu Islands, Japan region",
-        "time": 1755350014439,
-        "updated": 1762274658040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qv8j",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qv8j&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qv8j",
-        "ids": ",us7000qv8j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.446,
-        "rms": 0.55,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.5224,
-          32.2389,
-          10
-        ]
-      },
-      "id": "us7000qv8j"
     }
   ],
   "bbox": [
     120.1268,
     20.0306,
-    2.283,
+    2.286,
     154.9857,
     49.957,
     575.724

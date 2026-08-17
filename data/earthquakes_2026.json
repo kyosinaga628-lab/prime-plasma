@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786840659000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-16T00%3A37%3A39&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1786926970000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-17T00%3A36%3A09&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
@@ -15,7 +15,7 @@
         "mag": 5.5,
         "place": "Volcano Islands, Japan region",
         "time": 1786822350371,
-        "updated": 1786829901742,
+        "updated": 1786908959459,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl36",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tl36&format=geojson",
@@ -2293,9 +2293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "13 km NW of Honmachi, Japan",
-        "time": 1785247316049,
-        "updated": 1785341779040,
+        "place": "17 km W of Uki, Japan",
+        "time": 1785247318034,
+        "updated": 1786857473040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgd4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgd4&format=geojson",
@@ -2310,21 +2310,21 @@
         "code": "6000tgd4",
         "ids": ",us6000tgd4,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 116,
-        "dmin": 1.078,
-        "rms": 0.65,
-        "gap": 69,
-        "magType": "mb",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 124,
+        "dmin": 0.586,
+        "rms": 0.6,
+        "gap": 68,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - 13 km NW of Honmachi, Japan"
+        "title": "M 4.8 - 17 km W of Uki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.4935,
-          32.5899,
-          2.283
+          130.4731,
+          32.6459,
+          13.288
         ]
       },
       "id": "us6000tgd4"
@@ -43413,7 +43413,7 @@
   "bbox": [
     120.1268,
     20.0306,
-    2.283,
+    2.286,
     154.9857,
     49.8257,
     553.363
