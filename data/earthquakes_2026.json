@@ -1,14 +1,214 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787978560000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-29T04%3A42%3A40&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1788056210000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-30T02%3A16%3A49&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1160
+    "count": 1167
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "58 km ESE of Koshima, Japan",
+        "time": 1788037219499,
+        "updated": 1788040610040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcv5",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tcv5&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000tcv5",
+        "ids": ",us7000tcv5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 1.605,
+        "rms": 0.68,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 58 km ESE of Koshima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0784,
+          29.9927,
+          35
+        ]
+      },
+      "id": "us7000tcv5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "16 km ENE of Hasaki, Japan",
+        "time": 1788016626003,
+        "updated": 1788048843491,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcu2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tcu2&format=geojson",
+        "felt": 7,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 343,
+        "net": "us",
+        "code": "7000tcu2",
+        "ids": ",us7000tcu2,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 124,
+        "dmin": 2.37,
+        "rms": 1.06,
+        "gap": 120,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.7 - 16 km ENE of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.9937,
+          35.8029,
+          34.783
+        ]
+      },
+      "id": "us7000tcu2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "186 km SE of Terney, Russia",
+        "time": 1788009914872,
+        "updated": 1788015132040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tctu",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tctu&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000tctu",
+        "ids": ",us7000tctu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 3.112,
+        "rms": 0.73,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 186 km SE of Terney, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2924,
+          43.8866,
+          257.202
+        ]
+      },
+      "id": "us7000tctu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Mariana Islands region",
+        "time": 1788004074696,
+        "updated": 1788005044040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tctm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tctm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000tctm",
+        "ids": ",us7000tctm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 14.51,
+        "rms": 0.61,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9231,
+          21.5766,
+          317.525
+        ]
+      },
+      "id": "us7000tctm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "170 km ESE of Kuril’sk, Russia",
+        "time": 1787978922059,
+        "updated": 1787980059040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcrx",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tcrx&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000tcrx",
+        "ids": ",us7000tcrx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 5.316,
+        "rms": 0.68,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 170 km ESE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9582,
+          44.8019,
+          43.998
+        ]
+      },
+      "id": "us7000tcrx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -813,15 +1013,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6,
-        "place": "33 km SSW of Honchō, Japan",
-        "time": 1787492693514,
-        "updated": 1787579578974,
+        "place": "32 km SSW of Honchō, Japan",
+        "time": 1787492693389,
+        "updated": 1788040173051,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmz6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmz6&format=geojson",
         "felt": 12,
         "cdi": 3.4,
-        "mmi": 4.484,
+        "mmi": 5.551,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -831,20 +1031,20 @@
         "ids": ",us6000tmz6,usauto6000tmz6,attk866t,",
         "sources": ",us,usauto,at,",
         "types": ",dyfi,ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 118,
-        "dmin": 0.306,
-        "rms": 0.76,
+        "nst": 136,
+        "dmin": 0.312,
+        "rms": 0.78,
         "gap": 101,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.0 - 33 km SSW of Honchō, Japan"
+        "title": "M 6.0 - 32 km SSW of Honchō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.8255,
-          41.8344,
-          42.867
+          142.802,
+          41.8495,
+          41
         ]
       },
       "id": "us6000tmz6"
@@ -1052,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
+        "mag": 4.4,
         "place": "Bonin Islands, Japan region",
-        "time": 1787324910808,
-        "updated": 1787326916040,
+        "time": 1787324911164,
+        "updated": 1788036634040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmiz",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmiz&format=geojson",
@@ -1065,25 +1265,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 298,
         "net": "us",
         "code": "6000tmiz",
         "ids": ",us6000tmiz,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 8.403,
-        "rms": 1.06,
-        "gap": 137,
+        "nst": 31,
+        "dmin": 1.545,
+        "rms": 0.66,
+        "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Bonin Islands, Japan region"
+        "title": "M 4.4 - Bonin Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.636,
-          28.4731,
+          142.5974,
+          28.6031,
           10
         ]
       },
@@ -1212,10 +1412,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Mariana Islands region",
+        "time": 1787237517129,
+        "updated": 1788033310040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc6v",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tc6v&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000tc6v",
+        "ids": ",us7000tc6v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 5.171,
+        "rms": 0.65,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0202,
+          21.9582,
+          207.389
+        ]
+      },
+      "id": "us7000tc6v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
-        "place": "5 km N of Hitachi, Japan",
-        "time": 1787203721414,
-        "updated": 1787268218840,
+        "place": "18 km E of Funaishikawa, Japan",
+        "time": 1787203720768,
+        "updated": 1787981157119,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2a",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tm2a&format=geojson",
@@ -1231,20 +1471,20 @@
         "ids": ",us6000tm2a,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": 1.959,
-        "rms": 0.92,
-        "gap": 194,
+        "nst": 37,
+        "dmin": 2.07,
+        "rms": 0.59,
+        "gap": 201,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 5 km N of Hitachi, Japan"
+        "title": "M 4.3 - 18 km E of Funaishikawa, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.6399,
-          36.651,
-          47.772
+          140.7756,
+          36.4519,
+          49.9
         ]
       },
       "id": "us6000tm2a"
@@ -2528,6 +2768,46 @@
         ]
       },
       "id": "us6000tj9r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "169 km ENE of Kuril’sk, Russia",
+        "time": 1786196549064,
+        "updated": 1788037045040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk93",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tk93&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tk93",
+        "ids": ",us6000tk93,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 5.444,
+        "rms": 0.9,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 169 km ENE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9156,
+          45.7344,
+          120.025
+        ]
+      },
+      "id": "us6000tk93"
     },
     {
       "type": "Feature",
@@ -4572,10 +4852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "6 km W of Honmachi, Japan",
-        "time": 1785356194700,
-        "updated": 1787762085040,
+        "mag": 4.4,
+        "place": "6 km WNW of Honmachi, Japan",
+        "time": 1785356195659,
+        "updated": 1788020993040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgt4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgt4&format=geojson",
@@ -4585,26 +4865,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 298,
         "net": "us",
         "code": "6000tgt4",
         "ids": ",us6000tgt4,",
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": 146,
-        "dmin": 0.678,
-        "rms": 0.54,
+        "dmin": 0.654,
+        "rms": 0.55,
         "gap": 83,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - 6 km W of Honmachi, Japan"
+        "title": "M 4.4 - 6 km WNW of Honmachi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.5276,
-          32.5123,
-          6.099
+          130.5433,
+          32.5324,
+          11.706
         ]
       },
       "id": "us6000tgt4"
@@ -5733,9 +6013,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "14 km ESE of Pinglin, Taiwan",
-        "time": 1785069377506,
-        "updated": 1787761856040,
+        "place": "9 km ESE of Pinglin, Taiwan",
+        "time": 1785069377489,
+        "updated": 1788007464040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3gt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t3gt&format=geojson",
@@ -5751,20 +6031,20 @@
         "ids": ",us7000t3gt,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 101,
-        "dmin": 0.324,
-        "rms": 0.68,
+        "nst": 105,
+        "dmin": 0.276,
+        "rms": 0.76,
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.7 - 14 km ESE of Pinglin, Taiwan"
+        "title": "M 4.7 - 9 km ESE of Pinglin, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.8416,
-          24.8895,
-          94.522
+          121.7883,
+          24.8953,
+          95.992
         ]
       },
       "id": "us7000t3gt"
@@ -5894,8 +6174,8 @@
       "properties": {
         "mag": 4.3,
         "place": "Kuril Islands",
-        "time": 1784991865968,
-        "updated": 1787253015040,
+        "time": 1784991865629,
+        "updated": 1788021605040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3bu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t3bu&format=geojson",
@@ -5911,9 +6191,9 @@
         "ids": ",us7000t3bu,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 109,
-        "dmin": 6.715,
-        "rms": 0.6,
+        "nst": 108,
+        "dmin": 6.748,
+        "rms": 0.61,
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
@@ -5922,9 +6202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.1793,
-          47.0607,
-          79.839
+          153.0921,
+          47.0505,
+          79.832
         ]
       },
       "id": "us7000t3bu"
