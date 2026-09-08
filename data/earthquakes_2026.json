@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788745535000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-07T01%3A45%3A35&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1788832612000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-08T01%3A56%3A52&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1202
+    "count": 1206
   },
   "features": [
     {
@@ -2612,6 +2612,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "59 km ESE of Miyazaki, Japan",
+        "time": 1786936014010,
+        "updated": 1788829994040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmjm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmjm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000tmjm",
+        "ids": ",us6000tmjm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.33,
+        "rms": 1,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 59 km ESE of Miyazaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.9955,
+          31.7019,
+          17.412
+        ]
+      },
+      "id": "us6000tmjm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "14 km S of Maebaru-chūō, Japan",
         "time": 1786916236420,
@@ -2688,6 +2728,46 @@
         ]
       },
       "id": "usd0015e8e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "128 km SSE of Kuril’sk, Russia",
+        "time": 1786872744122,
+        "updated": 1788786557040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7a",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usd0015e7a&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "d0015e7a",
+        "ids": ",usd0015e7a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 4.184,
+        "rms": 0.64,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 128 km SSE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4048,
+          44.1294,
+          37.605
+        ]
+      },
+      "id": "usd0015e7a"
     },
     {
       "type": "Feature",
@@ -2772,6 +2852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "139 km SE of Miyakojima, Japan",
+        "time": 1786802501737,
+        "updated": 1788796226040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm63",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tm63&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tm63",
+        "ids": ",us6000tm63,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 1.854,
+        "rms": 0.97,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 139 km SE of Miyakojima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.1622,
+          23.7994,
+          10
+        ]
+      },
+      "id": "us6000tm63"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "62 km ESE of Yilan, Taiwan",
         "time": 1786793415229,
@@ -2808,6 +2928,46 @@
         ]
       },
       "id": "us6000tl0a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "145 km S of Itoman, Japan",
+        "time": 1786777083136,
+        "updated": 1788801360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm5l",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tm5l&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tm5l",
+        "ids": ",us6000tm5l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 3.248,
+        "rms": 0.67,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 145 km S of Itoman, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8065,
+          24.8209,
+          10
+        ]
+      },
+      "id": "us6000tm5l"
     },
     {
       "type": "Feature",
@@ -2974,8 +3134,8 @@
       "properties": {
         "mag": 4.8,
         "place": "Bonin Islands, Japan region",
-        "time": 1786683195378,
-        "updated": 1786684040040,
+        "time": 1786683194621,
+        "updated": 1788827140040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tklc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tklc&format=geojson",
@@ -2991,10 +3151,10 @@
         "ids": ",us6000tklc,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 7.694,
-        "rms": 0.52,
-        "gap": 117,
+        "nst": 180,
+        "dmin": 7.791,
+        "rms": 0.66,
+        "gap": 35,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.8 - Bonin Islands, Japan region"
@@ -3002,9 +3162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5875,
-          27.6391,
-          516.445
+          139.6903,
+          27.6768,
+          506.542
         ]
       },
       "id": "us6000tklc"
@@ -13373,9 +13533,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "124 km SSE of Itoman, Japan",
-        "time": 1781897791348,
-        "updated": 1788536457040,
+        "place": "121 km SSE of Itoman, Japan",
+        "time": 1781897791419,
+        "updated": 1788817480040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000supp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000supp&format=geojson",
@@ -13390,20 +13550,20 @@
         "code": "7000supp",
         "ids": ",usauto7000supp,us7000supp,",
         "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 142,
-        "dmin": 1.78,
-        "rms": 0.97,
-        "gap": 64,
+        "types": ",internal-moment-tensor,moment-tensor,origin,phase-data,",
+        "nst": 141,
+        "dmin": 1.768,
+        "rms": 0.78,
+        "gap": 63,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 124 km SSE of Itoman, Japan"
+        "title": "M 4.9 - 121 km SSE of Itoman, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          128.0673,
-          25.0581,
+          128.0138,
+          25.0763,
           10
         ]
       },
