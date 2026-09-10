@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788919322000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-09-09T02%3A02%3A02&endtime=2026-09-09T02%3A02%3A02&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1789005549000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-09-10T01%3A59%3A08&endtime=2026-09-10T01%3A59%3A08&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1821
+    "count": 1819
   },
   "features": [
     {
@@ -453,9 +453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "78 km ENE of Mutsu, Japan",
-        "time": 1788290483337,
-        "updated": 1788294487040,
+        "place": "75 km ENE of Mutsu, Japan",
+        "time": 1788290481987,
+        "updated": 1788988574040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdfa",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdfa&format=geojson",
@@ -472,19 +472,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 85,
-        "dmin": 0.917,
-        "rms": 0.54,
-        "gap": 114,
+        "dmin": 0.941,
+        "rms": 0.55,
+        "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 78 km ENE of Mutsu, Japan"
+        "title": "M 4.6 - 75 km ENE of Mutsu, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.0502,
-          41.6191,
-          74.021
+          142.0312,
+          41.5941,
+          61.978
         ]
       },
       "id": "us7000tdfa"
@@ -493,9 +493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "36 km S of Shizunai-furukawachō, Japan",
-        "time": 1788285001281,
-        "updated": 1788291152040,
+        "place": "33 km S of Shizunai-furukawachō, Japan",
+        "time": 1788285001547,
+        "updated": 1788965908040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdem",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdem&format=geojson",
@@ -511,20 +511,20 @@
         "ids": ",us7000tdem,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.651,
-        "rms": 0.58,
-        "gap": 122,
+        "nst": 39,
+        "dmin": 0.615,
+        "rms": 0.56,
+        "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 36 km S of Shizunai-furukawachō, Japan"
+        "title": "M 4.3 - 33 km S of Shizunai-furukawachō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.2842,
-          42.0091,
-          63.897
+          142.3327,
+          42.0319,
+          65.908
         ]
       },
       "id": "us7000tdem"
@@ -2612,10 +2612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "3 km NNE of Takatsuki, Japan",
-        "time": 1786952179104,
-        "updated": 1787040363103,
+        "mag": 4.5,
+        "place": "7 km NW of Takatsuki, Japan",
+        "time": 1786952179360,
+        "updated": 1788942956534,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ecj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usd0015ecj&format=geojson",
@@ -2625,26 +2625,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
         "code": "d0015ecj",
         "ids": ",usd0015ecj,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 128,
-        "dmin": 1.24,
-        "rms": 0.69,
-        "gap": 85,
+        "nst": 266,
+        "dmin": 1.283,
+        "rms": 0.55,
+        "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 3 km NNE of Takatsuki, Japan"
+        "title": "M 4.5 - 7 km NW of Takatsuki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.6311,
-          34.8761,
-          370.457
+          135.5619,
+          34.9012,
+          370.544
         ]
       },
       "id": "usd0015ecj"
@@ -2732,10 +2732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "14 km S of Maebaru-chūō, Japan",
-        "time": 1786916236420,
-        "updated": 1787527199040,
+        "mag": 4,
+        "place": "7 km SSW of Maebaru-chūō, Japan",
+        "time": 1786916237117,
+        "updated": 1788928013040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eab",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usd0015eab&format=geojson",
@@ -2745,25 +2745,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 246,
         "net": "us",
         "code": "d0015eab",
         "ids": ",usd0015eab,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.275,
-        "rms": 0.97,
-        "gap": 125,
+        "nst": 15,
+        "dmin": 1.211,
+        "rms": 0.59,
+        "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 14 km S of Maebaru-chūō, Japan"
+        "title": "M 4.0 - 7 km SSW of Maebaru-chūō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.1863,
-          33.4318,
+          130.1715,
+          33.4995,
           10
         ]
       },
@@ -11092,10 +11092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "51 km ESE of Ōfunato, Japan",
-        "time": 1783043092739,
-        "updated": 1785944533040,
+        "mag": 5,
+        "place": "61 km ESE of Ōfunato, Japan",
+        "time": 1783043089942,
+        "updated": 1788925926040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9qx",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t9qx&format=geojson",
@@ -11105,26 +11105,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 385,
         "net": "us",
         "code": "6000t9qx",
         "ids": ",usauto6000t9qx,us6000t9qx,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,moment-tensor,origin,phase-data,",
         "nst": 146,
-        "dmin": 2.145,
-        "rms": 0.53,
+        "dmin": 2.217,
+        "rms": 0.76,
         "gap": 90,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 51 km ESE of Ōfunato, Japan"
+        "title": "M 5.0 - 61 km ESE of Ōfunato, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.2312,
-          38.8392,
-          50.962
+          142.334,
+          38.7968,
+          29.646
         ]
       },
       "id": "us6000t9qx"
@@ -13615,7 +13615,7 @@
         "mag": 4.9,
         "place": "121 km SSE of Itoman, Japan",
         "time": 1781897791419,
-        "updated": 1788817480040,
+        "updated": 1788965570040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000supp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000supp&format=geojson",
@@ -72768,86 +72768,6 @@
         ]
       },
       "id": "us6000reim"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "81 km S of Koshima, Japan",
-        "time": 1757451377457,
-        "updated": 1764546072040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qv4u",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qv4u&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qv4u",
-        "ids": ",us7000qv4u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 119,
-        "dmin": 2.002,
-        "rms": 0.67,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 81 km S of Koshima, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.5768,
-          29.504,
-          35
-        ]
-      },
-      "id": "us7000qv4u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "117 km SSE of Shimoda, Japan",
-        "time": 1757416102931,
-        "updated": 1764546062040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000reaq",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000reaq&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000reaq",
-        "ids": ",us6000reaq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.661,
-        "rms": 0.55,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 117 km SSE of Shimoda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.4568,
-          33.707,
-          10
-        ]
-      },
-      "id": "us6000reaq"
     }
   ],
   "bbox": [
