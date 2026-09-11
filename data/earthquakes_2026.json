@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789005551000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-10T01%3A59%3A10&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1789091853000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-11T01%3A57%3A33&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1208
+    "count": 1209
   },
   "features": [
     {
@@ -334,8 +334,8 @@
       "properties": {
         "mag": 4.9,
         "place": "Volcano Islands, Japan region",
-        "time": 1788357182378,
-        "updated": 1788364603040,
+        "time": 1788357182682,
+        "updated": 1789054037040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdn6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdn6&format=geojson",
@@ -351,9 +351,9 @@
         "ids": ",us7000tdn6,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 120,
-        "dmin": 13.871,
-        "rms": 0.63,
+        "nst": 122,
+        "dmin": 4.495,
+        "rms": 0.61,
         "gap": 63,
         "magType": "mb",
         "type": "earthquake",
@@ -362,9 +362,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.06,
-          22.8619,
-          38.413
+          144.0445,
+          22.9106,
+          39.416
         ]
       },
       "id": "us7000tdn6"
@@ -412,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "25 km ESE of Miyazaki, Japan",
-        "time": 1788305078832,
-        "updated": 1788311579040,
+        "mag": 4.2,
+        "place": "23 km ESE of Miyazaki, Japan",
+        "time": 1788305078700,
+        "updated": 1789073362040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdhc&format=geojson",
@@ -425,26 +425,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 271,
         "net": "us",
         "code": "7000tdhc",
         "ids": ",us7000tdhc,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.104,
-        "rms": 0.46,
-        "gap": 194,
+        "nst": 29,
+        "dmin": 1.087,
+        "rms": 0.45,
+        "gap": 125,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 25 km ESE of Miyazaki, Japan"
+        "title": "M 4.2 - 23 km ESE of Miyazaki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.6819,
-          31.8572,
-          55.355
+          131.6549,
+          31.8719,
+          53.699
         ]
       },
       "id": "us7000tdhc"
@@ -2534,8 +2534,8 @@
       "properties": {
         "mag": 4.4,
         "place": "151 km NW of Uken, Japan",
-        "time": 1787139807209,
-        "updated": 1787140808040,
+        "time": 1787139807645,
+        "updated": 1789054058040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tluu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tluu&format=geojson",
@@ -2551,9 +2551,9 @@
         "ids": ",us6000tluu,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 2.27,
-        "rms": 0.98,
+        "nst": 122,
+        "dmin": 2.245,
+        "rms": 0.67,
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
@@ -2562,9 +2562,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.9755,
-          29.0998,
-          227.931
+          127.9523,
+          29.0711,
+          233.414
         ]
       },
       "id": "us6000tluu"
@@ -3172,10 +3172,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "207 km SE of Katsuura, Japan",
-        "time": 1786701523693,
-        "updated": 1786703128040,
+        "mag": 4.1,
+        "place": "Kuril Islands",
+        "time": 1786702407964,
+        "updated": 1789061026040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlw5",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tlw5&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000tlw5",
+        "ids": ",us6000tlw5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 6.241,
+        "rms": 0.5,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8933,
+          47.3566,
+          147.869
+        ]
+      },
+      "id": "us6000tlw5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "206 km SE of Katsuura, Japan",
+        "time": 1786701527254,
+        "updated": 1789038596040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkmy",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkmy&format=geojson",
@@ -3185,26 +3225,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 340,
         "net": "us",
         "code": "6000tkmy",
         "ids": ",us6000tkmy,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 4.038,
-        "rms": 1.08,
+        "nst": 40,
+        "dmin": 4.017,
+        "rms": 0.61,
         "gap": 114,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 207 km SE of Katsuura, Japan"
+        "title": "M 4.7 - 206 km SE of Katsuura, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.619,
-          33.615,
-          10
+          141.5926,
+          33.6182,
+          32.686
         ]
       },
       "id": "us6000tkmy"
@@ -4853,9 +4893,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "227 km SSW of Severo-Kuril’sk, Russia",
-        "time": 1785906177604,
-        "updated": 1786512987040,
+        "place": "219 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1785906175681,
+        "updated": 1789048807040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7p",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ti7p&format=geojson",
@@ -4872,19 +4912,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 50,
-        "dmin": 4.674,
-        "rms": 0.79,
+        "dmin": 4.603,
+        "rms": 0.69,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 227 km SSW of Severo-Kuril’sk, Russia"
+        "title": "M 4.5 - 219 km SSW of Severo-Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          154.9474,
-          48.7748,
-          82.432
+          154.9619,
+          48.8476,
+          58.316
         ]
       },
       "id": "us6000ti7p"
@@ -7295,11 +7335,11 @@
         "mag": 6.8,
         "place": "The 2026 Kumamoto Region, Japan Earthquake",
         "time": 1785223634640,
-        "updated": 1788704670233,
+        "updated": 1789066185418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgb9&format=geojson",
-        "felt": 95,
+        "felt": 96,
         "cdi": 8.7,
         "mmi": 9.242,
         "alert": "red",
