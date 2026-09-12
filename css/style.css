@@ -983,3 +983,33 @@ input[type=range]::-webkit-slider-thumb {
     gap: 12px !important;
     display: flex !important;
 }
+/* Map Tile Attribution (Leaflet) */
+.leaflet-control-attribution {
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 3px 8px !important;
+    margin: 0 0 12px 20px !important;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.6rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.leaflet-control-attribution a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.leaflet-control-attribution a:hover {
+    color: var(--accent-color);
+}
+
+/* 狭い画面では下部コントロールと重なるため非表示（出典は情報パネルに掲載） */
+@media (max-width: 768px) {
+    .leaflet-control-attribution {
+        display: none;
+    }
+}

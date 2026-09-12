@@ -56,11 +56,14 @@ document.addEventListener('DOMContentLoaded', () => {
         attributionControl: false
     }).setView([36.2048, 138.2529], 5);
 
-    // Positron Light Tiles (CartoDB)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; OpenStreetMap &copy; CARTO',
-        subdomains: 'abcd',
-        maxZoom: 19
+    // --- Base Map Layer (Esri World Light Gray) ---
+    // CARTO Positronは匿名利用にAPIキーが必須となり、タイル画像に
+    // "API KEY REQUIRED" の透かしが入るため、キー不要のEsriに差し替え
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors',
+        maxZoom: 18,
+        maxNativeZoom: 16, // z16より先のタイルは存在しないので拡大表示で補う
+        zIndex: 1
     }).addTo(map);
 
     // --- Relief Map Layer (GSI Tiles) ---
@@ -69,8 +72,17 @@ document.addEventListener('DOMContentLoaded', () => {
         attribution: '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>',
         opacity: 0.6,
         minZoom: 5,
-        maxZoom: 15
+        maxZoom: 15,
+        zIndex: 2
     });
+
+    // --- Label Layer (Esri) ---
+    // 地形図を重ねても地名が読めるよう、ラベルはタイルの最前面に置く
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 18,
+        maxNativeZoom: 16,
+        zIndex: 3
+    }).addTo(map);
 
     // Relief Layer Toggle
     let reliefLayerVisible = false;
@@ -86,6 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     L.control.zoom({ position: 'topright' }).addTo(map);
+    // タイル提供元のクレジット表示（利用規約上必要）
+    L.control.attribution({ position: 'bottomleft', prefix: false }).addTo(map);
 
     // Active marker layers
     const activeLayers = new Set();
