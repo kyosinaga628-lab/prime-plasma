@@ -55,7 +55,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     
     start_year = 2011
-    end_year = 2025
+    end_year = datetime.now().year
     
     print(f"Fetching earthquake archive data from {start_year} to {end_year}...")
     print("=" * 50)

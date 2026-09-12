@@ -26,12 +26,51 @@ document.addEventListener('DOMContentLoaded', () => {
         infoToggle: document.getElementById('info-toggle'),
         infoPanel: document.getElementById('info-panel'),
         infoClose: document.getElementById('info-close'),
-        yearTabs: document.querySelectorAll('.year-tab'),
+        yearTabsScroll: document.getElementById('year-tabs-scroll'),
         loadingOverlay: document.getElementById('loading-overlay'),
         reliefToggle: document.getElementById('relief-toggle'),
         tutorialToggle: document.getElementById('tutorial-toggle'),
         speedBtns: document.querySelectorAll('.speed-btn')
     };
+
+    // ====== YEAR TABS ======
+    // アーカイブの開始年 (scripts/fetch_archive_data.py と揃える)
+    const ARCHIVE_START_YEAR = 2011;
+
+    // 年が変わるたびにHTMLを手直しせずに済むよう、タブは実行時に生成する
+    function buildYearTabs() {
+        const tabs = [
+            { year: '1month', label: '直近1か月' },
+            { year: 'latest', label: '直近1年' }
+        ];
+        for (let y = new Date().getFullYear(); y >= ARCHIVE_START_YEAR; y--) {
+            tabs.push({ year: String(y), label: String(y) });
+        }
+
+        tabs.forEach(({ year, label }) => {
+            const btn = document.createElement('button');
+            btn.className = year === state.currentYear ? 'year-tab active' : 'year-tab';
+            btn.dataset.year = year;
+            btn.textContent = label;
+            els.yearTabsScroll.appendChild(btn);
+        });
+    }
+
+    // 年明け直後など、今年分のデータがまだ生成されていない場合はそのタブを取り下げる
+    function dropUnavailableYearTab() {
+        const year = String(new Date().getFullYear());
+        const tab = els.yearTabsScroll.querySelector(`.year-tab[data-year="${year}"]`);
+        if (!tab) return;
+
+        fetch(getDataUrl(year), { method: 'HEAD' })
+            .then(res => {
+                if (!res.ok) tab.remove();
+            })
+            .catch(() => tab.remove());
+    }
+
+    buildYearTabs();
+    dropUnavailableYearTab();
 
     // Info Panel Toggle
     els.infoToggle.addEventListener('click', () => {
@@ -186,13 +225,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleYearTabClick(e) {
-        const tab = e.target;
-        const year = tab.dataset.year;
+        const tab = e.target.closest('.year-tab');
+        if (!tab) return;
 
+        const year = tab.dataset.year;
         if (state.currentYear === year) return;
 
         // Update tab appearance
-        els.yearTabs.forEach(t => t.classList.remove('active'));
+        els.yearTabsScroll.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
 
         // Load new data
@@ -283,10 +323,8 @@ document.addEventListener('DOMContentLoaded', () => {
             els.playPauseBtn.addEventListener('click', togglePlay);
             els.slider.addEventListener('input', handleSliderChange);
 
-            // Year tab listeners
-            els.yearTabs.forEach(tab => {
-                tab.addEventListener('click', handleYearTabClick);
-            });
+            // Year tab listener (タブは動的生成なので親に委譲する)
+            els.yearTabsScroll.addEventListener('click', handleYearTabClick);
 
             // Speed button listeners
             els.speedBtns.forEach(btn => {
