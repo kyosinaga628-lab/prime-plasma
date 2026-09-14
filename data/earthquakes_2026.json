@@ -1,14 +1,214 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789264588000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-13T01%3A56%3A27&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1789352064000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-14T02%3A14%3A23&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1213
+    "count": 1220
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "120 km NE of Hengchun, Taiwan",
+        "time": 1789339481471,
+        "updated": 1789342014040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th8v",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th8v&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000th8v",
+        "ids": ",us7000th8v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.488,
+        "rms": 0.85,
+        "gap": 124,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.6 - 120 km NE of Hengchun, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6019,
+          22.7398,
+          10
+        ]
+      },
+      "id": "us7000th8v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "46 km SSW of Hualien City, Taiwan",
+        "time": 1789327295331,
+        "updated": 1789328619040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th7w",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th7w&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000th7w",
+        "ids": ",us7000th7w,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.227,
+        "rms": 0.59,
+        "gap": 132,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.2 - 46 km SSW of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4016,
+          23.5992,
+          12.223
+        ]
+      },
+      "id": "us7000th7w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "25 km N of Mutsu, Japan",
+        "time": 1789288275069,
+        "updated": 1789289467040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th5d",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th5d&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000th5d",
+        "ids": ",us7000th5d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 0.739,
+        "rms": 0.75,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 25 km N of Mutsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.2715,
+          41.5125,
+          120.372
+        ]
+      },
+      "id": "us7000th5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Bonin Islands, Japan region",
+        "time": 1789271432298,
+        "updated": 1789272535040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th3a",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th3a&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000th3a",
+        "ids": ",us7000th3a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 9.928,
+        "rms": 0.82,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2525,
+          26.3045,
+          10
+        ]
+      },
+      "id": "us7000th3a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "24 km E of Owase, Japan",
+        "time": 1789259234337,
+        "updated": 1789336752040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th2e",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th2e&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000th2e",
+        "ids": ",us7000th2e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 1.336,
+        "rms": 0.72,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 24 km E of Owase, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4639,
+          34.0948,
+          363.517
+        ]
+      },
+      "id": "us7000th2e"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1572,6 +1772,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "Bonin Islands, Japan region",
+        "time": 1787719108048,
+        "updated": 1789268106040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdld",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdld&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tdld",
+        "ids": ",us7000tdld,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 2.297,
+        "rms": 1.08,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5356,
+          28.8772,
+          138.094
+        ]
+      },
+      "id": "us7000tdld"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "6 km N of Ashikaga, Japan",
         "time": 1787700794026,
@@ -1735,7 +1975,7 @@
         "mag": 5.5,
         "place": "108 km NE of Hengchun, Taiwan",
         "time": 1787641210853,
-        "updated": 1787728167608,
+        "updated": 1789273581040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tnbm&format=geojson",
@@ -2088,6 +2328,46 @@
         ]
       },
       "id": "us6000tmz6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "70 km W of Basco, Philippines",
+        "time": 1787481114384,
+        "updated": 1789300028040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tclq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tclq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000tclq",
+        "ids": ",us7000tclq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 2.321,
+        "rms": 0.78,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 70 km W of Basco, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2979,
+          20.4939,
+          35
+        ]
+      },
+      "id": "us7000tclq"
     },
     {
       "type": "Feature",
@@ -2453,15 +2733,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "148 km SSE of Tateyama, Japan",
-        "time": 1787313727072,
-        "updated": 1787419264692,
+        "place": "153 km SSE of Tateyama, Japan",
+        "time": 1787313727291,
+        "updated": 1789304269209,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfe",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmfe&format=geojson",
         "felt": 9,
         "cdi": 2.7,
-        "mmi": 3.768,
+        "mmi": 3.571,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -2471,20 +2751,20 @@
         "ids": ",us6000tmfe,usauto6000tmfe,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,losspager,origin,phase-data,shakemap,",
-        "nst": 114,
-        "dmin": 3.125,
-        "rms": 0.96,
+        "nst": 132,
+        "dmin": 1.612,
+        "rms": 0.95,
         "gap": 49,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 148 km SSE of Tateyama, Japan"
+        "title": "M 5.4 - 153 km SSE of Tateyama, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.3802,
-          33.7171,
-          61.666
+          140.4935,
+          33.6984,
+          65.527
         ]
       },
       "id": "us6000tmfe"
@@ -2533,9 +2813,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "6 km W of Onna, Japan",
-        "time": 1787270480430,
-        "updated": 1787304102496,
+        "place": "10 km W of Onna, Japan",
+        "time": 1787270480609,
+        "updated": 1789348950645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmc4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmc4&format=geojson",
@@ -2551,20 +2831,20 @@
         "ids": ",us6000tmc4,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 41,
-        "dmin": 3.16,
-        "rms": 1.02,
+        "nst": 46,
+        "dmin": 3.198,
+        "rms": 0.86,
         "gap": 81,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 6 km W of Onna, Japan"
+        "title": "M 4.7 - 10 km W of Onna, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.7859,
-          26.4848,
-          44.11
+          127.747,
+          26.504,
+          42.689
         ]
       },
       "id": "us6000tmc4"
