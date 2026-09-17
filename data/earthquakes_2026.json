@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789524836000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-16T02%3A13%3A55&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1789611471000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-17T02%3A17%3A51&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1229
+    "count": 1233
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "5 km NE of Mitsukaidō, Japan",
+        "time": 1789571258245,
+        "updated": 1789609035953,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thv6",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thv6&format=geojson",
+        "felt": 58,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 407,
+        "net": "us",
+        "code": "7000thv6",
+        "ids": ",us7000thv6,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 67,
+        "dmin": 1.542,
+        "rms": 0.77,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 5 km NE of Mitsukaidō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0207,
+          36.0556,
+          77.348
+        ]
+      },
+      "id": "us7000thv6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "89 km NE of Yonakuni, Japan",
+        "time": 1789506035404,
+        "updated": 1789527712040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thq1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thq1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000thq1",
+        "ids": ",us7000thq1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.796,
+        "rms": 0.57,
+        "gap": 95,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.7 - 89 km NE of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6247,
+          25.0376,
+          11.478
+        ]
+      },
+      "id": "us7000thq1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -848,6 +928,46 @@
         ]
       },
       "id": "us7000te98"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "9 km SSE of Namie, Japan",
+        "time": 1788507911776,
+        "updated": 1789554273040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgcy",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgcy&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000tgcy",
+        "ids": ",us7000tgcy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 2.438,
+        "rms": 1.25,
+        "gap": 141,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 9 km SSE of Namie, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.0534,
+          37.4139,
+          89.47
+        ]
+      },
+      "id": "us7000tgcy"
     },
     {
       "type": "Feature",
@@ -1894,8 +2014,8 @@
       "properties": {
         "mag": 4.6,
         "place": "115 km ESE of Yujing, Taiwan",
-        "time": 1787780838998,
-        "updated": 1788470708226,
+        "time": 1787780839233,
+        "updated": 1789611145786,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc37",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tc37&format=geojson",
@@ -1911,10 +2031,10 @@
         "ids": ",us7000tc37,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.432,
-        "rms": 0.63,
-        "gap": 70,
+        "nst": 51,
+        "dmin": 0.418,
+        "rms": 0.74,
+        "gap": 109,
         "magType": "mwr",
         "type": "earthquake",
         "title": "M 4.6 - 115 km ESE of Yujing, Taiwan"
@@ -1922,9 +2042,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.547,
-          22.8501,
-          25.305
+          121.5325,
+          22.7959,
+          28.769
         ]
       },
       "id": "us7000tc37"
@@ -2333,9 +2453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "99 km SE of Ishigaki, Japan",
-        "time": 1787614016073,
-        "updated": 1788134267040,
+        "place": "103 km SSE of Tarama, Japan",
+        "time": 1787614016092,
+        "updated": 1789603121040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn9r",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tn9r&format=geojson",
@@ -2352,18 +2472,18 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 27,
-        "dmin": 0.861,
-        "rms": 1.82,
+        "dmin": 0.923,
+        "rms": 0.47,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 99 km SE of Ishigaki, Japan"
+        "title": "M 4.5 - 103 km SSE of Tarama, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          124.9285,
-          23.7942,
+          125.0056,
+          23.78,
           10
         ]
       },
@@ -2768,6 +2888,46 @@
         ]
       },
       "id": "us7000tcl3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Izu Islands, Japan region",
+        "time": 1787463518112,
+        "updated": 1789541192040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmwy",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmwy&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tmwy",
+        "ids": ",us6000tmwy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 2.468,
+        "rms": 0.83,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.0396,
+          29.3564,
+          91.307
+        ]
+      },
+      "id": "us6000tmwy"
     },
     {
       "type": "Feature",
