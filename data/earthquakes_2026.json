@@ -1,14 +1,174 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789870451000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-20T02%3A14%3A11&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1789956843000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-21T02%3A14%3A02&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1247
+    "count": 1252
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "16 km WSW of Shikotan, Russia",
+        "time": 1789946738807,
+        "updated": 1789947719040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiu3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000tiu3",
+        "ids": ",us7000tiu3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 2.871,
+        "rms": 0.75,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 16 km WSW of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5339,
+          43.7443,
+          64.936
+        ]
+      },
+      "id": "us7000tiu3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "54 km SE of Shima, Japan",
+        "time": 1789912496995,
+        "updated": 1789914803040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tirt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tirt&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000tirt",
+        "ids": ",us7000tirt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 1.389,
+        "rms": 0.76,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 54 km SE of Shima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.2284,
+          33.9678,
+          354.932
+        ]
+      },
+      "id": "us7000tirt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Volcano Islands, Japan region",
+        "time": 1789904605187,
+        "updated": 1789906670040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tir6",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tir6&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000tir6",
+        "ids": ",us7000tir6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 10.741,
+        "rms": 0.47,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.1682,
+          25.0379,
+          162.51
+        ]
+      },
+      "id": "us7000tir6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "14 km WNW of Naze, Japan",
+        "time": 1789889302965,
+        "updated": 1789890783980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tipl",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tipl&format=geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000tipl",
+        "ids": ",us7000tipl,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 88,
+        "dmin": 3.065,
+        "rms": 0.92,
+        "gap": 94,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 14 km WNW of Naze, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3406,
+          28.3947,
+          68.834
+        ]
+      },
+      "id": "us7000tipl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +288,46 @@
         ]
       },
       "id": "us7000tii4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "70 km NNW of Uken, Japan",
+        "time": 1789748836134,
+        "updated": 1789905533040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tir5",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tir5&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000tir5",
+        "ids": ",us7000tir5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 3,
+        "rms": 1.01,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 70 km NNW of Uken, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8492,
+          28.8405,
+          10
+        ]
+      },
+      "id": "us7000tir5"
     },
     {
       "type": "Feature",
@@ -8695,7 +8895,7 @@
         "mag": 6.8,
         "place": "The 2026 Kumamoto Region, Japan Earthquake",
         "time": 1785223634640,
-        "updated": 1789641400075,
+        "updated": 1789931408775,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgb9&format=geojson",
