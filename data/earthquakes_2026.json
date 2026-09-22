@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789956843000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-21T02%3A14%3A02&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1790043520000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-22T02%3A18%3A40&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1252
+    "count": 1257
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Izu Islands, Japan region",
+        "time": 1790006180386,
+        "updated": 1790007271040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiya",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiya&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tiya",
+        "ids": ",us7000tiya,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 5.685,
+        "rms": 0.85,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3611,
+          31.7337,
+          10
+        ]
+      },
+      "id": "us7000tiya"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
-        "place": "16 km WSW of Shikotan, Russia",
-        "time": 1789946738807,
-        "updated": 1789947719040,
+        "place": "38 km E of Nobeoka, Japan",
+        "time": 1789997912404,
+        "updated": 1789998975040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tixp",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tixp&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000tixp",
+        "ids": ",us7000tixp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 1.757,
+        "rms": 0.75,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 38 km E of Nobeoka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.0805,
+          32.5978,
+          42.736
+        ]
+      },
+      "id": "us7000tixp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "238 km ESE of Makarov, Russia",
+        "time": 1789955876181,
+        "updated": 1789957021040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiuu",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiuu&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tiuu",
+        "ids": ",us7000tiuu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 2.402,
+        "rms": 0.77,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 238 km ESE of Makarov, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.89,
+          48.086,
+          494.972
+        ]
+      },
+      "id": "us7000tiuu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "25 km SSW of Shikotan, Russia",
+        "time": 1789946737454,
+        "updated": 1789959990040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiu3&format=geojson",
@@ -25,26 +145,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 326,
         "net": "us",
         "code": "7000tiu3",
         "ids": ",us7000tiu3,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 2.871,
-        "rms": 0.75,
-        "gap": 132,
-        "magType": "mb",
+        "nst": 84,
+        "dmin": 2.927,
+        "rms": 0.66,
+        "gap": 108,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 16 km WSW of Shikotan, Russia"
+        "title": "M 4.6 - 25 km SSW of Shikotan, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.5339,
-          43.7443,
-          64.936
+          146.5756,
+          43.6006,
+          57.379
         ]
       },
       "id": "us7000tiu3"
@@ -733,9 +853,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "120 km NE of Hengchun, Taiwan",
-        "time": 1789339481471,
-        "updated": 1789342014040,
+        "place": "116 km NE of Hengchun, Taiwan",
+        "time": 1789339481189,
+        "updated": 1789966904040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th8v",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th8v&format=geojson",
@@ -751,23 +871,63 @@
         "ids": ",us7000th8v,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.488,
-        "rms": 0.85,
-        "gap": 124,
+        "nst": 57,
+        "dmin": 0.49,
+        "rms": 0.87,
+        "gap": 104,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.6 - 120 km NE of Hengchun, Taiwan"
+        "title": "M 4.6 - 116 km NE of Hengchun, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.6019,
-          22.7398,
+          121.5961,
+          22.7027,
           10
         ]
       },
       "id": "us7000th8v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "48 km SE of Hengchun, Taiwan",
+        "time": 1789337837416,
+        "updated": 1789963339040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiag",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiag&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000tiag",
+        "ids": ",us7000tiag,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.155,
+        "rms": 0.57,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 48 km SE of Hengchun, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0319,
+          21.6583,
+          10
+        ]
+      },
+      "id": "us7000tiag"
     },
     {
       "type": "Feature",
@@ -972,10 +1132,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "132 km E of Noda, Japan",
-        "time": 1789152812548,
-        "updated": 1789154772040,
+        "mag": 4.2,
+        "place": "118 km SSE of Shimoda, Japan",
+        "time": 1789240723102,
+        "updated": 1790007995040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti4d",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti4d&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000ti4d",
+        "ids": ",us7000ti4d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.516,
+        "rms": 0.67,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 118 km SSE of Shimoda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2798,
+          33.6477,
+          15.235
+        ]
+      },
+      "id": "us7000ti4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "118 km E of Noda, Japan",
+        "time": 1789152809398,
+        "updated": 1790007313040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgqb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgqb&format=geojson",
@@ -985,26 +1185,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 312,
         "net": "us",
         "code": "7000tgqb",
         "ids": ",us7000tgqb,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 1.888,
-        "rms": 1.18,
-        "gap": 149,
+        "nst": 35,
+        "dmin": 1.782,
+        "rms": 0.6,
+        "gap": 142,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 132 km E of Noda, Japan"
+        "title": "M 4.5 - 118 km E of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.3706,
-          40.1316,
-          32.374
+          143.2113,
+          40.0877,
+          22.504
         ]
       },
       "id": "us7000tgqb"
