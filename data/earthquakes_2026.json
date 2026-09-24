@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790129929000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-23T02%3A18%3A49&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1790215575000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-24T02%3A06%3A15&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1266
+    "count": 1267
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Mariana Islands region",
+        "time": 1790168511614,
+        "updated": 1790212317490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000tx38",
+        "ids": ",us6000tx38,",
+        "sources": ",us,",
+        "types": ",event-sequence,oaf,origin,phase-data,",
+        "nst": 140,
+        "dmin": 6.912,
+        "rms": 0.56,
+        "gap": 26,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0239,
+          21.6622,
+          306.016
+        ]
+      },
+      "id": "us6000tx38"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -932,10 +972,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "5 km NE of Mitsukaidō, Japan",
-        "time": 1789571258245,
-        "updated": 1790093168522,
+        "mag": 4.8,
+        "place": "6 km SSW of Tsukuba, Japan",
+        "time": 1789571258838,
+        "updated": 1790187365479,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thv6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thv6&format=geojson",
@@ -945,26 +985,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 411,
+        "sig": 381,
         "net": "us",
         "code": "7000thv6",
         "ids": ",us7000thv6,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 67,
-        "dmin": 1.542,
-        "rms": 0.77,
-        "gap": 123,
-        "magType": "mb",
+        "nst": 164,
+        "dmin": 0.859,
+        "rms": 0.89,
+        "gap": 98,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 5 km NE of Mitsukaidō, Japan"
+        "title": "M 4.8 - 6 km SSW of Tsukuba, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.0207,
-          36.0556,
-          77.348
+          140.0713,
+          36.1458,
+          80.891
         ]
       },
       "id": "us7000thv6"
@@ -2173,9 +2213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "23 km ESE of Miyazaki, Japan",
-        "time": 1788305078700,
-        "updated": 1789073362040,
+        "place": "23 km E of Miyazaki, Japan",
+        "time": 1788305078936,
+        "updated": 1790210957040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdhc&format=geojson",
@@ -2191,20 +2231,20 @@
         "ids": ",us7000tdhc,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 1.087,
-        "rms": 0.45,
-        "gap": 125,
+        "nst": 24,
+        "dmin": 1.095,
+        "rms": 0.33,
+        "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 23 km ESE of Miyazaki, Japan"
+        "title": "M 4.2 - 23 km E of Miyazaki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.6549,
-          31.8719,
-          53.699
+          131.6582,
+          31.8902,
+          56.116
         ]
       },
       "id": "us7000tdhc"
@@ -2493,9 +2533,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "186 km SE of Terney, Russia",
-        "time": 1788009914872,
-        "updated": 1788015132040,
+        "place": "185 km SE of Terney, Russia",
+        "time": 1788009914726,
+        "updated": 1790199901040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tctu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tctu&format=geojson",
@@ -2511,20 +2551,20 @@
         "ids": ",us7000tctu,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 3.112,
-        "rms": 0.73,
+        "nst": 47,
+        "dmin": 3.135,
+        "rms": 0.64,
         "gap": 74,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 186 km SE of Terney, Russia"
+        "title": "M 4.0 - 185 km SE of Terney, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.2924,
-          43.8866,
-          257.202
+          138.2606,
+          43.8806,
+          259.067
         ]
       },
       "id": "us7000tctu"
@@ -3415,7 +3455,7 @@
         "mag": 4.7,
         "place": "74 km E of Tomioka, Japan",
         "time": 1787689416438,
-        "updated": 1788722510442,
+        "updated": 1790183498040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbu3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tbu3&format=geojson",
@@ -3430,7 +3470,7 @@
         "code": "7000tbu3",
         "ids": ",us7000tbu3,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 83,
         "dmin": 3.024,
         "rms": 0.99,
@@ -3535,7 +3575,7 @@
         "mag": 5.5,
         "place": "114 km NE of Hengchun, Taiwan",
         "time": 1787641209902,
-        "updated": 1789494029304,
+        "updated": 1790183144040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tnbm&format=geojson",
@@ -3572,10 +3612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "103 km SSE of Tarama, Japan",
-        "time": 1787614016092,
-        "updated": 1789603121040,
+        "mag": 4.3,
+        "place": "92 km SSE of Tarama, Japan",
+        "time": 1787614015609,
+        "updated": 1790199789040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn9r",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tn9r&format=geojson",
@@ -3585,25 +3625,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 284,
         "net": "us",
         "code": "6000tn9r",
         "ids": ",us6000tn9r,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.923,
-        "rms": 0.47,
+        "nst": 24,
+        "dmin": 0.882,
+        "rms": 0.55,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 103 km SSE of Tarama, Japan"
+        "title": "M 4.3 - 92 km SSE of Tarama, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.0056,
-          23.78,
+          125.0407,
+          23.8923,
           10
         ]
       },
@@ -4135,11 +4175,11 @@
         "mag": 5.8,
         "place": "5 km E of Ushiku, Japan",
         "time": 1787418039194,
-        "updated": 1789803318847,
+        "updated": 1790174918907,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmta",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmta&format=geojson",
-        "felt": 155,
+        "felt": 156,
         "cdi": 5.7,
         "mmi": 6.016,
         "alert": "green",
@@ -4455,7 +4495,7 @@
         "mag": 5.4,
         "place": "153 km SSE of Tateyama, Japan",
         "time": 1787313727291,
-        "updated": 1789304269209,
+        "updated": 1790181263040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfe",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmfe&format=geojson",
@@ -4470,7 +4510,7 @@
         "code": "6000tmfe",
         "ids": ",us6000tmfe,usauto6000tmfe,",
         "sources": ",us,usauto,",
-        "types": ",dyfi,internal-moment-tensor,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 132,
         "dmin": 1.612,
         "rms": 0.95,
