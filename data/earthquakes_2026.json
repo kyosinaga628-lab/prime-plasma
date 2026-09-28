@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790475822000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-27T02%3A23%3A42&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1790562461000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-28T02%3A27%3A41&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1278
+    "count": 1279
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "1 km SSW of Kōzaki, Japan",
+        "time": 1790469922364,
+        "updated": 1790545427040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txvq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000txvq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000txvq",
+        "ids": ",us6000txvq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.881,
+        "rms": 0.65,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 1 km SSW of Kōzaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.3909,
+          35.8881,
+          76.46
+        ]
+      },
+      "id": "us6000txvq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 4.7,
         "place": "36 km ENE of Kunigami, Japan",
         "time": 1790363693531,
-        "updated": 1790446172040,
+        "updated": 1790485439197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txnm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000txnm&format=geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "6000txnm",
         "ids": ",us6000txnm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 0.219,
         "rms": 0.64,
@@ -175,7 +215,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511614,
-        "updated": 1790428316322,
+        "updated": 1790514713417,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
@@ -974,8 +1014,8 @@
       "properties": {
         "mag": 5,
         "place": "Izu Islands, Japan region",
-        "time": 1789715968254,
-        "updated": 1789717282040,
+        "time": 1789715969154,
+        "updated": 1790498760040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti89",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti89&format=geojson",
@@ -991,9 +1031,9 @@
         "ids": ",us7000ti89,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 4.853,
-        "rms": 0.85,
+        "nst": 41,
+        "dmin": 4.706,
+        "rms": 0.68,
         "gap": 132,
         "magType": "mww",
         "type": "earthquake",
@@ -1002,9 +1042,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.5763,
-          32.243,
-          35.294
+          141.402,
+          32.3036,
+          38.867
         ]
       },
       "id": "us7000ti89"
@@ -1094,8 +1134,8 @@
       "properties": {
         "mag": 4.1,
         "place": "89 km SSE of Shima, Japan",
-        "time": 1789623748784,
-        "updated": 1789636404040,
+        "time": 1789623748710,
+        "updated": 1790489745040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thzf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thzf&format=geojson",
@@ -1111,8 +1151,8 @@
         "ids": ",us7000thzf,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.775,
+        "nst": 45,
+        "dmin": 1.772,
         "rms": 0.38,
         "gap": 149,
         "magType": "mb",
@@ -1122,9 +1162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.1734,
-          33.5744,
-          363.388
+          137.1789,
+          33.578,
+          362.863
         ]
       },
       "id": "us7000thzf"
@@ -1253,9 +1293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "90 km NNW of Ishigaki, Japan",
-        "time": 1789492608369,
-        "updated": 1789498113040,
+        "place": "88 km NNW of Ishigaki, Japan",
+        "time": 1789492608391,
+        "updated": 1790532943040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thne",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thne&format=geojson",
@@ -1271,19 +1311,19 @@
         "ids": ",us7000thne,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.823,
-        "rms": 0.52,
-        "gap": 108,
+        "nst": 54,
+        "dmin": 0.809,
+        "rms": 0.61,
+        "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 90 km NNW of Ishigaki, Japan"
+        "title": "M 4.3 - 88 km NNW of Ishigaki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.6736,
-          25.0311,
+          123.6776,
+          25.013,
           10
         ]
       },
