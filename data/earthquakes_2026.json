@@ -1,14 +1,174 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790562461000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-28T02%3A27%3A41&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1790651454000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-09-29T03%3A10%3A52&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1279
+    "count": 1284
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "2 km SW of Sakai, Japan",
+        "time": 1790624707515,
+        "updated": 1790650831505,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ty7u&format=geojson",
+        "felt": 62,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 396,
+        "net": "us",
+        "code": "6000ty7u",
+        "ids": ",us6000ty7u,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 89,
+        "dmin": 1.348,
+        "rms": 0.66,
+        "gap": 119,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 2 km SW of Sakai, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7782,
+          36.0809,
+          70.972
+        ]
+      },
+      "id": "us6000ty7u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "36 km SE of Hualien City, Taiwan",
+        "time": 1790619644330,
+        "updated": 1790635554390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty73",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ty73&format=geojson",
+        "felt": 2,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ty73",
+        "ids": ",us6000ty73,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 74,
+        "dmin": 0.508,
+        "rms": 0.94,
+        "gap": 67,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.6 - 36 km SE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8063,
+          23.702,
+          19.011
+        ]
+      },
+      "id": "us6000ty73"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Izu Islands, Japan region",
+        "time": 1790604041104,
+        "updated": 1790612163040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ty5c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000ty5c",
+        "ids": ",us6000ty5c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 3.973,
+        "rms": 1.12,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.8008,
+          31.8082,
+          290.166
+        ]
+      },
+      "id": "us6000ty5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "northwest of the Kuril Islands",
+        "time": 1790570576780,
+        "updated": 1790571469040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2w",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ty2w&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ty2w",
+        "ids": ",us6000ty2w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 5.623,
+        "rms": 0.92,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - northwest of the Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5708,
+          49.0259,
+          258.706
+        ]
+      },
+      "id": "us6000ty2w"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,7 +375,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511614,
-        "updated": 1790514713417,
+        "updated": 1790601119835,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
@@ -2408,6 +2568,46 @@
         ]
       },
       "id": "us7000tgcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "93 km ENE of Donggang, Taiwan",
+        "time": 1788427805029,
+        "updated": 1790574662040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdvg",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdvg&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tdvg",
+        "ids": ",us7000tdvg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.249,
+        "rms": 1.16,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 93 km ENE of Donggang, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3237,
+          22.7099,
+          19.699
+        ]
+      },
+      "id": "us7000tdvg"
     },
     {
       "type": "Feature",
@@ -5853,9 +6053,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "206 km SE of Katsuura, Japan",
-        "time": 1786701527254,
-        "updated": 1789038596040,
+        "place": "202 km SSE of Katsuura, Japan",
+        "time": 1786701528481,
+        "updated": 1790594172040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkmy",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkmy&format=geojson",
@@ -5871,20 +6071,20 @@
         "ids": ",us6000tkmy,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 4.017,
-        "rms": 0.61,
+        "nst": 37,
+        "dmin": 3.929,
+        "rms": 0.57,
         "gap": 114,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 206 km SE of Katsuura, Japan"
+        "title": "M 4.7 - 202 km SSE of Katsuura, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.5926,
-          33.6182,
-          32.686
+          141.4372,
+          33.5754,
+          40.807
         ]
       },
       "id": "us6000tkmy"
