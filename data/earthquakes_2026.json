@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790910103000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-02T03%3A01%3A43&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1790995693000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-03T02%3A48%3A12&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1297
+    "count": 1299
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "7 km NNW of Ibusuki, Japan",
+        "time": 1790986298239,
+        "updated": 1790993774040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9w",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tz9w&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tz9w",
+        "ids": ",us6000tz9w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.252,
+        "rms": 0.98,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 7 km NNW of Ibusuki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6093,
+          31.2953,
+          126.853
+        ]
+      },
+      "id": "us6000tz9w"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us6000tyw6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "110 km SE of Kuril’sk, Russia",
+        "time": 1790859635477,
+        "updated": 1790972558040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tytv",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tytv&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000tytv",
+        "ids": ",us6000tytv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 4.647,
+        "rms": 0.79,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 110 km SE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0324,
+          44.6606,
+          57.373
+        ]
+      },
+      "id": "us6000tytv"
     },
     {
       "type": "Feature",
@@ -695,7 +775,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511614,
-        "updated": 1790860318355,
+        "updated": 1790946714422,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
@@ -3773,9 +3853,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "161 km NNW of Kuril’sk, Russia",
-        "time": 1787967965549,
-        "updated": 1789696915040,
+        "place": "155 km NNW of Kuril’sk, Russia",
+        "time": 1787967964874,
+        "updated": 1790992598040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcr6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tcr6&format=geojson",
@@ -3792,19 +3872,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 54,
-        "dmin": 3.06,
-        "rms": 0.59,
+        "dmin": 3.068,
+        "rms": 0.57,
         "gap": 128,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 161 km NNW of Kuril’sk, Russia"
+        "title": "M 4.1 - 155 km NNW of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.1833,
-          46.5995,
-          309.028
+          147.182,
+          46.5418,
+          302.924
         ]
       },
       "id": "us7000tcr6"
@@ -4373,9 +4453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "94 km N of Basco, Philippines",
-        "time": 1787737883132,
-        "updated": 1789650766040,
+        "place": "92 km N of Basco, Philippines",
+        "time": 1787737883138,
+        "updated": 1790953084040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tby1",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tby1&format=geojson",
@@ -4392,18 +4472,18 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 54,
-        "dmin": 2.298,
-        "rms": 0.7,
-        "gap": 107,
+        "dmin": 1.702,
+        "rms": 0.75,
+        "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 94 km N of Basco, Philippines"
+        "title": "M 4.6 - 92 km N of Basco, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.8532,
-          21.2917,
+          121.8826,
+          21.2797,
           10
         ]
       },
@@ -10615,11 +10695,11 @@
         "mag": 6.8,
         "place": "The 2026 Kumamoto Region, Japan Earthquake",
         "time": 1785223634658,
-        "updated": 1790687886631,
+        "updated": 1790984655258,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgb9&format=geojson",
-        "felt": 97,
+        "felt": 102,
         "cdi": 8.7,
         "mmi": 9.231,
         "alert": "red",
@@ -24175,12 +24255,12 @@
         "mag": 4.7,
         "place": "66 km ESE of Isen, Japan",
         "time": 1778463677745,
-        "updated": 1784399001040,
+        "updated": 1790972482947,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swtz",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swtz&format=geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 0,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -24190,7 +24270,7 @@
         "code": "6000swtz",
         "ids": ",us6000swtz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 75,
         "dmin": 1.277,
         "rms": 1.12,
@@ -28335,12 +28415,12 @@
         "mag": 5.3,
         "place": "142 km ENE of Miyako, Japan",
         "time": 1776749349613,
-        "updated": 1783042721040,
+        "updated": 1790983992186,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srs6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srs6&format=geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 0,
         "mmi": 3.227,
         "alert": "green",
         "status": "reviewed",
@@ -28348,9 +28428,9 @@
         "sig": 432,
         "net": "us",
         "code": "6000srs6",
-        "ids": ",usauto6000srs6,us6000srs6,",
-        "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,losspager,origin,phase-data,shakemap,",
+        "ids": ",us6000srs6,usauto6000srs6,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,losspager,origin,phase-data,shakemap,",
         "nst": 112,
         "dmin": 2.095,
         "rms": 0.84,
