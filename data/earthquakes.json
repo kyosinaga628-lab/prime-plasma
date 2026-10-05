@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791083904000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-04T03%3A18%3A23&endtime=2026-10-04T03%3A18%3A23&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1791168888000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-05T02%3A54%3A48&endtime=2026-10-05T02%3A54%3A48&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1833
+    "count": 1830
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "279 km ENE of Kuril’sk, Russia",
+        "time": 1791144987253,
+        "updated": 1791146801040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzkm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tzkm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tzkm",
+        "ids": ",us6000tzkm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 6.056,
+        "rms": 0.73,
+        "gap": 180,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 279 km ENE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3579,
+          45.8198,
+          35
+        ]
+      },
+      "id": "us6000tzkm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Volcano Islands, Japan region",
+        "time": 1791112368270,
+        "updated": 1791119883279,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzid",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tzid&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000tzid",
+        "ids": ",us6000tzid,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 101,
+        "dmin": 12.618,
+        "rms": 0.68,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6734,
+          22.8286,
+          10
+        ]
+      },
+      "id": "us6000tzid"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -895,7 +975,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511614,
-        "updated": 1791033124297,
+        "updated": 1791119524223,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
@@ -2413,9 +2493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "24 km E of Owase, Japan",
-        "time": 1789259234337,
-        "updated": 1789336752040,
+        "place": "23 km ENE of Owase, Japan",
+        "time": 1789259234685,
+        "updated": 1791152377040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th2e",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th2e&format=geojson",
@@ -2431,20 +2511,20 @@
         "ids": ",us7000th2e,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.336,
+        "nst": 64,
+        "dmin": 1.285,
         "rms": 0.72,
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 24 km E of Owase, Japan"
+        "title": "M 4.1 - 23 km ENE of Owase, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.4639,
-          34.0948,
-          363.517
+          136.4312,
+          34.1606,
+          363.296
         ]
       },
       "id": "us7000th2e"
@@ -73128,206 +73208,6 @@
         ]
       },
       "id": "us6000rj8a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "246 km SSW of Severo-Kuril’sk, Russia",
-        "time": 1759616653346,
-        "updated": 1766184645040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rj7n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rj7n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000rj7n",
-        "ids": ",us6000rj7n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 4.833,
-        "rms": 0.41,
-        "gap": 142,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 246 km SSW of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          154.5701,
-          48.7042,
-          69.608
-        ]
-      },
-      "id": "us6000rj7n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "48 km ENE of Tomioka, Japan",
-        "time": 1759591270042,
-        "updated": 1766184598040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000resn",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000resn&format=geojson",
-        "felt": 54,
-        "cdi": 4.6,
-        "mmi": 4.378,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 560,
-        "net": "us",
-        "code": "6000resn",
-        "ids": ",us6000resn,usauto6000resn,pt25277001,at00t3m5b9,",
-        "sources": ",us,usauto,pt,at,",
-        "types": ",dyfi,ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 298,
-        "dmin": 2.817,
-        "rms": 0.51,
-        "gap": 16,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - 48 km ENE of Tomioka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.5524,
-          37.4213,
-          54.164
-        ]
-      },
-      "id": "us6000resn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "29 km ENE of Miyako, Japan",
-        "time": 1759587319561,
-        "updated": 1766184597040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000resi",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000resi&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000resi",
-        "ids": ",us6000resi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 1.41,
-        "rms": 0.8,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 29 km ENE of Miyako, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.2656,
-          39.7192,
-          56.172
-        ]
-      },
-      "id": "us6000resi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "277 km E of Kuril’sk, Russia",
-        "time": 1759562665543,
-        "updated": 1766184595040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rerd",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rerd&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rerd",
-        "ids": ",us6000rerd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 6.108,
-        "rms": 0.61,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 277 km E of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.3687,
-          45.6434,
-          44.634
-        ]
-      },
-      "id": "us6000rerd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "44 km ENE of Ōma, Japan",
-        "time": 1759553246153,
-        "updated": 1766184641040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rj6c",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rj6c&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000rj6c",
-        "ids": ",us6000rj6c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.981,
-        "rms": 0.7,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 44 km ENE of Ōma, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.3621,
-          41.7453,
-          122.029
-        ]
-      },
-      "id": "us6000rj6c"
     }
   ],
   "bbox": [

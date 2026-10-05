@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791083905000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-04T03%3A18%3A25&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1791168890000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-05T02%3A54%3A49&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 1302
+    "count": 1304
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "279 km ENE of Kuril’sk, Russia",
+        "time": 1791144987253,
+        "updated": 1791146801040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzkm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tzkm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tzkm",
+        "ids": ",us6000tzkm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 6.056,
+        "rms": 0.73,
+        "gap": 180,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 279 km ENE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3579,
+          45.8198,
+          35
+        ]
+      },
+      "id": "us6000tzkm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Volcano Islands, Japan region",
+        "time": 1791112368270,
+        "updated": 1791119883279,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzid",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tzid&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000tzid",
+        "ids": ",us6000tzid,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 101,
+        "dmin": 12.618,
+        "rms": 0.68,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6734,
+          22.8286,
+          10
+        ]
+      },
+      "id": "us6000tzid"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -895,7 +975,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511614,
-        "updated": 1791033124297,
+        "updated": 1791119524223,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
@@ -2413,9 +2493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "24 km E of Owase, Japan",
-        "time": 1789259234337,
-        "updated": 1789336752040,
+        "place": "23 km ENE of Owase, Japan",
+        "time": 1789259234685,
+        "updated": 1791152377040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th2e",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th2e&format=geojson",
@@ -2431,20 +2511,20 @@
         "ids": ",us7000th2e,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.336,
+        "nst": 64,
+        "dmin": 1.285,
         "rms": 0.72,
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 24 km E of Owase, Japan"
+        "title": "M 4.1 - 23 km ENE of Owase, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.4639,
-          34.0948,
-          363.517
+          136.4312,
+          34.1606,
+          363.296
         ]
       },
       "id": "us7000th2e"
