@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEISMIC JP - 日本の地震可視化マップ | リアルタイム地震データ</title>
+    <title>SEISMIC JP - 日本の地震可視化マップ | 毎日更新の地震データ</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="日本周辺で発生した地震をリアルタイムで可視化。過去1年間の地震データをアニメーションで表示し、マグニチュード別に色分け。USGSの公式データを使用した信頼性の高い地震情報サイトです。">
-    <meta name="keywords" content="地震, 日本, 地震マップ, 地震可視化, earthquake, Japan, USGS, 地震データ, 地震情報, リアルタイム地震, マグニチュード">
+        content="日本周辺で発生した地震を地図上で可視化。毎日更新される過去1年間の地震データをアニメーションで表示し、マグニチュード別に色分け。USGSの公式データを使用した信頼性の高い地震情報サイトです。">
+    <meta name="keywords" content="地震, 日本, 地震マップ, 地震可視化, earthquake, Japan, USGS, 地震データ, 地震情報, 地震履歴, マグニチュード">
     <meta name="author" content="SEISMIC JP">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://prime-plasma.vercel.app/">
@@ -18,8 +18,11 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://prime-plasma.vercel.app/">
     <meta property="og:title" content="SEISMIC JP - 日本の地震可視化マップ">
-    <meta property="og:description" content="日本周辺で発生した地震をリアルタイムで可視化。過去1年間の地震データをアニメーションで表示し、マグニチュード別に色分け。">
+    <meta property="og:description" content="日本周辺で発生した地震を地図上で可視化。毎日更新される過去1年間の地震データをアニメーションで表示し、マグニチュード別に色分け。">
     <meta property="og:image" content="https://prime-plasma.vercel.app/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="SEISMIC JP - 日本の地震可視化マップ">
     <meta property="og:locale" content="ja_JP">
     <meta property="og:site_name" content="SEISMIC JP">
 
@@ -27,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://prime-plasma.vercel.app/">
     <meta name="twitter:title" content="SEISMIC JP - 日本の地震可視化マップ">
-    <meta name="twitter:description" content="日本周辺で発生した地震をリアルタイムで可視化。過去1年間の地震データをアニメーションで表示。">
+    <meta name="twitter:description" content="日本周辺で発生した地震を地図上で可視化。毎日更新される過去1年間の地震データをアニメーションで表示。">
     <meta name="twitter:image" content="https://prime-plasma.vercel.app/images/og-image.png">
 
     <!-- Favicon -->
@@ -47,7 +50,7 @@
         "@type": "WebApplication",
         "name": "SEISMIC JP",
         "alternateName": "日本地震可視化マップ",
-        "description": "日本周辺で発生した地震をリアルタイムで可視化するインタラクティブな地図アプリケーション",
+        "description": "日本周辺で発生した地震を地図上でアニメーション表示するインタラクティブな地図アプリケーション",
         "url": "https://prime-plasma.vercel.app/",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web Browser",
@@ -60,7 +63,7 @@
             "@type": "Organization",
             "name": "SEISMIC JP"
         },
-        "keywords": "地震, 日本, 地震マップ, リアルタイム, USGS"
+        "keywords": "地震, 日本, 地震マップ, 地震履歴, USGS"
     }
     </script>
 
@@ -158,12 +161,12 @@
 
                 <div class="info-section">
                     <h4>データソース</h4>
-                    <p><a href="https://earthquake.usgs.gov/" target="_blank">USGS Earthquake Hazards Program</a><br>
+                    <p><a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener">USGS Earthquake Hazards Program</a><br>
                         対象地域: 日本周辺 (緯度20°〜50°N, 経度120°〜155°E)<br>
                         期間: 過去1年間<br>
                         更新: 毎日 (午前9時)</p>
-                    <p>地図タイル: <a href="https://www.esri.com/" target="_blank">Esri</a> (ベースマップ) /
-                        <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a> (地形図)</p>
+                    <p>地図タイル: <a href="https://www.esri.com/" target="_blank" rel="noopener">Esri</a> (ベースマップ) /
+                        <a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">国土地理院</a> (地形図)</p>
                 </div>
 
                 <div class="info-section">
@@ -196,15 +199,15 @@
             </div>
 
             <div class="timeline-container">
-                <button id="play-pause-btn" class="control-btn play">
+                <button id="play-pause-btn" class="control-btn play" aria-label="再生 / 一時停止" title="再生 / 一時停止">
                     <svg viewBox="0 0 24 24" width="24" height="24">
                         <path id="play-icon" d="M8 5v14l11-7z" fill="currentColor" />
                         <path id="pause-icon" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" fill="currentColor"
                             style="display:none" />
                     </svg>
                 </button>
-                <input type="range" id="timeline-slider" min="0" max="100" value="0" step="0.1">
-                <div class="speed-controls" id="speed-controls">
+                <input type="range" id="timeline-slider" aria-label="タイムライン" min="0" max="100" value="0" step="0.1">
+                <div class="speed-controls" id="speed-controls" role="group" aria-label="再生速度">
                     <button class="speed-btn" data-speed="0.5">0.5x</button>
                     <button class="speed-btn active" data-speed="1">1x</button>
                     <button class="speed-btn" data-speed="2">2x</button>

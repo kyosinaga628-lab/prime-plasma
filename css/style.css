@@ -56,7 +56,7 @@ body {
 
 /* Header */
 .header-overlay {
-    top: 60px;
+    top: 92px;  /* clear the year-tab bar above */
     left: 20px;
     min-width: 250px;
 }
@@ -577,7 +577,7 @@ input[type=range]::-webkit-slider-thumb {
 
     /* Header Overlay */
     .header-overlay {
-        top: 70px;
+        top: 86px;
         left: 15px;
         min-width: 280px;
         padding: 14px 16px;
@@ -681,7 +681,7 @@ input[type=range]::-webkit-slider-thumb {
 
     /* Header Overlay */
     .header-overlay {
-        top: 55px;
+        top: 70px;
         left: 8px;
         right: auto;
         min-width: auto;
@@ -806,7 +806,7 @@ input[type=range]::-webkit-slider-thumb {
     }
 
     .header-overlay {
-        top: 48px;
+        top: 58px;
         left: 4px;
         padding: 8px 10px;
     }
