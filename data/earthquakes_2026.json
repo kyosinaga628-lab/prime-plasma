@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791516796000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-09T03%3A33%3A16&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1791602028000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-10T03%3A13%3A46&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
-    "api": "2.7.0",
-    "count": 1328
+    "api": "2.8.1",
+    "count": 1331
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "9 km ENE of Nakatonbetsu, Japan",
+        "time": 1791539366921,
+        "updated": 1791546349040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14x",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u14x&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000u14x",
+        "ids": ",us6000u14x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.894,
+        "rms": 0.87,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 9 km ENE of Nakatonbetsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4121,
+          45.0037,
+          277.907
+        ]
+      },
+      "id": "us6000u14x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "195 km WSW of Fukaura, Japan",
+        "time": 1791513418008,
+        "updated": 1791520028040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u13c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000u13c",
+        "ids": ",us6000u13c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.635,
+        "rms": 0.94,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 195 km WSW of Fukaura, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6688,
+          40.2927,
+          269.153
+        ]
+      },
+      "id": "us6000u13c"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1735,7 +1815,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511754,
-        "updated": 1791378713472,
+        "updated": 1791551515341,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
@@ -2808,6 +2888,46 @@
         ]
       },
       "id": "us7000thzf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "Volcano Islands, Japan region",
+        "time": 1789589834636,
+        "updated": 1791570267040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000twwq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000twwq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000twwq",
+        "ids": ",us6000twwq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 2.863,
+        "rms": 0.55,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.711,
+          24.2527,
+          115.287
+        ]
+      },
+      "id": "us6000twwq"
     },
     {
       "type": "Feature",
