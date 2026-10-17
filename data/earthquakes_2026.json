@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792116444000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-16T02%3A07%3A24&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1792202468000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-17T02%3A01%3A07&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.1",
-    "count": 1359
+    "count": 1361
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Mariana Islands region",
+        "time": 1792123041128,
+        "updated": 1792125500040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2my",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u2my&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000u2my",
+        "ids": ",us6000u2my,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 6.817,
+        "rms": 1.08,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9876,
+          21.5448,
+          343.106
+        ]
+      },
+      "id": "us6000u2my"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -693,9 +733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "15 km ENE of Ōarai, Japan",
-        "time": 1791411247895,
-        "updated": 1791420355040,
+        "place": "3 km SSW of Funaishikawa, Japan",
+        "time": 1791411248749,
+        "updated": 1792120847040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0v0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u0v0&format=geojson",
@@ -711,20 +751,20 @@
         "ids": ",us6000u0v0,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 2.051,
-        "rms": 0.73,
-        "gap": 169,
+        "nst": 27,
+        "dmin": 1.891,
+        "rms": 0.85,
+        "gap": 143,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 15 km ENE of Ōarai, Japan"
+        "title": "M 4.3 - 3 km SSW of Funaishikawa, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.7431,
-          36.3615,
-          79.542
+          140.5513,
+          36.4336,
+          77.307
         ]
       },
       "id": "us6000u0v0"
@@ -8808,6 +8848,46 @@
         ]
       },
       "id": "us6000tkvn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Maug Islands region, Northern Mariana Islands",
+        "time": 1786747401506,
+        "updated": 1792126106040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlwn",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tlwn&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tlwn",
+        "ids": ",us6000tlwn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 15.843,
+        "rms": 0.51,
+        "gap": 187,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Maug Islands region, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4931,
+          20.9336,
+          140.417
+        ]
+      },
+      "id": "us6000tlwn"
     },
     {
       "type": "Feature",
