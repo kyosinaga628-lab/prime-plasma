@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792288861000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-18T02%3A00%3A56&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1792376250000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-19T02%3A17%3A30&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.1",
@@ -1492,10 +1492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "279 km ENE of Kuril’sk, Russia",
-        "time": 1791144987253,
-        "updated": 1791146801040,
+        "mag": 4.5,
+        "place": "281 km ENE of Kuril’sk, Russia",
+        "time": 1791144988623,
+        "updated": 1792317576040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzkm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tzkm&format=geojson",
@@ -1505,26 +1505,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 312,
         "net": "us",
         "code": "6000tzkm",
         "ids": ",us6000tzkm,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 6.056,
-        "rms": 0.73,
-        "gap": 180,
+        "nst": 45,
+        "dmin": 6.072,
+        "rms": 0.59,
+        "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 279 km ENE of Kuril’sk, Russia"
+        "title": "M 4.5 - 281 km ENE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.3579,
-          45.8198,
-          35
+          151.3804,
+          45.8134,
+          50.416
         ]
       },
       "id": "us6000tzkm"
@@ -2093,9 +2093,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "2 km SW of Sakai, Japan",
-        "time": 1790624707515,
-        "updated": 1790700916626,
+        "place": "5 km S of Sakai, Japan",
+        "time": 1790624707179,
+        "updated": 1792305339411,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ty7u&format=geojson",
@@ -2111,20 +2111,20 @@
         "ids": ",us6000ty7u,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 89,
-        "dmin": 1.348,
-        "rms": 0.66,
+        "nst": 98,
+        "dmin": 1.369,
+        "rms": 0.58,
         "gap": 119,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 2 km SW of Sakai, Japan"
+        "title": "M 4.9 - 5 km S of Sakai, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.7782,
-          36.0809,
-          70.972
+          139.7894,
+          36.0471,
+          68.519
         ]
       },
       "id": "us6000ty7u"
@@ -2133,9 +2133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "36 km SE of Hualien City, Taiwan",
-        "time": 1790619644330,
-        "updated": 1790635554390,
+        "place": "35 km SSE of Hualien City, Taiwan",
+        "time": 1790619644250,
+        "updated": 1792305152643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty73",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ty73&format=geojson",
@@ -2151,20 +2151,20 @@
         "ids": ",us6000ty73,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 74,
-        "dmin": 0.508,
-        "rms": 0.94,
-        "gap": 67,
+        "nst": 82,
+        "dmin": 0.493,
+        "rms": 0.98,
+        "gap": 37,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 36 km SE of Hualien City, Taiwan"
+        "title": "M 4.6 - 35 km SSE of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.8063,
-          23.702,
-          19.011
+          121.7949,
+          23.7134,
+          18.758
         ]
       },
       "id": "us6000ty73"
@@ -2695,7 +2695,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511754,
-        "updated": 1792069949994,
+        "updated": 1792329120193,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
