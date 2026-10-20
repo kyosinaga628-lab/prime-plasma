@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792376249000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-19T02%3A17%3A29&endtime=2026-10-19T02%3A17%3A29&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1792463519000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-20T02%3A31%3A44&endtime=2026-10-20T02%3A31%3A44&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.1",
     "count": 1839
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Kuril Islands",
+        "time": 1792446216577,
+        "updated": 1792449290040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3i2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u3i2&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000u3i2",
+        "ids": ",us6000u3i2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 5.326,
+        "rms": 0.58,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.6468,
+          48.4485,
+          102.09
+        ]
+      },
+      "id": "us6000u3i2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -653,9 +693,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "103 km ENE of Noda, Japan",
-        "time": 1791487381983,
-        "updated": 1791491779040,
+        "place": "99 km ENE of Noda, Japan",
+        "time": 1791487382045,
+        "updated": 1792434807040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u11a",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u11a&format=geojson",
@@ -672,18 +712,18 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 23,
-        "dmin": 1.433,
-        "rms": 0.86,
+        "dmin": 1.396,
+        "rms": 0.57,
         "gap": 129,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 103 km ENE of Noda, Japan"
+        "title": "M 4.2 - 99 km ENE of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.9124,
-          40.5087,
+          142.8633,
+          40.5109,
           35
         ]
       },
@@ -692,10 +732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
+        "mag": 4.7,
         "place": "Izu Islands, Japan region",
-        "time": 1791484323544,
-        "updated": 1791489839040,
+        "time": 1791484318580,
+        "updated": 1792417166040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10v",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u10v&format=geojson",
@@ -705,26 +745,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 340,
         "net": "us",
         "code": "6000u10v",
         "ids": ",us6000u10v,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 5.493,
-        "rms": 0.9,
-        "gap": 119,
+        "nst": 102,
+        "dmin": 3.892,
+        "rms": 0.92,
+        "gap": 106,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Izu Islands, Japan region"
+        "title": "M 4.7 - Izu Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.6005,
-          30.7337,
-          95.608
+          140.6371,
+          30.757,
+          47.272
         ]
       },
       "id": "us6000u10v"
@@ -2053,9 +2093,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "102 km E of Miyako, Japan",
-        "time": 1790662594063,
-        "updated": 1790672648040,
+        "place": "110 km E of Miyako, Japan",
+        "time": 1790662593225,
+        "updated": 1792444132040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyap",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tyap&format=geojson",
@@ -2071,20 +2111,20 @@
         "ids": ",us6000tyap,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.931,
-        "rms": 0.45,
-        "gap": 189,
+        "nst": 40,
+        "dmin": 1.994,
+        "rms": 0.49,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 102 km E of Miyako, Japan"
+        "title": "M 4.4 - 110 km E of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.1352,
-          39.6854,
-          36.868
+          143.225,
+          39.6739,
+          33.254
         ]
       },
       "id": "us6000tyap"
@@ -2212,10 +2252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "northwest of the Kuril Islands",
-        "time": 1790570576780,
-        "updated": 1790571469040,
+        "mag": 4.7,
+        "place": "Kuril Islands",
+        "time": 1790570574941,
+        "updated": 1792455923040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2w",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ty2w&format=geojson",
@@ -2225,26 +2265,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 340,
         "net": "us",
         "code": "6000ty2w",
         "ids": ",us6000ty2w,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 5.623,
-        "rms": 0.92,
-        "gap": 135,
+        "nst": 109,
+        "dmin": 5.671,
+        "rms": 0.69,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - northwest of the Kuril Islands"
+        "title": "M 4.7 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.5708,
-          49.0259,
-          258.706
+          151.6092,
+          48.9404,
+          240.109
         ]
       },
       "id": "us6000ty2w"
@@ -2528,6 +2568,46 @@
         ]
       },
       "id": "us6000txjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "42 km SE of Onagawa Chō, Japan",
+        "time": 1790253040942,
+        "updated": 1792409761040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyva",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tyva&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000tyva",
+        "ids": ",us6000tyva,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 2.668,
+        "rms": 1.1,
+        "gap": 145,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 42 km SE of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.7926,
+          38.1783,
+          64.997
+        ]
+      },
+      "id": "us6000tyva"
     },
     {
       "type": "Feature",
@@ -3215,7 +3295,7 @@
         "mag": 4.7,
         "place": "40 km E of Nobeoka, Japan",
         "time": 1789997912301,
-        "updated": 1790876710040,
+        "updated": 1792438272040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tixp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tixp&format=geojson",
@@ -3230,7 +3310,7 @@
         "code": "7000tixp",
         "ids": ",us7000tixp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 82,
         "dmin": 1.741,
         "rms": 1,
@@ -3575,7 +3655,7 @@
         "mag": 4.5,
         "place": "27 km E of Ōarai, Japan",
         "time": 1789766113483,
-        "updated": 1791512122040,
+        "updated": 1792435027040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tifm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tifm&format=geojson",
@@ -3590,7 +3670,7 @@
         "code": "7000tifm",
         "ids": ",us7000tifm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 41,
         "dmin": 2.174,
         "rms": 0.73,
@@ -3815,7 +3895,7 @@
         "mag": 5,
         "place": "Izu Islands, Japan region",
         "time": 1789715969154,
-        "updated": 1790498760040,
+        "updated": 1792437095040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti89",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti89&format=geojson",
@@ -3830,7 +3910,7 @@
         "code": "7000ti89",
         "ids": ",us7000ti89,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 41,
         "dmin": 4.706,
         "rms": 0.68,
@@ -73488,86 +73568,6 @@
         ]
       },
       "id": "us6000ricg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "137 km WNW of Iheya, Japan",
-        "time": 1760880206735,
-        "updated": 1767973121040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ri5q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ri5q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000ri5q",
-        "ids": ",us6000ri5q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 1.548,
-        "rms": 0.94,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 137 km WNW of Iheya, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.6717,
-          27.4383,
-          171.94
-        ]
-      },
-      "id": "us6000ri5q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "66 km ESE of Shikotan, Russia",
-        "time": 1760868231902,
-        "updated": 1767973126040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rm5e",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rm5e&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000rm5e",
-        "ids": ",us6000rm5e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 3.478,
-        "rms": 0.92,
-        "gap": 184,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 66 km ESE of Shikotan, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.4291,
-          43.4997,
-          35
-        ]
-      },
-      "id": "us6000rm5e"
     }
   ],
   "bbox": [
