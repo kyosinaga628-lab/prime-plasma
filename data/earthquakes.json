@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792549535000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-21T02%3A25%3A35&endtime=2026-10-21T02%3A25%3A35&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1792635679000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-22T02%3A21%3A16&endtime=2026-10-22T02%3A21%3A16&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.2",
-    "count": 1839
+    "count": 1843
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "19 km S of Makurazaki, Japan",
+        "time": 1792595587067,
+        "updated": 1792601647040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3un",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u3un&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000u3un",
+        "ids": ",us6000u3un,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.435,
+        "rms": 0.87,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 19 km S of Makurazaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.3141,
+          31.0896,
+          168.596
+        ]
+      },
+      "id": "us6000u3un"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "33 km NE of Shizunai-furukawachō, Japan",
+        "time": 1792593650748,
+        "updated": 1792601177040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3uc",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u3uc&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000u3uc",
+        "ids": ",us6000u3uc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.683,
+        "rms": 0.67,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 33 km NE of Shizunai-furukawachō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6247,
+          42.573,
+          94.112
+        ]
+      },
+      "id": "us6000u3uc"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "2 km N of Honchō, Japan",
         "time": 1792544669196,
-        "updated": 1792547313424,
+        "updated": 1792628763531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rn",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u3rn&format=geojson",
-        "felt": 4,
-        "cdi": 2.5,
+        "felt": 8,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 313,
+        "sig": 314,
         "net": "us",
         "code": "6000u3rn",
         "ids": ",us6000u3rn,",
@@ -454,8 +534,8 @@
       "properties": {
         "mag": 4.6,
         "place": "Volcano Islands, Japan region",
-        "time": 1791766392394,
-        "updated": 1791772356040,
+        "time": 1791766392467,
+        "updated": 1792626420040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nn",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u1nn&format=geojson",
@@ -471,10 +551,10 @@
         "ids": ",us6000u1nn,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 10.672,
-        "rms": 0.66,
-        "gap": 63,
+        "nst": 79,
+        "dmin": 2.162,
+        "rms": 0.73,
+        "gap": 62,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.6 - Volcano Islands, Japan region"
@@ -482,9 +562,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.1383,
-          25.1035,
-          199.761
+          141.0601,
+          25.1768,
+          201.335
         ]
       },
       "id": "us6000u1nn"
@@ -614,8 +694,8 @@
       "properties": {
         "mag": 4.2,
         "place": "Mariana Islands region",
-        "time": 1791695618941,
-        "updated": 1791697018040,
+        "time": 1791695617312,
+        "updated": 1792574902040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1in",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u1in&format=geojson",
@@ -631,10 +711,10 @@
         "ids": ",us6000u1in,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 6.832,
-        "rms": 0.67,
-        "gap": 71,
+        "nst": 44,
+        "dmin": 5.479,
+        "rms": 0.62,
+        "gap": 104,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.2 - Mariana Islands region"
@@ -642,9 +722,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.9716,
-          21.554,
-          325.119
+          142.9183,
+          21.6333,
+          304.643
         ]
       },
       "id": "us6000u1in"
@@ -1852,6 +1932,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Izu Islands, Japan region",
+        "time": 1790903055704,
+        "updated": 1792623390040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u16f",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u16f&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000u16f",
+        "ids": ",us6000u16f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 3.759,
+        "rms": 0.28,
+        "gap": 144,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.946,
+          30.8623,
+          10
+        ]
+      },
+      "id": "us6000u16f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "3 km ESE of Sugito, Japan",
         "time": 1790888501522,
@@ -2012,6 +2132,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "Mariana Islands region",
+        "time": 1790826361130,
+        "updated": 1792626587040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0z4",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u0z4&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000u0z4",
+        "ids": ",us6000u0z4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 5.548,
+        "rms": 1.22,
+        "gap": 165,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5712,
+          21.6696,
+          181.345
+        ]
+      },
+      "id": "us6000u0z4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "10 km SSE of Hasaki, Japan",
         "time": 1790803013382,
@@ -2093,9 +2253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "83 km S of Yonakuni, Japan",
-        "time": 1790769778808,
-        "updated": 1792281433040,
+        "place": "81 km S of Yonakuni, Japan",
+        "time": 1790769778750,
+        "updated": 1792601714040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyjm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tyjm&format=geojson",
@@ -2111,19 +2271,19 @@
         "ids": ",us6000tyjm,",
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.749,
-        "rms": 0.77,
-        "gap": 68,
+        "nst": 36,
+        "dmin": 0.738,
+        "rms": 0.33,
+        "gap": 67,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.0 - 83 km S of Yonakuni, Japan"
+        "title": "M 4.0 - 81 km S of Yonakuni, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.8749,
-          23.725,
+          122.8634,
+          23.738,
           10
         ]
       },
@@ -2368,6 +2528,46 @@
         ]
       },
       "id": "us6000ty2w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "20 km SW of Urakawa, Japan",
+        "time": 1790493907704,
+        "updated": 1792563611040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz5z",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tz5z&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000tz5z",
+        "ids": ",us6000tz5z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.392,
+        "rms": 0.5,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 20 km SW of Urakawa, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6317,
+          42.0116,
+          70.801
+        ]
+      },
+      "id": "us6000tz5z"
     },
     {
       "type": "Feature",
@@ -2855,7 +3055,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511754,
-        "updated": 1792329120193,
+        "updated": 1792588324773,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
@@ -3373,9 +3573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "40 km E of Nobeoka, Japan",
-        "time": 1789997912301,
-        "updated": 1792438272040,
+        "place": "36 km E of Nobeoka, Japan",
+        "time": 1789997911914,
+        "updated": 1792595097040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tixp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tixp&format=geojson",
@@ -3392,19 +3592,19 @@
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": 82,
-        "dmin": 1.741,
-        "rms": 1,
+        "dmin": 1.691,
+        "rms": 0.77,
         "gap": 108,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.7 - 40 km E of Nobeoka, Japan"
+        "title": "M 4.7 - 36 km E of Nobeoka, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          132.0918,
-          32.5581,
-          46.166
+          132.0473,
+          32.5239,
+          43.067
         ]
       },
       "id": "us7000tixp"
@@ -7252,10 +7452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "74 km E of Tomioka, Japan",
-        "time": 1787689416438,
-        "updated": 1790183498040,
+        "mag": 4.4,
+        "place": "65 km E of Tomioka, Japan",
+        "time": 1787689417660,
+        "updated": 1792603427040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbu3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tbu3&format=geojson",
@@ -7265,26 +7465,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 298,
         "net": "us",
         "code": "7000tbu3",
         "ids": ",us7000tbu3,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 83,
-        "dmin": 3.024,
-        "rms": 0.99,
+        "dmin": 2.959,
+        "rms": 0.88,
         "gap": 126,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.7 - 74 km E of Tomioka, Japan"
+        "title": "M 4.4 - 65 km E of Tomioka, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.853,
-          37.3301,
-          35
+          141.7608,
+          37.3578,
+          45.098
         ]
       },
       "id": "us7000tbu3"
@@ -73528,46 +73728,6 @@
         ]
       },
       "id": "us6000rimi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "112 km E of Namie, Japan",
-        "time": 1761072512844,
-        "updated": 1767973123040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000riih",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000riih&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000riih",
-        "ids": ",us6000riih,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 3.4,
-        "rms": 1.24,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 112 km E of Namie, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.2691,
-          37.5486,
-          35
-        ]
-      },
-      "id": "us6000riih"
     }
   ],
   "bbox": [
