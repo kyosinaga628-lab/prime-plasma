@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792808678000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-24T02%3A24%3A38&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1792894314000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-10-25T02%3A11%3A53&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.2",
-    "count": 1381
+    "count": 1385
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "44 km ESE of Miyazaki, Japan",
+        "time": 1792886376599,
+        "updated": 1792890252040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4qq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u4qq&format=geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 433,
+        "net": "us",
+        "code": "6000u4qq",
+        "ids": ",us6000u4qq,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 73,
+        "dmin": 1.251,
+        "rms": 1.3,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 44 km ESE of Miyazaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.873,
+          31.8226,
+          10
+        ]
+      },
+      "id": "us6000u4qq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "40 km ESE of Hualien City, Taiwan",
+        "time": 1792789081491,
+        "updated": 1792855831040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4gs",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u4gs&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000u4gs",
+        "ids": ",us6000u4gs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 113,
+        "dmin": 0.503,
+        "rms": 0.52,
+        "gap": 33,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 40 km ESE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9479,
+          23.7861,
+          10
+        ]
+      },
+      "id": "us6000u4gs"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -488,6 +568,46 @@
         ]
       },
       "id": "us6000u2my"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "9 km W of Ōami, Japan",
+        "time": 1792041008544,
+        "updated": 1792820648040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ck",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u4ck&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000u4ck",
+        "ids": ",us6000u4ck,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.916,
+        "rms": 1.09,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 9 km W of Ōami, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2166,
+          35.5286,
+          56.581
+        ]
+      },
+      "id": "us6000u4ck"
     },
     {
       "type": "Feature",
@@ -2488,6 +2608,46 @@
         ]
       },
       "id": "us6000tym9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "285 km ESE of Kamaishi, Japan",
+        "time": 1790792960823,
+        "updated": 1792863292040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ss",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u0ss&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000u0ss",
+        "ids": ",us6000u0ss,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 3.904,
+        "rms": 0.58,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 285 km ESE of Kamaishi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8669,
+          38.2182,
+          19.24
+        ]
+      },
+      "id": "us6000u0ss"
     },
     {
       "type": "Feature",
