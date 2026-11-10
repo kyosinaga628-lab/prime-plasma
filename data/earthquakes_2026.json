@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794195223000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-09T03%3A33%3A42&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1794287202000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-10T05%3A06%3A42&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 1463
+    "count": 1468
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "69 km ESE of Takahagi, Japan",
+        "time": 1794200513640,
+        "updated": 1794202279649,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1i",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tx1i&format=geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000tx1i",
+        "ids": ",us7000tx1i,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.61,
+        "rms": 0.75,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 69 km ESE of Takahagi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.4485,
+          36.4941,
+          35
+        ]
+      },
+      "id": "us7000tx1i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "106 km ENE of Hasaki, Japan",
+        "time": 1794199971519,
+        "updated": 1794286683509,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tx1f&format=geojson",
+        "felt": 18,
+        "cdi": 3.8,
+        "mmi": 3.784,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 507,
+        "net": "us",
+        "code": "7000tx1f",
+        "ids": ",us7000tx1f,usauto7000tx1f,atto7xk5,",
+        "sources": ",us,usauto,at,",
+        "types": ",dyfi,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 39,
+        "dmin": 2.936,
+        "rms": 1.27,
+        "gap": 57,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 106 km ENE of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8299,
+          36.2471,
+          24.173
+        ]
+      },
+      "id": "us7000tx1f"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,17 +335,17 @@
         "mag": 5.5,
         "place": "10 km NW of Hamakita, Japan",
         "time": 1794067475125,
-        "updated": 1794154241008,
+        "updated": 1794248614385,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twt0&format=geojson",
-        "felt": 71,
+        "felt": 74,
         "cdi": 5.6,
         "mmi": 6.2,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 505,
+        "sig": 507,
         "net": "us",
         "code": "7000twt0",
         "ids": ",us7000twt0,",
@@ -2452,6 +2532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "8 km NW of Niikappu, Japan",
+        "time": 1792776683898,
+        "updated": 1794264686040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tubj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tubj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000tubj",
+        "ids": ",us7000tubj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.779,
+        "rms": 0.66,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 8 km NW of Niikappu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2515,
+          42.4074,
+          94.29
+        ]
+      },
+      "id": "us7000tubj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "73 km ENE of Noda, Japan",
         "time": 1792771670626,
@@ -2852,6 +2972,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "121 km SE of Hasaki, Japan",
+        "time": 1792279835872,
+        "updated": 1794286815040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tti3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tti3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tti3",
+        "ids": ",us7000tti3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 3.318,
+        "rms": 1.13,
+        "gap": 155,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 121 km SE of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8202,
+          34.9927,
+          10
+        ]
+      },
+      "id": "us7000tti3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "29 km S of Yilan, Taiwan",
         "time": 1792206798751,
@@ -3088,6 +3248,46 @@
         ]
       },
       "id": "us6000u2a0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1791977379425,
+        "updated": 1794244675040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u467",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u467&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000u467",
+        "ids": ",us6000u467,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 3.234,
+        "rms": 0.51,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0636,
+          30.3395,
+          10
+        ]
+      },
+      "id": "us6000u467"
     },
     {
       "type": "Feature",
