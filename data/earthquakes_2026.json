@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794458914000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-12T04%3A48%3A34&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1794542346000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-13T03%3A59%3A06&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 1473
+    "count": 1479
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Bonin Islands, Japan region",
+        "time": 1794490675661,
+        "updated": 1794506812040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txsu",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txsu&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000txsu",
+        "ids": ",us7000txsu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 9.024,
+        "rms": 0.76,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.4195,
+          26.6767,
+          483.86
+        ]
+      },
+      "id": "us7000txsu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "3 km E of Tako, Japan",
+        "time": 1794490042321,
+        "updated": 1794498279040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txsr",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txsr&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000txsr",
+        "ids": ",us7000txsr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.03,
+        "rms": 0.65,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 3 km E of Tako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5102,
+          35.7319,
+          73.353
+        ]
+      },
+      "id": "us7000txsr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -208,6 +288,46 @@
         ]
       },
       "id": "us7000tx96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "64 km NNW of Furubira, Japan",
+        "time": 1794240373375,
+        "updated": 1794514524040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx4g",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tx4g&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tx4g",
+        "ids": ",us7000tx4g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.755,
+        "rms": 0.51,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 64 km NNW of Furubira, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2124,
+          43.7689,
+          224.872
+        ]
+      },
+      "id": "us7000tx4g"
     },
     {
       "type": "Feature",
@@ -3092,6 +3212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Bonin Islands, Japan region",
+        "time": 1792483828641,
+        "updated": 1794468341040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3kt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u3kt&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000u3kt",
+        "ids": ",us6000u3kt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 2.452,
+        "rms": 0.87,
+        "gap": 58,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5924,
+          27.9427,
+          488.042
+        ]
+      },
+      "id": "us6000u3kt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "Kuril Islands",
         "time": 1792446215170,
@@ -3172,6 +3332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "136 km ESE of Kuril’sk, Russia",
+        "time": 1792402238726,
+        "updated": 1794475002040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttrc",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttrc&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ttrc",
+        "ids": ",us7000ttrc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 4.907,
+        "rms": 0.58,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 136 km ESE of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.3997,
+          44.6474,
+          86.732
+        ]
+      },
+      "id": "us7000ttrc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "121 km SE of Hasaki, Japan",
         "time": 1792279835872,
@@ -3248,6 +3448,46 @@
         ]
       },
       "id": "us6000u2xx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "88 km ESE of Takahagi, Japan",
+        "time": 1792145652922,
+        "updated": 1794481657040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ea",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u4ea&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000u4ea",
+        "ids": ",us6000u4ea,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 2.738,
+        "rms": 0.53,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 88 km ESE of Takahagi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5969,
+          36.3497,
+          35
+        ]
+      },
+      "id": "us6000u4ea"
     },
     {
       "type": "Feature",
