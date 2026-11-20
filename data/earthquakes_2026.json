@@ -1,49 +1,89 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795064192000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-19T04%3A56%3A32&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1795150012000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-20T04%3A46%3A52&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 1496
+    "count": 1498
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "4 km NNW of Tsunagi, Japan",
-        "time": 1795022543454,
-        "updated": 1795042214416,
+        "mag": 4.2,
+        "place": "293 km S of Ōyama, Japan",
+        "time": 1795137607698,
+        "updated": 1795139399040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz1n&format=geojson",
-        "felt": 5,
-        "cdi": 3.1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc4z",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc4z&format=geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 434,
+        "sig": 271,
+        "net": "us",
+        "code": "6000uc4z",
+        "ids": ",us6000uc4z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 3.569,
+        "rms": 0.38,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 293 km S of Ōyama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.4096,
+          31.9627,
+          312.575
+        ]
+      },
+      "id": "us6000uc4z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "7 km N of Tsunagi, Japan",
+        "time": 1795022543552,
+        "updated": 1795112104210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz1n&format=geojson",
+        "felt": 8,
+        "cdi": 5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 436,
         "net": "us",
         "code": "7000tz1n",
         "ids": ",us7000tz1n,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 148,
-        "dmin": 0.766,
-        "rms": 0.56,
+        "nst": 157,
+        "dmin": 0.796,
+        "rms": 0.6,
         "gap": 74,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 4 km NNW of Tsunagi, Japan"
+        "title": "M 5.3 - 7 km N of Tsunagi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.4609,
-          32.2779,
+          130.4701,
+          32.3069,
           10
         ]
       },
@@ -1253,9 +1293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "36 km E of Watari, Japan",
-        "time": 1793901943367,
-        "updated": 1793964413398,
+        "place": "46 km ENE of Sōma, Japan",
+        "time": 1793901943170,
+        "updated": 1795102663129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twaq",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twaq&format=geojson",
@@ -1271,20 +1311,20 @@
         "ids": ",us7000twaq,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 99,
-        "dmin": 2.796,
-        "rms": 0.68,
+        "nst": 104,
+        "dmin": 2.835,
+        "rms": 0.84,
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 36 km E of Watari, Japan"
+        "title": "M 4.6 - 46 km ENE of Sōma, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.2636,
-          37.9934,
-          87.44
+          141.4153,
+          37.9642,
+          85.796
         ]
       },
       "id": "us7000twaq"
@@ -2648,6 +2688,46 @@
         ]
       },
       "id": "us7000tw8s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Mariana Islands region",
+        "time": 1793093245874,
+        "updated": 1795102421040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9b",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tw9b&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tw9b",
+        "ids": ",us7000tw9b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 12.79,
+        "rms": 0.62,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8325,
+          20.4091,
+          10
+        ]
+      },
+      "id": "us7000tw9b"
     },
     {
       "type": "Feature",
@@ -5052,10 +5132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "28 km SSE of Nemuro, Japan",
-        "time": 1791564376204,
-        "updated": 1791747559040,
+        "mag": 4.3,
+        "place": "15 km SSW of Nemuro, Japan",
+        "time": 1791564378301,
+        "updated": 1795125423040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18b",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u18b&format=geojson",
@@ -5065,26 +5145,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 284,
         "net": "us",
         "code": "6000u18b",
         "ids": ",us6000u18b,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 2.203,
-        "rms": 1.05,
-        "gap": 197,
+        "nst": 23,
+        "dmin": 2.109,
+        "rms": 0.69,
+        "gap": 150,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 28 km SSE of Nemuro, Japan"
+        "title": "M 4.3 - 15 km SSW of Nemuro, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.7518,
-          43.101,
-          67.81
+          145.5342,
+          43.1881,
+          83.89
         ]
       },
       "id": "us6000u18b"
