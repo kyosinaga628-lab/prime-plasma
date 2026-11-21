@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795150012000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-20T04%3A46%3A52&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1795236134000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-21T04%3A42%3A14&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 1498
+    "count": 1500
   },
   "features": [
     {
@@ -612,10 +612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "64 km NNW of Furubira, Japan",
-        "time": 1794240373375,
-        "updated": 1794514524040,
+        "mag": 4.2,
+        "place": "68 km NNW of Furubira, Japan",
+        "time": 1794240373273,
+        "updated": 1795212647040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx4g",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tx4g&format=geojson",
@@ -625,26 +625,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
+        "sig": 271,
         "net": "us",
         "code": "7000tx4g",
         "ids": ",us7000tx4g,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.755,
-        "rms": 0.51,
-        "gap": 80,
+        "nst": 29,
+        "dmin": 1.766,
+        "rms": 0.54,
+        "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 64 km NNW of Furubira, Japan"
+        "title": "M 4.2 - 68 km NNW of Furubira, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.2124,
-          43.7689,
-          224.872
+          140.1851,
+          43.7978,
+          221.769
         ]
       },
       "id": "us7000tx4g"
@@ -928,6 +928,46 @@
         ]
       },
       "id": "us7000twz2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Izu Islands, Japan region",
+        "time": 1794144118376,
+        "updated": 1795210430040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyll",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tyll&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000tyll",
+        "ids": ",us7000tyll,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 3.569,
+        "rms": 1.14,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5835,
+          30.6398,
+          35
+        ]
+      },
+      "id": "us7000tyll"
     },
     {
       "type": "Feature",
@@ -1732,10 +1772,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "64 km SE of Yilan, Taiwan",
-        "time": 1793586188566,
-        "updated": 1793610107735,
+        "mag": 4.1,
+        "place": "69 km ENE of Hualien City, Taiwan",
+        "time": 1793586188669,
+        "updated": 1795154164040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tutf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tutf&format=geojson",
@@ -1745,26 +1785,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 259,
         "net": "us",
         "code": "7000tutf",
         "ids": ",us7000tutf,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.552,
-        "rms": 0.62,
-        "gap": 84,
-        "magType": "mb",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.568,
+        "rms": 0.64,
+        "gap": 88,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 64 km SE of Yilan, Taiwan"
+        "title": "M 4.1 - 69 km ENE of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.1775,
-          24.322,
-          55.087
+          122.2017,
+          24.2782,
+          59.124
         ]
       },
       "id": "us7000tutf"
@@ -1772,10 +1812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "288 km SSE of Muroto-misakicho, Japan",
-        "time": 1793584495186,
-        "updated": 1793585553040,
+        "mag": 4.4,
+        "place": "292 km SSE of Muroto-misakicho, Japan",
+        "time": 1793584494986,
+        "updated": 1795153312040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuta",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tuta&format=geojson",
@@ -1785,26 +1825,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 298,
         "net": "us",
         "code": "7000tuta",
         "ids": ",us7000tuta,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 80,
-        "dmin": 3.092,
-        "rms": 0.66,
-        "gap": 84,
+        "nst": 94,
+        "dmin": 3.13,
+        "rms": 0.68,
+        "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 288 km SSE of Muroto-misakicho, Japan"
+        "title": "M 4.4 - 292 km SSE of Muroto-misakicho, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.1987,
-          30.8406,
-          510.072
+          135.2026,
+          30.8,
+          507.675
         ]
       },
       "id": "us7000tuta"
@@ -2453,9 +2493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "6 km N of Asahi, Japan",
-        "time": 1793212343536,
-        "updated": 1793239448488,
+        "place": "4 km NE of Asahi, Japan",
+        "time": 1793212343288,
+        "updated": 1795216848796,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttt2",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttt2&format=geojson",
@@ -2471,20 +2511,20 @@
         "ids": ",us7000ttt2,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 129,
-        "dmin": 2.115,
-        "rms": 0.75,
+        "nst": 133,
+        "dmin": 0.534,
+        "rms": 0.72,
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 6 km N of Asahi, Japan"
+        "title": "M 4.7 - 4 km NE of Asahi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.6463,
-          35.7763,
-          41.486
+          140.6931,
+          35.7418,
+          39.539
         ]
       },
       "id": "us7000ttt2"
@@ -2688,6 +2728,46 @@
         ]
       },
       "id": "us7000tw8s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "49 km E of Tomioka, Japan",
+        "time": 1793114878597,
+        "updated": 1795200495040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9t",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tw9t&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000tw9t",
+        "ids": ",us7000tw9t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 2.801,
+        "rms": 0.74,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 49 km E of Tomioka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5735,
+          37.3049,
+          62.517
+        ]
+      },
+      "id": "us7000tw9t"
     },
     {
       "type": "Feature",
@@ -5014,8 +5094,8 @@
       "properties": {
         "mag": 4.5,
         "place": "Volcano Islands, Japan region",
-        "time": 1791704625588,
-        "updated": 1792648755040,
+        "time": 1791704622253,
+        "updated": 1795184033040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3mm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u3mm&format=geojson",
@@ -5032,8 +5112,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 32,
-        "dmin": 2.909,
-        "rms": 0.64,
+        "dmin": 2.973,
+        "rms": 0.7,
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
@@ -5042,9 +5122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.4986,
-          24.1877,
-          71.982
+          142.5165,
+          24.1264,
+          42.018
         ]
       },
       "id": "us6000u3mm"
