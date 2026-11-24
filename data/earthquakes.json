@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795408676000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-11-23T04%3A37%3A56&endtime=2026-11-23T04%3A37%3A56&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1795505408000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-11-24T07%3A30%3A07&endtime=2026-11-24T07%3A30%3A07&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 1766
+    "count": 1764
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "52 km SW of Tyrma, Russia",
+        "time": 1795430360320,
+        "updated": 1795486779029,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucy6",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ucy6&format=geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000ucy6",
+        "ids": ",us6000ucy6,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 54,
+        "dmin": 5.569,
+        "rms": 0.73,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 52 km SW of Tyrma, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.5672,
+          49.7598,
+          14.86
+        ]
+      },
+      "id": "us6000ucy6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -374,8 +414,8 @@
       "properties": {
         "mag": 4.1,
         "place": "southeast of Shikoku, Japan",
-        "time": 1794641099364,
-        "updated": 1794642605040,
+        "time": 1794641099626,
+        "updated": 1795417517040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7m",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ty7m&format=geojson",
@@ -391,9 +431,9 @@
         "ids": ",us7000ty7m,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 4.48,
-        "rms": 0.83,
+        "nst": 51,
+        "dmin": 4.461,
+        "rms": 0.71,
         "gap": 130,
         "magType": "mb",
         "type": "earthquake",
@@ -402,9 +442,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.9461,
-          30.0796,
-          506.899
+          136.9561,
+          30.1062,
+          510.099
         ]
       },
       "id": "us7000ty7m"
@@ -1292,10 +1332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "75 km SSE of Kuril’sk, Russia",
-        "time": 1794006945408,
-        "updated": 1794010569040,
+        "mag": 4.3,
+        "place": "73 km S of Kuril’sk, Russia",
+        "time": 1794006945740,
+        "updated": 1795493589040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twp3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twp3&format=geojson",
@@ -1305,26 +1345,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 284,
         "net": "us",
         "code": "7000twp3",
         "ids": ",us7000twp3,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 3.98,
-        "rms": 0.63,
+        "nst": 31,
+        "dmin": 3.935,
+        "rms": 0.5,
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 75 km SSE of Kuril’sk, Russia"
+        "title": "M 4.3 - 73 km S of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.1062,
-          44.5682,
-          78.827
+          148.0394,
+          44.5737,
+          82.77
         ]
       },
       "id": "us7000twp3"
@@ -1412,10 +1452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
+        "mag": 4.1,
         "place": "76 km ENE of Donggang, Taiwan",
-        "time": 1793925460810,
-        "updated": 1794002842040,
+        "time": 1793925460930,
+        "updated": 1795414914040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twdk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twdk&format=geojson",
@@ -1425,25 +1465,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 259,
         "net": "us",
         "code": "7000twdk",
         "ids": ",us7000twdk,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.173,
-        "rms": 0.8,
+        "nst": 22,
+        "dmin": 0.164,
+        "rms": 0.86,
         "gap": 142,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 76 km ENE of Donggang, Taiwan"
+        "title": "M 4.1 - 76 km ENE of Donggang, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.1634,
-          22.662,
+          121.1628,
+          22.6722,
           10
         ]
       },
@@ -2293,9 +2333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "234 km SE of Katsuura, Japan",
-        "time": 1793406766059,
-        "updated": 1794891606040,
+        "place": "223 km SE of Katsuura, Japan",
+        "time": 1793406766658,
+        "updated": 1795474813040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tugf&format=geojson",
@@ -2312,18 +2352,18 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 34,
-        "dmin": 4.299,
-        "rms": 1.15,
+        "dmin": 4.196,
+        "rms": 0.77,
         "gap": 127,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 234 km SE of Katsuura, Japan"
+        "title": "M 4.5 - 223 km SE of Katsuura, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.9228,
-          33.502,
+          141.8146,
+          33.5571,
           10
         ]
       },
@@ -70528,126 +70568,6 @@
         ]
       },
       "id": "us6000ru6l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "120 km E of Yamada, Japan",
-        "time": 1763933138888,
-        "updated": 1771603655040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpzl",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rpzl&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000rpzl",
-        "ids": ",us6000rpzl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 2.299,
-        "rms": 0.7,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 120 km E of Yamada, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.3255,
-          39.2805,
-          10
-        ]
-      },
-      "id": "us6000rpzl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "67 km SSE of Nemuro, Japan",
-        "time": 1763914564146,
-        "updated": 1771603655040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpyp",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rpyp&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000rpyp",
-        "ids": ",us6000rpyp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 2.151,
-        "rms": 0.6,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 67 km SSE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8837,
-          42.756,
-          48.86
-        ]
-      },
-      "id": "us6000rpyp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Bonin Islands, Japan region",
-        "time": 1763906380099,
-        "updated": 1771603654040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpyc",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rpyc&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000rpyc",
-        "ids": ",us6000rpyc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 1.817,
-        "rms": 0.98,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Bonin Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.146,
-          27.1297,
-          501.928
-        ]
-      },
-      "id": "us6000rpyc"
     }
   ],
   "bbox": [
