@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795505409000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-24T07%3A30%3A09&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1795586340000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-25T05%3A58%3A59&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 1506
+    "count": 1509
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "15 km SW of Kobayashi, Japan",
+        "time": 1795538461365,
+        "updated": 1795540418040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud9h",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ud9h&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ud9h",
+        "ids": ",us6000ud9h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 5.338,
+        "rms": 0.84,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 15 km SW of Kobayashi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.8637,
+          31.8911,
+          136.304
+        ]
+      },
+      "id": "us6000ud9h"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -488,6 +528,46 @@
         ]
       },
       "id": "us7000ty53"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "175 km ESE of Hasaki, Japan",
+        "time": 1794506477407,
+        "updated": 1795541677040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txv3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txv3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000txv3",
+        "ids": ",us7000txv3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 88,
+        "dmin": 3.842,
+        "rms": 0.67,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 175 km ESE of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5445,
+          35.0074,
+          10
+        ]
+      },
+      "id": "us7000txv3"
     },
     {
       "type": "Feature",
@@ -1614,8 +1694,8 @@
       "properties": {
         "mag": 4.2,
         "place": "Bonin Islands, Japan region",
-        "time": 1793760029495,
-        "updated": 1793761533040,
+        "time": 1793760029001,
+        "updated": 1795531954040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvvc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tvvc&format=geojson",
@@ -1631,10 +1711,10 @@
         "ids": ",us7000tvvc,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 8.639,
+        "nst": 68,
+        "dmin": 1.668,
         "rms": 0.67,
-        "gap": 88,
+        "gap": 98,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.2 - Bonin Islands, Japan region"
@@ -1642,9 +1722,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.2929,
-          27.0774,
-          429.393
+          140.3102,
+          27.0365,
+          424.584
         ]
       },
       "id": "us7000tvvc"
@@ -2488,6 +2568,46 @@
         ]
       },
       "id": "us7000tu83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "132 km ENE of Miyako, Japan",
+        "time": 1793357305374,
+        "updated": 1795534847040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twly",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twly&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000twly",
+        "ids": ",us7000twly,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 2.023,
+        "rms": 0.61,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 132 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.4511,
+          39.9206,
+          35.179
+        ]
+      },
+      "id": "us7000twly"
     },
     {
       "type": "Feature",
