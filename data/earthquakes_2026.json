@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795586340000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-25T05%3A58%3A59&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
+    "generated": 1795672328000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-11-26T05%3A52%3A07&minlatitude=20&maxlatitude=50&minlongitude=120&maxlongitude=155&minmagnitude=2.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 1509
+    "count": 1513
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "18 km SSW of Yonakuni, Japan",
+        "time": 1795601925642,
+        "updated": 1795602794040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udew",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000udew&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000udew",
+        "ids": ",us6000udew,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.171,
+        "rms": 0.55,
+        "gap": 64,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.3 - 18 km SSW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9622,
+          24.3005,
+          46.912
+        ]
+      },
+      "id": "us6000udew"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Izu Islands, Japan region",
+        "time": 1795600470779,
+        "updated": 1795601565040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udeq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000udeq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000udeq",
+        "ids": ",us6000udeq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 5.543,
+        "rms": 0.54,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7805,
+          29.9916,
+          432.459
+        ]
+      },
+      "id": "us6000udeq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "83 km ESE of Hengchun, Taiwan",
+        "time": 1795596436394,
+        "updated": 1795597440040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udef",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000udef&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000udef",
+        "ids": ",us6000udef,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 98,
+        "dmin": 1.078,
+        "rms": 1.06,
+        "gap": 57,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 83 km ESE of Hengchun, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5241,
+          21.8162,
+          10
+        ]
+      },
+      "id": "us6000udef"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -733,9 +853,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "130 km ENE of Hasaki, Japan",
-        "time": 1794369412372,
-        "updated": 1794370766040,
+        "place": "126 km ENE of Hasaki, Japan",
+        "time": 1794369412462,
+        "updated": 1795655428040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txgg",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txgg&format=geojson",
@@ -751,19 +871,19 @@
         "ids": ",us7000txgg,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 3.233,
-        "rms": 1.05,
+        "nst": 24,
+        "dmin": 3.196,
+        "rms": 0.95,
         "gap": 181,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 130 km ENE of Hasaki, Japan"
+        "title": "M 4.6 - 126 km ENE of Hasaki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.185,
-          36.1492,
+          142.1377,
+          36.1387,
           10
         ]
       },
@@ -1252,10 +1372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "11 km W of Honmachi, Japan",
-        "time": 1794102796193,
-        "updated": 1794105596040,
+        "mag": 4.3,
+        "place": "1 km SSE of Honmachi, Japan",
+        "time": 1794102796235,
+        "updated": 1795645474040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twvb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twvb&format=geojson",
@@ -1265,25 +1385,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 284,
         "net": "us",
         "code": "7000twvb",
         "ids": ",us7000twvb,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 35,
         "dmin": 0.989,
-        "rms": 0.86,
-        "gap": 115,
-        "magType": "mb",
+        "rms": 0.98,
+        "gap": 110,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 11 km W of Honmachi, Japan"
+        "title": "M 4.3 - 1 km SSE of Honmachi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.4721,
-          32.5014,
+          130.6066,
+          32.4918,
           10
         ]
       },
@@ -2653,9 +2773,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "51 km ENE of Noda, Japan",
-        "time": 1793336311595,
-        "updated": 1793337317040,
+        "place": "46 km ENE of Noda, Japan",
+        "time": 1793336311214,
+        "updated": 1795669417040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu6f",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tu6f&format=geojson",
@@ -2671,23 +2791,63 @@
         "ids": ",us7000tu6f,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 1.098,
-        "rms": 0.56,
-        "gap": 142,
+        "nst": 66,
+        "dmin": 1.107,
+        "rms": 0.45,
+        "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 51 km ENE of Noda, Japan"
+        "title": "M 4.6 - 46 km ENE of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3621,
-          40.3108,
-          56.598
+          142.3282,
+          40.2497,
+          54.249
         ]
       },
       "id": "us7000tu6f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "32 km SE of Onagawa Chō, Japan",
+        "time": 1793334244261,
+        "updated": 1795668312040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twlm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twlm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000twlm",
+        "ids": ",us7000twlm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 2.572,
+        "rms": 0.55,
+        "gap": 161,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 32 km SE of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.7352,
+          38.2677,
+          75.084
+        ]
+      },
+      "id": "us7000twlm"
     },
     {
       "type": "Feature",
@@ -8495,7 +8655,7 @@
         "mag": 5,
         "place": "Mariana Islands region",
         "time": 1790168511754,
-        "updated": 1795007520587,
+        "updated": 1795612319341,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tx38&format=geojson",
